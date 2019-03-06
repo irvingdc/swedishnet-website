@@ -1,9 +1,10 @@
 {
   "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "description": "Landing page of swedishnet.se",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "start": "npm run develop",
     "build": "rm -rf public && gatsby build && rm -rf .cache",
     "serve": "gatsby serve"
   },

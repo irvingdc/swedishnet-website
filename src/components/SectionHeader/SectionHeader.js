@@ -1,8 +1,8 @@
 import React from "react"
-import classes from "./Footer.module.css"
+import classes from "./SectionHeader.module.css"
 
 export default () =>(
     <div className={ classes.container }>
-        Footer
+        SectionHeader
     </div>
 )
