@@ -56,3 +56,17 @@
     bottom: 0px;
     left: 0px;
 }
+@media (max-width: 760px){
+    .content{
+        flex-direction: column;
+    }
+    .content form{
+        padding: 50px 5px 50px;
+    }
+    .flex{
+        display: block;
+    }
+    .flex input, .container input, .container textarea{
+        width: calc(100% - 20px);
+    }
+}

@@ -3,7 +3,6 @@ import facebook from './images/facebook.svg'
 import link from './images/link.svg'
 import globe from './images/home/globe.jpg'
 import soldier from './images/about/1.jpg'
-import menu from './images/menu.png'
 import fence from './images/technical-and-security-services/1.jpg'
 import camera from './images/technical-and-security-services/2.jpg'
 import documents from './images/technical-and-security-services/3.jpg'
@@ -19,12 +18,15 @@ import plane from './images/news/1.jpg'
 import new_black from './images/news/2.jpg'
 import contact from './images/contact/1.jpg'
 import contact_white from './images/contact/2.jpg'
+import close from './images/cross.svg'
+import menu from './images/menu.svg'
 
 export { 
     facebook,
     logo,
     globe,
     menu,
+    close,
     camera,
     soldier,
     fence,

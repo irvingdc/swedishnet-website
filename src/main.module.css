@@ -4,6 +4,7 @@
     --primary: #f57a52;
     --secondary: #404349;
     --tertiary: #f9f9f9;
+    --dark: #3b3f45;
 }
 
 @font-face {
@@ -63,7 +64,7 @@
 }
 
 body, html{
-	background: white;
+	background: var(--dark);
 	font-family: sans-serif;
 	font-weight: 500;
     margin: 0;

@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 400;
 }
 .logo{
     display: block;
@@ -52,59 +53,54 @@
     opacity: 1;
     visibility: visible;
 }
-@media (max-width:770px){
-    .container{
-        justify-content: center;
-        background: var(--habitus-primary);
-        position: fixed;
-        width: 100%;
-        top: 0px;
-    }
-    .container a{
-        letter-spacing: 1px;
-        margin: 0px 6px;
-        color:white;
-    }
-    .container a:hover, .active{
-        color: white !important;
-    }
-    .active::after{
-        background: white;
-    }
-    .logo{
-        position: fixed;
-        width: 115px !important;
-    }
-    .backdrop{
-        position: fixed;
-        width: 100%;
-        height: calc(100% - 70px);
-        background: #00000087;
-        bottom: 0px;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.15s;
-    }
-    .backdrop.open{
-        opacity: 1;
-        visibility: visible;
-    }
-    .backdrop img{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-    }
-    .logo.open{
-        top: -100px;
-    }
+.menuButton, .close{
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 15px;
+    top: 15px;
 }
-@media (max-width:420px){
-    .container a{
-        letter-spacing: 0px;
-        margin: 0px 5px;
-        color: white;
-        font-size: 11px;
+@media (max-width:1000px){
+    .container{
+        position: fixed;
+        padding: 5px;
+        background: var(--dark);
+    }
+    :not(.open) .menuButton{
+        display: block;
+    }
+    .open .menuButton{
+        display: none !important;
+    }
+    .open .close{
+        display: block;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 40px;
+        left: -1000px;
+        top: 0px;
+        width: 100vw;
+        min-height: calc(100vh - 40px);
+        background: var(--dark);
+        transition: all 0.2s;
+        opacity: 0;
+    }
+    .container .menu a{
+        padding: 10px 5px 0px 5px;
+    }
+    .open .menu{
+        left: 0px;
+        opacity: 1;
     }
 }

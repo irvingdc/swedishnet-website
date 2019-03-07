@@ -10,7 +10,7 @@ export default ({ img, title, content, url }) =>(
                 background: `url(${img}) center center / cover no-repeat` ,
             }}
         >
-            <a rel="noopener noreferrer" href={ url }>
+            <a rel="noopener noreferrer" href={ url } target="_blank">
                 <span>
                     <img src={ link } alt="icon"/>
                 </span>

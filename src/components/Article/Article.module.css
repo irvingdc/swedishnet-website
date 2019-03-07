@@ -16,7 +16,7 @@
 .text{
     padding: 20px 5px 20px 0px;
     border-bottom: 1px solid var(--primary);
-    max-width: 350px;
+    max-width: 300px;
 }
 .image a{
     display: flex;
@@ -60,4 +60,15 @@
     letter-spacing: 1px;
     font-weight: 100;
     line-height: 18px;
+}
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+        padding-bottom: 30px;
+    }
+    .image{
+        width: 100%;
+    }
 }

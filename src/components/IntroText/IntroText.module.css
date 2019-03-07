@@ -17,3 +17,8 @@
     line-height: 30px;
     letter-spacing: 1px;
 }
+@media (max-width: 600px){
+    .container{
+        padding: 0px 20px;
+    }
+}

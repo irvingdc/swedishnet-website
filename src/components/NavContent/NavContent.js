@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import classes from "./NavContent.module.css"
 import NavDropdown from "../NavDropdown/NavDropdown"
-import { logo, menu } from "../../images"
+import { logo, menu, close } from "../../images"
 
 class NavContent extends Component {
     
@@ -80,9 +80,9 @@ class NavContent extends Component {
     render(){
         let lan = this.urls[this.props.lan]
         return (
-            <div className={ classes.container }>
+            <div className={ [classes.container, (this.state.open ? classes.open : "")].join(" ") }>
                 <Link to="/" className={ classes.img }>
-                    <img src={ logo } alt="Logo" title="Logo" className={ [classes.logo, (this.state.open ? classes.open : ""), (this.props.fixedlogo ? classes.small : "")].join(" ")}/>
+                    <img src={ logo } alt="Logo" title="Logo" className={ classes.logo }/>
                 </Link>
                 <div className={ classes.menu }>
                     {
@@ -92,6 +92,8 @@ class NavContent extends Component {
                         )
                     }
                 </div>
+                <img src={ close } alt="close" className={ classes.close } onClick={ this.closeMenu }/>
+                <img src={ menu } alt="close" className={ classes.menuButton } onClick={ this.openMenu }/>
             </div>
         )
     }

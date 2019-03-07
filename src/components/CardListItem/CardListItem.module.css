@@ -11,12 +11,13 @@
     width: 60vw;
     background: var(--primary);
     padding: 20px 0px 40px 40px;
+    position: relative;
 }
 .text p{
     font-size: 12px;
     line-height: 24px;
     color: white;
-    width: 100%;
+    width: calc(100% - 80px);
     max-width: 550px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -44,8 +45,20 @@
     font-size: 12px;
     line-height: 24px;
     color: white;
-    width: 100%;
+    width: calc(100% - 80px);
     max-width: 550px;
     font-weight: 100;
+    left: 40px;
     letter-spacing: 1px;
+}
+@media (max-width: 600px){
+    .text, .extra{
+        width: calc(100vw - 110px);
+    }
+    .text p, .extra p{
+        width: auto;
+        max-width: unset;
+        padding: 0px 20px 0px 0px;
+        left: unset;
+    }
 }
