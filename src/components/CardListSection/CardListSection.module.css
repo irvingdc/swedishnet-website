@@ -1,0 +1,15 @@
+.container{
+    padding: 70px 0px 60px;
+    position: relative;
+    overflow: auto;
+}
+.container > span{
+    display: block;
+    position: absolute;
+    width: calc(40vw - 40px);
+    bottom: -8px;
+    left: 0px;
+    height: 15px;
+    background-color: var(--primary);
+    z-index: 50;
+}

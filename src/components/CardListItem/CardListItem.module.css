@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.content{
+    display: flex;
+}
+.text{
+    width: 60vw;
+    background: var(--primary);
+    padding: 20px 0px 40px 40px;
+}
+.text p{
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    width: 100%;
+    max-width: 550px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-left: 40px;
+}
+.inverted{
+    background: var(--tertiary);
+    padding: 80px 0px 80px 40px;
+}
+.inverted p{
+    color: var(--secondary);
+}
+.inverted b{
+    color: var(--primary);
+}
+.extra{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    width: 60vw;
+    float: right;
+    padding: 20px 0px 40px 40px;
+}
+.extra p{
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    width: 100%;
+    max-width: 550px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}

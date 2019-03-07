@@ -1,0 +1,17 @@
+.container{
+    width: fit-content;
+    transform: rotate(180deg);
+    display: flex;
+}
+.container span{
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-left: 25px;
+}
+.container b{
+    color: var(--primary);
+    margin-top: 8px;
+}

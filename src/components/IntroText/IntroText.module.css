@@ -1,0 +1,19 @@
+.container h1{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 38px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+.container h1 b{
+    font-weight: normal;
+    color: var(--primary);
+}
+.container h2{
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+}

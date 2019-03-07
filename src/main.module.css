@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 :root{
-    --primary: #f17c52;
-    --secondary: #2c3138;
+    --primary: #f57a52;
+    --secondary: #404349;
     --tertiary: #f9f9f9;
 }
 
@@ -62,7 +62,7 @@
     src: local('Impact'), url('./fonts/impact.ttf') format('ttf');
 }
 
-body{
+body, html{
 	background: white;
 	font-family: sans-serif;
 	font-weight: 500;
