@@ -6,7 +6,7 @@
     --tertiary: #f9f9f9;
     --dark: #3b3f45;
 }
-
+/*
 @font-face {
     font-family: 'Helvetica';
     font-style: normal;
@@ -62,7 +62,7 @@
     font-weight: normal;
     src: local('Impact'), url('./fonts/impact.ttf') format('ttf');
 }
-
+*/
 body, html{
 	background: var(--dark);
 	font-family: sans-serif;
