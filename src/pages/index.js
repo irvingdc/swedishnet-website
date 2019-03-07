@@ -1,5 +1,4 @@
 import React, { Fragment } from "react"
-import classes from "./stylesheets/index.module.css"
 import FullScreenImage from "../components/FullScreenImage/FullScreenImage"
 import { globe, camera } from '../images'
 import IntroText from "../components/IntroText/IntroText";
@@ -16,7 +15,7 @@ export default () =>(
         <FullScreenImage 
             img={ globe }
             lineLeft="0px"
-            lineWidth="60px"
+            lineWidth="80px"
         >
             <IntroText
                 title="Security and Technology for Vital Societal Facilities and Functions."

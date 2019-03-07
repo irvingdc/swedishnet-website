@@ -1,0 +1,17 @@
+.container{
+    width: 220px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container h4{
+    text-align: right;
+    color: var(--primary);
+    padding-top: 20px;
+    font-size: 14px;
+}
+.container p{
+    text-align: right;
+    font-size: 12px;
+}

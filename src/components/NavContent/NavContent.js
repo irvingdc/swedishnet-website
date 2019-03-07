@@ -17,19 +17,19 @@ class NavContent extends Component {
                 options: [
                     {
                         title: "Protective Security and Planning",
-                        url: "1"
+                        url: "/services/protective-security-and-planning"
                     },
                     {
                         title: "Electricity and Security Enginering",
-                        url: "1"
+                        url: "/services/electricity-and-security-engineering"
                     },
                     {
                         title: "Project Functions",
-                        url: "1"
+                        url: "/services/project-functions"
                     },
                     {
                         title: "Service and Maintenance",
-                        url: "1"
+                        url: "/services/service-and-maintenance"
                     },
                 ]
             },
@@ -38,19 +38,19 @@ class NavContent extends Component {
                 options: [
                     {
                         title: "Nuclear Power Related Activities",
-                        url: "1"
+                        url: "/contracts/nuclear-power-related-activities"
                     },
                     {
                         title: "Defense Related Activities",
-                        url: "1"
+                        url: "/contracts/defense-related-activities"
                     },
                     {
                         title: "Airports/Airfield",
-                        url: "1"
+                        url: "/contracts/airports-airfield"
                     },
                     {
                         title: "Reliable Power Supply Systems",
-                        url: "1"
+                        url: "/contracts/reliable-power-supply-systems"
                     },
                 ]
             },

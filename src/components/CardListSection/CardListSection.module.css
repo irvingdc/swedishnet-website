@@ -7,9 +7,9 @@
     display: block;
     position: absolute;
     width: calc(40vw - 40px);
-    bottom: -8px;
+    bottom: 0px;
     left: 0px;
-    height: 15px;
+    height: 10px;
     background-color: var(--primary);
     z-index: 50;
 }
