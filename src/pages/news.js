@@ -4,6 +4,7 @@ import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import Article from "../components/Article/Article";
 import { new_black, logo } from "../images";
+import "../main.module.css";
 import Footer from "../components/Footer/Footer";
 
 export default () => {

@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./LanguageSwitcher.module.css";
 import { Link } from "gatsby";
-import { language } from "../../images";
+import { language, dark_language } from "../../images";
 
-export default ({ sv, en }) => {
+export default ({ sv, en, dark }) => {
     let options = [
         {
             title: "English",
@@ -16,7 +16,7 @@ export default ({ sv, en }) => {
     ]
   return (
     <div className={classes.container}>
-      <img src={ language } alt="language"/>
+      <img src={ dark ? dark_language : language } alt="language"/>
       <div>
         {options.map((it, index) => (
           <Link to={it.url || "/"} key={index}>

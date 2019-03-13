@@ -22,6 +22,7 @@ import close from './images/cross.svg'
 import menu from './images/menu.svg'
 import mouse from './images/mouse.png'
 import language from './images/globe.png'
+import dark_language from './images/dark_globe.png'
 
 export { 
     logo,
@@ -48,4 +49,5 @@ export {
     contact_white,
     logo_dark,
     language,
+    dark_language,
 };

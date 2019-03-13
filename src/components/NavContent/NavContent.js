@@ -178,7 +178,7 @@ class NavContent extends Component {
                 </Link>
               )
             )}
-            <LanguageSwitcher sv={sv} en={en} />
+            <LanguageSwitcher sv={sv} en={en} dark={dark}/>
           </div>
         </div>
         <img
