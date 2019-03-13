@@ -23,6 +23,9 @@
     background: var(--primary);
     top: -2px;
 }
+.noLine{
+    border-bottom: none !important;
+}
 @media (max-width: 600px){
     .bottomLine{
         width: 90%;

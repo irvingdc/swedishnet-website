@@ -6,66 +6,34 @@
     --tertiary: #f9f9f9;
     --dark: #3b3f45;
 }
-/*
-@font-face {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica'), url('./fonts/Helvetica.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Helvetica Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica Oblique'), url('./fonts/Helvetica-Oblique.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Helvetica Compressed';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica Compressed'), url('./fonts/helvetica-compressed-5871d14b6903a.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Helvetica Rounded Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica Rounded Bold'), url('./fonts/helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica'), url('./fonts/Helvetica-Bold.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Helvetica Bold Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica Bold Oblique'), url('./fonts/Helvetica-BoldOblique.woff') format('woff');
-}
-        
-@font-face {
-    font-family: 'Helvetica Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Helvetica Light'), url('./fonts/helvetica-light-587ebe5a59211.woff') format('woff');
-}
 
 @font-face {
-    font-family: 'Impact';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: normal;
-    src: local('Impact'), url('./fonts/impact.ttf') format('ttf');
+    src: url('./fonts/Calibri.ttf') format('truetype');
 }
-*/
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/CalibriBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: normal;
+    src: url('./fonts/CalibriItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: bold;
+    src: url('./fonts/CalibriBoldItalic.ttf') format('truetype');
+}
 body, html{
 	background: var(--dark);
-	font-family: sans-serif;
+	font-family: 'Calibri';
 	font-weight: 500;
     margin: 0;
     padding: 0;

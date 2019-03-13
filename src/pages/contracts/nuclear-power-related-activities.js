@@ -1,41 +1,69 @@
-import React, { Fragment } from "react"
-import FullScreenImage from "../../components/FullScreenImage/FullScreenImage"
-import { factory, nuclear } from '../../images'
+import React, { Fragment } from "react";
+import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
+import { factory, nuclear } from "../../images";
 import IntroText from "../../components/IntroText/IntroText";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../components/CardListItem/CardListItem";
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
-import "../../main.module.css"
+import "../../main.module.css";
 import CardListSection from "../../components/CardListSection/CardListSection";
+import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
-export default () =>(
-    <Fragment>
-        <Nav lan="en"/>
-        <FullScreenImage 
-            img={ factory }
-            lineLeft="80px"
-            lineWidth="80px"
-        >
-            <IntroText
-                title={ <span>Security enhancing measures on nuclear <b>power plants</b></span> }
-            />
-        </FullScreenImage>
-        <SectionHeader
-            number="01"
-            title="NUCLEAR POWER RELATED ACTIVITIES"
-        />
-        <CardListSection img={ nuclear }>
-            <CardListItem title={ <span>WHAT <b>WE DO</b></span> }>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </CardListItem>
-            <CardListItem title={ <span>TO <b>WHOM</b></span> }>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </CardListItem>
-            <CardListItem title={ <span>CASE</span> }>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </CardListItem>
-        </CardListSection>
-        <Footer lan="en"/>
-    </Fragment>
-)
+export default () => (
+  <Fragment>
+    <Nav
+      lan="en"
+      en="/contracts/nuclear-power-related-activities"
+      sv="/sv/contracts/nuclear-power-related-activities"
+    />
+    <FullScreenImage img={factory} noLine>
+      <IntroText
+        title={
+          <span>
+            Security enhancing measures on nuclear <b>power plants</b>
+          </span>
+        }
+      />
+      <ScrollDown>Scroll Down</ScrollDown>
+    </FullScreenImage>
+    <SectionHeader number="01" title="NUCLEAR POWER PLANTS" />
+    <CardListSection img={nuclear}>
+      <CardListItem
+        title={
+          <span>
+            WHAT <b>WE DO</b>
+          </span>
+        }
+      >
+        Swedish Net delivers contracts within security enhancement measures with
+        a focus on physical and technical protection for nuclear power related
+        activities. We can deliver system design, engineering, ground works,
+        construction and installation as a functional contract in cooperation
+        with a nuclear power plant’s own organisation.
+      </CardListItem>
+      <CardListItem title={<span>CASE</span>}>
+        As the general contractor together with Forsmarks Kraftgrupp AB and
+        subcontractors, Swedish Net built a checkpoint for vehicular traffic at
+        Forsmark nuclear power plant. The checkpoint consists of six lanes for
+        traffic, each 350 m in length. Control stations and traffic islands
+        separate the lanes and boom gates control the traffic flow. The contract
+        also included housing for security personnel.
+        <br />
+        <br />
+        The project started with a in-depth analysis of needs, system design,
+        budget and thereafter development of construction documents. The
+        following implementation phase included everything from ground works to
+        buildings. The checkpoint also consists of multiple security systems
+        such as emergency power, security management systems and radio
+        communication. Both wireless and wired control systems were installed
+        for the gates and barriers.
+        <br />
+        <br />
+        We have also delivered a similar contract to Oskarshamn nuclear power
+        plant.
+      </CardListItem>
+    </CardListSection>
+    <Footer lan="en" />
+  </Fragment>
+);

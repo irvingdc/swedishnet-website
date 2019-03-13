@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    border-radius: 100px;
+    width: 112px;
+    padding: 7px 10px;
+    border: 2px solid var(--primary);
+    align-items: center;
+    justify-content: space-between;
+    animation: jump 2.5s infinite;
+    top: 15px;
+    cursor: pointer;
+}
+.container img{
+    height: 28px;
+}
+.container span{
+    color: var(--primary);
+}
+@keyframes jump{
+    0% { top: 15px }
+    50% { top: 25px }
+    100% { top: 15px }
+}
+@media(max-width:600px){
+    .container{
+        margin: auto;
+    }
+}

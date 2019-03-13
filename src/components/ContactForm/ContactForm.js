@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import classes from "./ContactForm.module.css"
 import Address from "../Address/Address"
 import { contact_white } from "../../images"
-import VerticalText from "../VerticalText/VerticalText";
 
 export default class ContactForm extends Component{
 
@@ -12,6 +11,23 @@ export default class ContactForm extends Component{
             email: "",
             phone: "",
             message: "",
+        }
+    }
+
+    content={
+        en: {
+            name: "NAME:",
+            phone: "PHONE:",
+            email: "EMAIL:",
+            message: "MESSAGE:",
+            submit: "SEND MESSAGE",
+        },
+        sv: {
+            name: "NAMN:",
+            phone: "TELEFON:",
+            email: "E-MAIL:",
+            message: "MEDDE:",
+            submit: "SKICKA MEDDELANDE",
         }
     }
 
@@ -29,43 +45,46 @@ export default class ContactForm extends Component{
     }
     render(){
         let { name, phone, email, message } = this.state.form
+        let { style, lan } = this.props
+        let labels = this.content[lan]
         return (
             <div 
                 className={ classes.container }
                 style={{
+                    ...style,
                     background: `url(${ contact_white }) center center / cover no-repeat` ,
                 }}
             >
                 <div className={ classes.content }>
-                    <Address/>
+                    <Address lan={lan}/>
                     <form onSubmit={ this.handleSubmit }>
                         <input 
                             name="name"
-                            placeholder="NAME:"
+                            placeholder={labels.name}
                             onChange={ this.handleChange }
                             value={ name }
                         />
                         <div className={ classes.flex }>
                             <input 
                                 name="phone"
-                                placeholder="PHONE:"
+                                placeholder={labels.phone}
                                 onChange={ this.handleChange }
                                 value={ phone }
                             />
                             <input
                                 name="email"
-                                placeholder="E-MAIL:"
+                                placeholder={labels.email}
                                 onChange={ this.handleChange }
                                 value={ email }
                             />
                         </div>
                         <textarea 
                             name="message"
-                            placeholder="MESSAGE:"
+                            placeholder={labels.message}
                             onChange={ this.handleChange }
                             value={ message }
                         />
-                        <button>SEND MESSAGE</button>
+                        <button>{labels.submit}</button>
                     </form>
                 </div>
             </div>

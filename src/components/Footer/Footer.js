@@ -5,18 +5,7 @@ import { facebook } from "../../images"
 
 export default ({ lan }) =>{
     const socialLinks = [
-        {
-            icon: facebook,
-            href: "https://www.swedishnet.se"
-        },
-        {
-            icon: facebook,
-            href: "https://www.swedishnet.se"
-        },
-        {
-            icon: facebook,
-            href: "https://www.swedishnet.se"
-        },
+
     ]
     return (
         <div className={ classes.container }>

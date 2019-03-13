@@ -10,11 +10,11 @@
 .text{
     width: 60vw;
     background: var(--primary);
-    padding: 20px 0px 40px 40px;
+    padding: 20px 0px 20px 40px;
     position: relative;
 }
 .text p{
-    font-size: 12px;
+    font-size: 13px;
     line-height: 24px;
     color: white;
     width: calc(100% - 80px);

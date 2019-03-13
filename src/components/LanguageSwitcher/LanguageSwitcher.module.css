@@ -1,0 +1,48 @@
+.container{
+    display: inline-block;
+    z-index: 200;
+    top:2px;
+}
+.container img{
+    width: 20px;
+}
+.container > div{
+    opacity: 0;
+    padding-top: 15px;
+    width: 300px;
+    visibility: hidden;
+    position: absolute;
+    transition: all 0.2s;
+}
+.container a{
+    padding-top: 15px;
+    display: block !important;
+    margin: 0px !important;
+}
+.container a::after{
+    display: none !important;
+}
+.container:hover > div{
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 1000px){
+    .container{
+        padding-bottom: 20px;
+    }
+    .container img{
+        top: 18px;
+        left: 7px;
+    }
+    .container > div{
+        position: relative;
+    }.container a{
+        padding: 5px;
+        color: var(--priy);
+    }
+    .container > div{
+        visibility: visible;
+        opacity: 1;
+        left: 15px;
+    }
+}

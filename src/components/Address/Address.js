@@ -1,48 +1,100 @@
-import React from "react"
-import classes from "./Address.module.css"
-import VerticalText from "../VerticalText/VerticalText"
+import React, { Fragment } from "react";
+import classes from "./Address.module.css";
+import VerticalText from "../VerticalText/VerticalText";
 
-export default () =>(
-    <div className={ classes.container }>
-        <VerticalText style={{
-                fontSize: "22px",
-                paddingTop: "40px",
-            }}>
-            <span style={{ 
-                color: "black",
-                paddingLeft: "0px"
-            }}>
-                CONTACT <b>US</b>
-            </span>
-        </VerticalText>
-        <p>Phone head office: +46 582-141-00</p>
-        <p>Phone Stockholm: +46 8-34-83-00</p>
-        <p>Fax: +46 582-141-50</p>
-        <p>Email info/general: info@swedishnet.se</p>
-        <p>Error report: felanmalan@swedishnet.se</p>
+export default ({ lan }) => {
+  let content = {
+    en: {
+      title: (
+        <Fragment>
+          CONTACT <b>US</b>
+        </Fragment>
+      ),
+      phone: "Phone",
+      email: "Email",
+      fax: "Fax",
+      errorReport: "Error report",
+      invoice: "Invoice",
+      postalAddress: "Postal Address",
+      streetAddress: "Street Address",
+      office: "Street address Stockholm office"
+    },
+    sv: {
+      title: (
+        <Fragment>
+          KONTAKTA <b>OSS</b>
+        </Fragment>
+      ),
+      phone: "Telefon växel",
+      email: "E-post info/allmänt",
+      fax: "Fax",
+      errorReport: "Felanmälan",
+      invoice: "Faktura",
+      postalAddress: "Postadress",
+      streetAddress: "Besöksadress huvudkontor",
+      office: "Besöksadress Stockholmskontor"
+    }
+  };
 
-        <h4>POSTAL ADDRESS:</h4>
-        <p>Swedish Net Communication A</p>
-        <p>Kyrkofallet 234</p>
-        <p>SE-694 91 Hallsber</p>
-        <p>Sweden</p>
+  let {
+    title,
+    phone,
+    email,
+    errorReport,
+    invoice,
+    postalAddress,
+    streetAddress,
+    office,
+    fax
+  } = content[lan];
 
-        <h4>VISITING ADDRESS HEAD OFFICE</h4>
-        <p>The Old Courthouse at</p>
-        <p>Östra Storgatan 40</p>
-        <p>SE-694 31 Hallsber</p>
-        <p>Sweden</p>
+  return (
+    <div className={classes.container}>
+      <VerticalText
+        style={{
+          fontSize: "22px",
+          paddingTop: "40px"
+        }}
+      >
+        <span
+          style={{
+            color: "black",
+            paddingLeft: "0px"
+          }}
+        >
+          {title}
+        </span>
+      </VerticalText>
+      <p>{phone}: 0582-141 00</p>
+      <p>{fax}: 0582-141 50</p>
+      <p>
+        {email}: <a href="mail:info@swedishnet.se">info@swedishnet.se</a>
+      </p>
+      <p>
+        {errorReport}:
+        <a href="mail:felanmalan@swedishnet.se">felanmalan@swedishnet.se</a>
+      </p>
+      <p>
+        {invoice}:<a href="mail:faktura@swedishnet.se">faktura@swedishnet.se</a>
+      </p>
 
-        <h4>WORKSHOP</h4>
-        <p>Västra Storgatan 33</p>
-        <p>SE-694 30 Hallsber</p>
-        <p>Sweden</p>
+      <h4>{postalAddress}:</h4>
+      <p>Swedish Net Communication AB</p>
+      <p>Kyrkofallet 234</p>
+      <p>694 91 Hallsber</p>
+      <p>Sweden</p>
 
-        <h4>VISITING ADDRESS STOCKHOLM OFFICE</h4>
-        <p>Waterfront Building</p>
-        <p>Klarabergsvladukten 63</p>
-        <p>SE-111 64 Stockholm</p>
-        <p>Sweden</p>
+      <h4>{streetAddress}:</h4>
+      <p>Gamla Tingshuset</p>
+      <p>Östra Storgatan 40</p>
+      <p>694 31 Hallsber</p>
+      <p>Sweden</p>
 
+      <h4>{office}</h4>
+      <p>iOFFICE</p>
+      <p>Kungsgatan 60, 1st floor</p>
+      <p>111 22 Stockholm</p>
+      <p>Sweden</p>
     </div>
-)
+  );
+};

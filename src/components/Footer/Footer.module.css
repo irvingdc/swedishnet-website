@@ -32,7 +32,7 @@
 .finalSection{
     color: white;
     text-align: center;
-    padding: 50px 0px;
+    padding: 80px 0px 40px;
 }
 @media (max-width: 1000px){
     .container{

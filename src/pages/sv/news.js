@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
-import VerticalText from "../components/VerticalText/VerticalText";
-import CardListSection from "../components/CardListSection/CardListSection";
-import Nav from "../components/Nav/Nav";
-import Article from "../components/Article/Article";
-import { new_black, logo } from "../images";
-import Footer from "../components/Footer/Footer";
+import VerticalText from "../../components/VerticalText/VerticalText";
+import CardListSection from "../../components/CardListSection/CardListSection";
+import Nav from "../../components/Nav/Nav";
+import Article from "../../components/Article/Article";
+import { new_black, logo } from "../../images";
+import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
@@ -41,7 +41,7 @@ export default () => {
   ];
   return (
     <Fragment>
-      <Nav lan="en" sv="/sv/news" en="/news"/>
+      <Nav lan="sv" sv="/sv/news" en="/news"/>
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>
         <VerticalText
           style={{
@@ -50,13 +50,13 @@ export default () => {
             paddingTop: "40px"
           }}
         >
-          <span>NEWS</span>
+          <span>NYHETER</span>
         </VerticalText>
         {articles.map((it, index) => (
           <Article key={index} {...it} />
         ))}
       </CardListSection>
-      <Footer lan="en" />
+      <Footer lan="sv" />
     </Fragment>
   );
 };

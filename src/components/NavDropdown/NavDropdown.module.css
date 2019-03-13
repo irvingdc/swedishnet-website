@@ -39,6 +39,7 @@
 }
 .container a{
     padding-top: 15px;
+    display: block !important;
 }
 .container a::after{
     display: none !important;
