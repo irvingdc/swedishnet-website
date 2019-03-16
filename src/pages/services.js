@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../components/FullScreenImage/FullScreenImage";
-import { fence, documents, camera, helmet, techguy } from "../images";
+import { services_color, documents, camera, helmet, techguy } from "../images";
 import IntroText from "../components/IntroText/IntroText";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import CardListItem from "../components/CardListItem/CardListItem";
@@ -17,7 +17,7 @@ export default () => (
       en="/services/"
       sv="/sv/services/"
     />
-    <FullScreenImage img={fence} noLine>
+    <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
           <span>
