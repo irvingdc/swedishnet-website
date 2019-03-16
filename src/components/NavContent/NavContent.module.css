@@ -74,6 +74,9 @@
         padding: 5px;
         background: var(--dark);
     }
+    .container * {
+        color: white !important;
+    }
     :not(.open) .menuButton{
         display: block;
     }
@@ -92,9 +95,11 @@
         height: calc(100% - 56px);
         position: fixed;
         bottom: 0px;
-        left: 0px;
+        left: -100vw;
         overflow: auto;
         width: 100%;
+        opacity: 0;
+        transition: all 0.2s;
     }
     .menu{
         position: absolute;
@@ -102,19 +107,17 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 40px;
-        left: -1000px;
+        padding: 10px 0px 10px 40px;
+        left: 0px;
         top: 0px;
         width: 100vw;
         min-height: calc(100vh - 40px);
         background: var(--dark);
-        transition: all 0.2s;
-        opacity: 0;
     }
     .container .menu a{
         padding: 10px 5px 0px 5px;
     }
-    .open .menu{
+    .open .menuContainer{
         left: 0px;
         opacity: 1;
     }

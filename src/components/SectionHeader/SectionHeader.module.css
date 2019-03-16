@@ -8,7 +8,7 @@
 }
 .content{
     width: 100%;
-    max-width: 320px;
+    max-width: 440px;
 }
 .container span{
     color: var(--primary);

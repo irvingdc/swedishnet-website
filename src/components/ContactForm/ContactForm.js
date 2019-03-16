@@ -26,7 +26,7 @@ export default class ContactForm extends Component{
             name: "NAMN:",
             phone: "TELEFON:",
             email: "E-MAIL:",
-            message: "MEDDE:",
+            message: "MEDDELANDE:",
             submit: "SKICKA MEDDELANDE",
         }
     }

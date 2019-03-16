@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
-import { electric, cabin } from "../../images";
+import { electrical_color, cabin } from "../../images";
 import IntroText from "../../components/IntroText/IntroText";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../components/CardListItem/CardListItem";
@@ -17,7 +17,7 @@ export default () => (
       en="/contracts/electrical-power-supply"
       sv="/sv/contracts/electrical-power-supply"
     />
-    <FullScreenImage img={electric} noLine>
+    <FullScreenImage img={electrical_color} noLine>
       <IntroText
         title={
           <span>

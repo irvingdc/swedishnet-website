@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
-import { plane, airport } from "../../images";
+import { airport_color, airport } from "../../images";
 import IntroText from "../../components/IntroText/IntroText";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../components/CardListItem/CardListItem";
@@ -13,7 +13,7 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 export default () => (
   <Fragment>
     <Nav lan="en" en="/contracts/airports" sv="/sv/contracts/airports" />
-    <FullScreenImage img={plane} noLine>
+    <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>

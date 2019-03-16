@@ -17,7 +17,7 @@ export default ({ lan }) => {
       invoice: "Invoice",
       postalAddress: "Postal Address",
       streetAddress: "Street Address",
-      office: "Street address Stockholm office"
+      office: "Street Address Stockholm office"
     },
     sv: {
       title: (
@@ -81,18 +81,18 @@ export default ({ lan }) => {
       <h4>{postalAddress}:</h4>
       <p>Swedish Net Communication AB</p>
       <p>Kyrkofallet 234</p>
-      <p>694 91 Hallsber</p>
+      <p>694 91 Hallsberg</p>
       <p>Sweden</p>
 
       <h4>{streetAddress}:</h4>
       <p>Gamla Tingshuset</p>
       <p>Östra Storgatan 40</p>
-      <p>694 31 Hallsber</p>
+      <p>694 31 Hallsberg</p>
       <p>Sweden</p>
 
       <h4>{office}</h4>
       <p>iOFFICE</p>
-      <p>Kungsgatan 60, 1st floor</p>
+      <p>Kungsgatan 60</p>
       <p>111 22 Stockholm</p>
       <p>Sweden</p>
     </div>

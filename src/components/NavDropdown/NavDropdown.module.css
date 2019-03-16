@@ -2,16 +2,17 @@
     display: inline-block;
     z-index: 200;
 }
-.container h3{
+.title{
     margin: 0px 12px;
     letter-spacing: 1px;
     font-size: 15px;
     font-weight: 100;
+    padding-top: 0px !important;
 }
-.container:hover h3{
+.title:hover{
     color: var(--primary);
 }
-.container h3::after{
+.title::after{
     content: '';
     display: block;
     position: absolute;
@@ -24,7 +25,7 @@
     visibility: hidden;
     transition: all 0.2s;
 }
-.container:hover h3::after{
+.title:hover::after{
     opacity: 1;
     visibility: visible;
     transition: all 0.2s;
@@ -41,7 +42,7 @@
     padding-top: 15px;
     display: block !important;
 }
-.container a::after{
+.container > div a::after{
     display: none !important;
 }
 .container:hover > div{

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../../components/FullScreenImage/FullScreenImage";
-import { device, soldier } from "../../../images";
+import { device, defence_color } from "../../../images";
 import IntroText from "../../../components/IntroText/IntroText";
 import SectionHeader from "../../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../../components/CardListItem/CardListItem";
@@ -17,7 +17,7 @@ export default () => (
       en="/contracts/defence-related-activities"
       sv="/sv/contracts/defence-related-activities"
     />
-    <FullScreenImage img={soldier} noLine>
+    <FullScreenImage img={defence_color} noLine>
       <IntroText
         title={
           <span>

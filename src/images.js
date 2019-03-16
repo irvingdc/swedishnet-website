@@ -23,6 +23,12 @@ import menu from './images/menu.svg'
 import mouse from './images/mouse.png'
 import language from './images/globe.png'
 import dark_language from './images/dark_globe.png'
+import electrical_color from './images/electrical.jpeg'
+import airport_color from './images/airport.jpeg'
+import defence_color from './images/defence.jpeg'
+import nuclear_color from './images/nuclear.jpg'
+import contracts_color from './images/contracts.jpeg'
+import services_color from './images/services.jpeg'
 
 export { 
     logo,
@@ -50,4 +56,10 @@ export {
     logo_dark,
     language,
     dark_language,
+    electrical_color,
+    airport_color,
+    defence_color,
+    nuclear_color,
+    contracts_color,
+    services_color,
 };

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../../components/FullScreenImage/FullScreenImage";
-import { plane, airport } from "../../../images";
+import { airport_color, airport } from "../../../images";
 import IntroText from "../../../components/IntroText/IntroText";
 import SectionHeader from "../../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../../components/CardListItem/CardListItem";
@@ -13,7 +13,7 @@ import ScrollDown from "../../../components/ScrollDown/ScrollDown";
 export default () => (
   <Fragment>
     <Nav lan="sv" en="/contracts/airports" sv="/sv/contracts/airports" />
-    <FullScreenImage img={plane} noLine>
+    <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>
@@ -33,7 +33,7 @@ export default () => (
           </span>
         }
       >
-        Swedish Net är en av få företag i Sverige som levererar helhetslösningar
+        Swedish Net är ett av få företag i Sverige som levererar helhetslösningar
         med design och installation för flygplatsljus (AGL),
         instrumentlandningssystem (ILS) och kraftförsörjningsystem på airside.
         Vi levererar till militära och civila flygplatser enligt internationella

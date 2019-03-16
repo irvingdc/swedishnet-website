@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../../components/FullScreenImage/FullScreenImage";
-import { factory, nuclear } from "../../../images";
+import { nuclear_color, nuclear } from "../../../images";
 import IntroText from "../../../components/IntroText/IntroText";
 import SectionHeader from "../../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../../components/CardListItem/CardListItem";
@@ -17,7 +17,7 @@ export default () => (
       en="/contracts/nuclear-power-related-activities"
       sv="/sv/contracts/nuclear-power-related-activities"
     />
-    <FullScreenImage img={factory} noLine>
+    <FullScreenImage img={nuclear_color} noLine>
       <IntroText
         title={
           <span>

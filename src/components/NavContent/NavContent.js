@@ -14,35 +14,37 @@ class NavContent extends Component {
     en: [
       {
         title: "Technical and Security Services",
+        url: "/services",
         options: [
           {
             title: "Protective Security and Planning",
-            url: "/services/protective-security-and-planning"
+            url: "/services/#protective-security-and-planning"
           },
           {
-            title: "Electricity and Security Enginering",
-            url: "/services/electricity-and-security-engineering"
+            title: "Electrical and Security Enginering",
+            url: "/services/#electrical-and-security-engineering"
           },
           {
             title: "Project Functions",
-            url: "/services/project-functions"
+            url: "/services/#project-functions"
           },
           {
             title: "Service and Maintenance",
-            url: "/services/service-and-maintenance"
+            url: "/services/#service-and-maintenance"
           }
         ]
       },
       {
         title: "Contracts",
+        url: "/contracts",
         options: [
           {
             title: "Nuclear Power Plants",
-            url: "/contracts/nuclear-power-related-activities"
+            url: "/contracts/nuclear-power-plants"
           },
           {
             title: "Defence",
-            url: "/contracts/defence-related-activities"
+            url: "/contracts/defence"
           },
           {
             title: "Airports",
@@ -70,35 +72,37 @@ class NavContent extends Component {
     sv: [
       {
         title: "Teknik- och säkerhetstjänster",
+        url: "/sv/services",
         options: [
           {
             title: "Säkerhetsskydd och projektering",
-            url: "/sv/services/protective-security-and-planning"
+            url: "/sv/services/#protective-security-and-planning"
           },
           {
             title: "El och säkerhetskonstruktion",
-            url: "/sv/services/electricity-and-security-engineering"
+            url: "/sv/services/#electrical-and-security-engineering"
           },
           {
             title: "Projektfunktioner",
-            url: "/sv/services/project-functions"
+            url: "/sv/services/#project-functions"
           },
           {
             title: "Service och underhåll",
-            url: "/sv/services/service-and-maintenance"
+            url: "/sv/services/#service-and-maintenance"
           }
         ]
       },
       {
         title: "Entreprenader",
+        url: "/sv/contracts",
         options: [
           {
             title: "Kärnkraftverk",
-            url: "/sv/contracts/nuclear-power-related-activities"
+            url: "/sv/contracts/nuclear-power-plants"
           },
           {
             title: "Försvar",
-            url: "/sv/contracts/defence-related-activities"
+            url: "/sv/contracts/defence"
           },
           {
             title: "Flygplatser",
@@ -171,7 +175,7 @@ class NavContent extends Component {
           <div className={classes.menu}>
             {lan.map((it, index) =>
               it.options ? (
-                <NavDropdown {...it} key={index} />
+                <NavDropdown {...it} key={index} onClick={this.closeMenu}/>
               ) : (
                 <Link activeClassName={classes.active} to={it.url} key={index}>
                   {it.title}
