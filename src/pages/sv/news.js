@@ -3,7 +3,7 @@ import VerticalText from "../../components/VerticalText/VerticalText";
 import CardListSection from "../../components/CardListSection/CardListSection";
 import Nav from "../../components/Nav/Nav";
 import Article from "../../components/Article/Article";
-import { new_black, logo } from "../../images";
+import { new_black, news1, news2, news3, news4, news5, news7 } from "../../images";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
@@ -11,32 +11,72 @@ export default () => {
     {
       title: (
         <span>
-          <b>LOREM IPSUM</b> DOLOR SIT AMET
+          190318 ENTREPRENAD <b>ÖREBRO FLYGPLATS</b>
         </span>
       ),
+      img: news7,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://www.swedishnet.se"
+        "Swedish Net har vunnit upphandling för byte av kontantströmsregulatorer (CCR:er) på Örebro flygplats."
     },
     {
       title: (
         <span>
-          <b>LOREM IPSUM</b> DOLOR SIT AMET
+          190315 ENTREPRENAD <b>LYCKSELE FLYGPLATS</b>
         </span>
       ),
+      img: news2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://www.swedishnet.se"
+        "Swedish Net has won a procurement for change of Localizer at the ariport in Lycksele."
     },
     {
       title: (
         <span>
-          <b>LOREM IPSUM</b> DOLOR SIT AMET
+          190301 ENTREPRENAD <b>SCANDINAVIAN MOUNTAINS AIRPORT</b>
         </span>
       ),
+      img: news5,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://www.swedishnet.se"
+        "Vårt arbete på flygplatsen i Sälen fortsätter, 70 procent av entreprenaden är färdigställd. Swedish Net har funktionsansvar för flygplatsens ban- och inflygningsljus samt kraft- och reservkraftsystem. Vår entreprenad ska vara redo för besiktning i slutet av augusti. "
+    },
+    {
+      title: (
+        <span>
+          190228 ENTREPRENAD <b>FLYGPLATSEN I SVEG </b>
+        </span>
+      ),
+      img: news4,
+      content:
+        "Swedish Net har installerat ny glidbanesändare (GP) och utrustning för avståndsmätning (DME) på flygplatsen i Sveg."
+    },
+    {
+      title: (
+        <span>
+          190114 KONSULTTJÄNSTER <b>SÄKERHETSPROJEKTERING OCH DETALJKONSTRUKTION</b>
+        </span>
+      ),
+      img: news3,
+      content:
+        "I början av 2019 har vi ett  fortsatt stort inflöde på uppdrag inom säkerhetsprojektering och detaljkonstruktion åt statliga och privata aktörer."
+    },
+    {
+      title: (
+        <span>
+          181205 ENTREPRENAD <b>RONNEBYS CIVILA/MILITÄRA FLYGPLATS</b>
+        </span>
+      ),
+      img: news2,
+      content:
+        "Ronnebys flygplats har fått nya inflygningsmaster och utrustning för ILS. Swedish Net vann upphandlingen från FMV tidigare i år och entreprenaden är nu genomförd."
+    },
+    {
+      title: (
+        <span>
+          181022 KONSULTTJÄNSTER <b>PROJEKTLEDNINGSUPPDRAG</b>
+        </span>
+      ),
+      img: news1,
+      content:
+        "Swedish Net innehar flera projektledningsuppdrag som pågår under hela hösten. Samtliga uppdrag innebär arbete på anläggningar med högt ställda krav på säkerhet."
     }
   ];
   return (

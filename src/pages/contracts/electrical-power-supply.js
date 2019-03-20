@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
-import { electrical_color, cabin } from "../../images";
+import { snow, lockers } from "../../images";
 import IntroText from "../../components/IntroText/IntroText";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../components/CardListItem/CardListItem";
@@ -17,7 +17,7 @@ export default () => (
       en="/contracts/electrical-power-supply"
       sv="/sv/contracts/electrical-power-supply"
     />
-    <FullScreenImage img={electrical_color} noLine>
+    <FullScreenImage img={snow} noLine>
       <IntroText
         title={
           <span>
@@ -29,7 +29,7 @@ export default () => (
       <ScrollDown>Scroll Down</ScrollDown>
     </FullScreenImage>
     <SectionHeader number="04" title="ELECTRICAL POWER SUPPLY" />
-    <CardListSection img={cabin}>
+    <CardListSection img={lockers}>
       <CardListItem
         title={
           <span>

@@ -13,11 +13,13 @@ export default ({ img, title, content, url }) => (
           } no-repeat`
         }}
       >
-        <a rel="noopener noreferrer" href={url} target="_blank">
-          <span>
-            <img src={link} alt="icon" />
-          </span>
-        </a>
+        {url ? (
+          <a rel="noopener noreferrer" href={url} target="_blank">
+            <span>
+              <img src={link} alt="icon" />
+            </span>
+          </a>
+        ) : null}
       </div>
     </div>
     <div className={classes.text}>

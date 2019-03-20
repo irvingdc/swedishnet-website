@@ -25,8 +25,8 @@ class NavContent extends Component {
             url: "/services/#electrical-and-security-engineering"
           },
           {
-            title: "Project Functions",
-            url: "/services/#project-functions"
+            title: "The Project Function",
+            url: "/services/#the-project-function"
           },
           {
             title: "Service and Maintenance",
@@ -83,8 +83,8 @@ class NavContent extends Component {
             url: "/sv/services/#electrical-and-security-engineering"
           },
           {
-            title: "Projektfunktioner",
-            url: "/sv/services/#project-functions"
+            title: "Projektfunktionen",
+            url: "/sv/services/#the-project-function"
           },
           {
             title: "Service och underhåll",

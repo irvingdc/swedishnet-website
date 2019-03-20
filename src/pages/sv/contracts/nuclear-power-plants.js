@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../../components/FullScreenImage/FullScreenImage";
-import { nuclear_color, nuclear } from "../../../images";
+import { nuclear_color, street } from "../../../images";
 import IntroText from "../../../components/IntroText/IntroText";
 import SectionHeader from "../../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../../components/CardListItem/CardListItem";
@@ -28,7 +28,7 @@ export default () => (
       <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
     <SectionHeader number="01" title="KÄRNKRAFTVERK" />
-    <CardListSection img={nuclear}>
+    <CardListSection img={street}>
       <CardListItem
         title={
           <span>

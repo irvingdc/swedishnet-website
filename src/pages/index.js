@@ -1,24 +1,44 @@
-import React, { Fragment } from "react"
-import FullScreenImage from "../components/FullScreenImage/FullScreenImage"
-import { globe, camera } from '../images'
-import IntroText from "../components/IntroText/IntroText";
+import React, { Fragment } from "react";
+import HomeFullScreenImage from "../components/HomeFullScreenImage/HomeFullScreenImage";
+import { globe } from "../images";
 import Nav from "../components/Nav/Nav";
-import Footer from "../components/Footer/Footer";
-import "../main.module.css"
+import WhiteFooter from "../components/WhiteFooter/WhiteFooter";
+import "../main.module.css";
 
-export default () =>(
+export default () => {
+  let links = [
+    {
+      title: "Consultancy Services",
+      url: "/services"
+    },
+    {
+      title: "Nuclear Power Plants",
+      url: "/contracts/nuclear-power-plants"
+    },
+    {
+      title: "Defence",
+      url: "/contracts/defence"
+    },
+    {
+      title: "Airports",
+      url: "/contracts/airports"
+    },
+    {
+      title: "Electrical Power Supply",
+      url: "/contracts/electrical-power-supply"
+    }
+  ];
+  return (
     <Fragment>
-        <Nav lan="en" sv="/sv" en="/"/>
-        <FullScreenImage 
-            img={ globe }
-            lineLeft="0px"
-            lineWidth="80px"
-        >
-            <IntroText
-                title="Security and Technology for Vital Societal Facilities and Functions."
-                subtitle="Delivered as consultancy services and turnkey contracts"
-            />
-        </FullScreenImage>
-        <Footer lan="en"/>
+      <Nav lan="en" sv="/sv" en="/" />
+      <HomeFullScreenImage
+        img={globe}
+        lineLeft="0%"
+        lineWidth="10%"
+        title="Security and Technology for Vital Societal Facilities and Functions."
+        links={links}
+      />
+      <WhiteFooter />
     </Fragment>
-)
+  );
+};

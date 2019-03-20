@@ -1,24 +1,44 @@
 import React, { Fragment } from "react"
-import FullScreenImage from "../../components/FullScreenImage/FullScreenImage"
-import { globe, camera } from '../../images'
-import IntroText from "../../components/IntroText/IntroText";
+import HomeFullScreenImage from "../../components/HomeFullScreenImage/HomeFullScreenImage";
+import { globe } from '../../images'
 import Nav from "../../components/Nav/Nav";
-import Footer from "../../components/Footer/Footer";
+import WhiteFooter from "../../components/WhiteFooter/WhiteFooter";
 import "../../main.module.css"
 
-export default () =>(
-    <Fragment>
-        <Nav lan="sv" sv="/sv" en="/"/>
-        <FullScreenImage 
-            img={ globe }
-            lineLeft="0px"
-            lineWidth="80px"
-        >
-            <IntroText
-                title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
-                subtitle="Genom konsulttjänster och entreprenader"
-            />
-        </FullScreenImage>
-        <Footer lan="sv"/>
-    </Fragment>
-)
+export default () => {
+    let links = [
+      {
+        title: "Teknik- och säkerhetstjänster",
+        url: "/sv/services"
+      },
+      {
+        title: "Kärnkraftverk",
+        url: "/sv/contracts/nuclear-power-plants"
+      },
+      {
+        title: "Försvar",
+        url: "/sv/contracts/defence"
+      },
+      {
+        title: "Flygplatser",
+        url: "/sv/contracts/airports"
+      },
+      {
+        title: "Elkraftförsörjning",
+        url: "/sv/contracts/electrical-power-supply"
+      }
+    ];
+    return (
+      <Fragment>
+        <Nav lan="sv" sv="/sv" en="/" />
+        <HomeFullScreenImage
+          img={globe}
+          lineLeft="0%"
+          lineWidth="10%"
+          title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
+          links={links}
+        />
+        <WhiteFooter />
+      </Fragment>
+    );
+  };

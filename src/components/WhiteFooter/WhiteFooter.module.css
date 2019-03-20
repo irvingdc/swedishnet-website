@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+    background: white;
+    padding: 30px 0px 0px;
+}
+.container a, .container h3{
+    color: var(--dark);
+}
+.finalSection{
+    color: var(--dark);;
+    text-align: center;
+    padding: 50px 0px 40px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    margin: auto;
+    max-width: 800px;
+}
+.logos img{
+    height: 60px;
+    width: auto;
+    margin: 10px;
+}
+@media (max-width: 750px){
+    .logos{
+        flex-direction: column;
+    }
+    .mainLogo{
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 450px){
+    .logos img{
+        height: 50px;
+        width: auto;
+        margin: 5px;
+    }
+}

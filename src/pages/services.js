@@ -133,7 +133,7 @@ export default () => (
       </CardListItem>
     </CardListSection>
 
-    <SectionHeader number="03" title="PROJECT FUNCTIONS" id="project-functions"/>
+    <SectionHeader number="03" title="PROJECT FUNCTIONS" id="the-project-function"/>
     <CardListSection img={helmet}>
       <CardListItem
         title={

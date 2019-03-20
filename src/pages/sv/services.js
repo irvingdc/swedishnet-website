@@ -1,6 +1,12 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
-import { services_color, camera, documents, helmet, techguy } from "../../images";
+import {
+  services_color,
+  camera,
+  documents,
+  helmet,
+  techguy
+} from "../../images";
 import IntroText from "../../components/IntroText/IntroText";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import CardListItem from "../../components/CardListItem/CardListItem";
@@ -12,11 +18,7 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav
-      lan="sv"
-      en="/services/"
-      sv="/sv/services/"
-    />
+    <Nav lan="sv" en="/services/" sv="/sv/services/" />
     <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
@@ -28,7 +30,11 @@ export default () => (
       />
       <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="01" title="SÄKERHETSSKYDD OCH PROJEKTERING" id="protective-security-and-planning"/>
+    <SectionHeader
+      number="01"
+      title="SÄKERHETSSKYDD OCH PROJEKTERING"
+      id="protective-security-and-planning"
+    />
     <CardListSection img={camera}>
       <CardListItem
         title={
@@ -68,7 +74,7 @@ export default () => (
         <br />
         - Flygplatser
         <br />
-        - Försvaret
+        - Försvarsrelaterad verksamhet
         <br />
         - Offentlig förvaltning
         <br />- Privata företag
@@ -79,7 +85,11 @@ export default () => (
         projekt i samband med säkerhetshöjande åtgärder.
       </CardListItem>
     </CardListSection>
-    <SectionHeader number="02" title="EL OCH SÄKERHETS KONSTRUKTION" id="electrical-and-security-engineering"/>
+    <SectionHeader
+      number="02"
+      title="EL OCH SÄKERHETSKONSTRUKTION"
+      id="electrical-and-security-engineering"
+    />
     <CardListSection img={documents}>
       <CardListItem
         title={
@@ -115,14 +125,14 @@ export default () => (
         <br />
         - Säkerhetsföretag
         <br />
-        - Försvaret
+        - Försvarsrelaterad verksamhet
         <br />
         - Rättsväsendet
         <br />
         - Flygplatser
         <br />
         - Datacenter
-        <br />- Kraftbolag
+        <br />- Energileverantörer
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Våra konstruktörer har levererat dokumentation till över 300 projekt för
@@ -130,7 +140,11 @@ export default () => (
       </CardListItem>
     </CardListSection>
 
-    <SectionHeader number="03" title="PROJEKTFUNKTIONER" id="project-functions"/>
+    <SectionHeader
+      number="03"
+      title="PROJEKTFUNKTIONEN"
+      id="the-project-function"
+    />
     <CardListSection img={helmet}>
       <CardListItem
         title={
@@ -166,11 +180,11 @@ export default () => (
         <br />
         - Säkerhetsföretag
         <br />
-        -Rättsväsendet
+        - Rättsväsendet
         <br />
         - Flygplatser
         <br />
-        - Försvaret
+        - Försvarsrelaterad verksamhet
         <br />
         - Datacenter
         <br />- Kärnkraftverk
@@ -184,7 +198,11 @@ export default () => (
       </CardListItem>
     </CardListSection>
 
-    <SectionHeader number="04" title="04  SERVICE OCH UNDERHÅLLE" id="service-and-maintenance"/>
+    <SectionHeader
+      number="04"
+      title="SERVICE OCH UNDERHÅLL"
+      id="service-and-maintenance"
+    />
     <CardListSection img={techguy}>
       <CardListItem
         title={
