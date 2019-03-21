@@ -3,7 +3,15 @@ import VerticalText from "../../components/VerticalText/VerticalText";
 import CardListSection from "../../components/CardListSection/CardListSection";
 import Nav from "../../components/Nav/Nav";
 import Article from "../../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7 } from "../../images";
+import {
+  new_black,
+  news1,
+  news2,
+  news3,
+  news4,
+  news5,
+  news7
+} from "../../images";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
@@ -26,7 +34,7 @@ export default () => {
       ),
       img: news2,
       content:
-        "Swedish Net has won a procurement for change of Localizer at the ariport in Lycksele."
+        "Swedish Net har vunnit upphandling för byte av kurssändare (Localizer) på flygplatsen i Lycksele."
     },
     {
       title: (
@@ -51,7 +59,8 @@ export default () => {
     {
       title: (
         <span>
-          190114 KONSULTTJÄNSTER <b>SÄKERHETSPROJEKTERING OCH DETALJKONSTRUKTION</b>
+          190114 KONSULTTJÄNSTER{" "}
+          <b>SÄKERHETSPROJEKTERING OCH DETALJKONSTRUKTION</b>
         </span>
       ),
       img: news3,
@@ -81,7 +90,7 @@ export default () => {
   ];
   return (
     <Fragment>
-      <Nav lan="sv" sv="/sv/news" en="/news"/>
+      <Nav lan="sv" sv="/sv/news" en="/news" />
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>
         <VerticalText
           style={{

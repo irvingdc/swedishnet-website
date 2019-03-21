@@ -3,7 +3,7 @@ import classes from "./WhiteFooter.module.css";
 import { f1, f2, f3, f4, f5, logo_dark } from "../../images";
 
 export default () => {
-  let logos = [f1, f2, f3, f4, f5];
+  let logos = [f1, f2, f4, f3, f5];
   return (
     <div className={classes.container}>
       <div className={classes.logos}>

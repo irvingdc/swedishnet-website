@@ -1,48 +1,50 @@
-.container{
-    position: relative;
-    background: url("../../images/logo-banner.jpg") center center / cover no-repeat;
-    padding: 100px 0px 50px;
+.container {
+  position: relative;
+  background: url("../../images/logo-banner.jpg") center center / cover
+    no-repeat;
+  padding: 100px 0px 50px;
 }
-.container a, .container h3{
-    color: white;
+.container a,
+.container h3 {
+  color: white;
 }
-.social{
-    display: block;
-    margin: auto;
-    width: 100%;
-    max-width: 820px;
-    padding: 60px 0px 0px;
+.social {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 820px;
+  padding: 60px 0px 0px;
 }
-.social a{
-    background: white;
-    border-radius: 50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
+.social a {
+  background: white;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
 }
-.social img{
-    height: 15px;
-    width: auto;
-    display: block;
-    filter: brightness(0);
+.social img {
+  height: 15px;
+  width: auto;
+  display: block;
+  filter: brightness(0);
 }
-.finalSection{
-    color: white;
+.finalSection {
+  color: white;
+  text-align: center;
+  padding: 80px 0px 40px;
+}
+@media (max-width: 1000px) {
+  .container {
+    padding: 50px 0px 10px;
+  }
+  .navOptions {
+    display: none;
+  }
+  .social {
     text-align: center;
-    padding: 80px 0px 40px;
-}
-@media (max-width: 1000px){
-    .container{
-        padding: 50px 0px 10px;
-    }
-    .navOptions{
-        display: none;
-    }
-    .social{
-        text-align: center;
-        padding: 0px;
-    }
+    padding: 0px;
+  }
 }
