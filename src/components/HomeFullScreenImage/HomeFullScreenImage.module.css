@@ -30,7 +30,7 @@
   align-items: center;
 }
 .list a{
-    color: var(--primary);
+    color: #f57a52;
     text-decoration: none;
     transition: all 0.1s;
     font-size: 18px;
@@ -41,7 +41,7 @@
 .bottomLine {
   margin: 50px auto 50px;
   width: 600px;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid #f57a52;
   position: absolute;
   bottom: 40px;
   left: calc(50% - 300px);
@@ -50,7 +50,7 @@
   display: block;
   position: absolute;
   height: 5px;
-  background: var(--primary);
+  background: #f57a52;
   top: -2px;
 }
 @media (max-width: 760px) {

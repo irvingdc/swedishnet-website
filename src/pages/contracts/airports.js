@@ -12,48 +12,52 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav lan="en" en="/contracts/airports" sv="/sv/contracts/airports" />
+    <Nav lan="sv" en="/en/contracts/airports" sv="/contracts/airports" />
     <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>
-            AGL, ILS and redundant power supply{" "}
-            <b>for public and military airports</b>
+            AGL, ILS OCH AVBROTTSFRI KRAFT 
+            <b> FÖR CIVILA OCH MILITÄRA FLYGPLATSER</b>
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
+      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="03" title="AIRPORTS" />
+    <SectionHeader number="03" title="FLYGPLATSER" />
     <CardListSection img={airport}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net is one of few companies in Sweden delivering comprehensive
-        solutions including design and installation for airport lighting and ILS
-        (Instrument Landing Systems) on airside. We deliver to military and
-        public airports in Sweden and internationally.
+        Swedish Net är ett av få företag i Sverige som levererar helhetslösningar
+        med design och installation för flygplatsljus (AGL),
+        instrumentlandningssystem (ILS) och kraftförsörjningsystem på airside.
+        Vi levererar till militära och civila flygplatser enligt internationella
+        standarder i Sverige och internationellt.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Scandinavian Mountains Airport is the first airport for regular traffic
-        being built in Sweden in over 19 years. The airport is being built in
-        Sälen, close to the Norwegian border. It will fulfill CAT III, the
-        highest category for runways (the same as Arlanda). It is estimated that
-        in December 2019, the first national and international flights will land
-        on Scandinavian Mountains Airport, one of the most modern airports in
-        Europe.
+        Scandinavian Mountains Airport i Sälen är den första flygplatsen för
+        reguljär trafik som byggs i Sverige på över 19 år. Flygplatsen byggs där
+        den tidigare Sälens flygplats låg, på Mobergskölen i Sälenfjällen på
+        gränsen till Norge. Flygplatsen ska uppfylla inflygningskategori III,
+        samma kategori som bland annat landingsbanor på Arlanda har. I december
+        2019 beräknas de första nationella och internationella flygplanen kunna
+        landa på Scandinavian Mountains Airport, en av Europas modernaste
+        flygplatser.
         <br />
         <br />
-        Swedish Net has full responsibility for the engineering of systems and
-        installation of AGL, electrical power supply system and infrastructure
-        for power and communication at the new airport. 120 km cable and 1250
-        lights will be required.
+        Swedish Net har en stor del i uppförandet av Scandinavian Mountains
+        Airport genom sitt funktionsansvar för ban- och inflygningsljus, kraft-
+        och reservkraftsystem samt infrastruktur för kraft och kommunikation.
+        Projektet är igång och bland annat ska cirka 12 mil kabel förläggas och
+        1250 ljusarmaturer placeras ut. I augusti 2019 ska våra delar av
+        projektet vara redo för besiktning.
       </CardListItem>
     </CardListSection>
-    <Footer lan="en" />
+    <Footer lan="sv" />
   </Fragment>
 );

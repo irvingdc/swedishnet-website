@@ -9,7 +9,7 @@
 }
 .text{
     width: 60vw;
-    background: var(--primary);
+    background: #f57a52;
     padding: 20px 0px 20px 40px;
     position: relative;
     min-height: 75px;
@@ -25,14 +25,14 @@
     padding-left: 40px;
 }
 .inverted{
-    background: var(--tertiary);
+    background: #f9f9f9;
     padding: 80px 0px 80px 40px;
 }
 .inverted p{
-    color: var(--secondary);
+    color: #404349;
 }
 .inverted b{
-    color: var(--primary);
+    color: #f57a52;
 }
 .extra{
     display: flex;

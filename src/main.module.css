@@ -11,28 +11,28 @@
     font-family: 'Calibri';
     font-style: normal;
     font-weight: normal;
-    src: url('./fonts/Calibri.ttf') format('truetype');
+    src: url('./fonts/Calibri.woff') format('woff');
 }
 @font-face {
     font-family: 'Calibri';
     font-style: normal;
     font-weight: bold;
-    src: url('./fonts/CalibriBold.ttf') format('truetype');
+    src: url('./fonts/CalibriBold.woff') format('woff');
 }
 @font-face {
     font-family: 'Calibri';
     font-style: italic;
     font-weight: normal;
-    src: url('./fonts/CalibriItalic.ttf') format('truetype');
+    src: url('./fonts/CalibriItalic.woff') format('woff');
 }
 @font-face {
     font-family: 'Calibri';
     font-style: italic;
     font-weight: bold;
-    src: url('./fonts/CalibriBoldItalic.ttf') format('truetype');
+    src: url('./fonts/CalibriBoldItalic.woff') format('woff');
 }
 body, html{
-	background: var(--dark);
+	background: #3b3f45;
 	font-family: 'Calibri';
 	font-weight: 500;
     margin: 0;

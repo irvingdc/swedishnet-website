@@ -13,14 +13,14 @@
 .bottomLine{
     margin: 50px auto 50px;
     width: calc(100% + 40px);
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid #f57a52;
     position: relative;
 }
 .bottomLine span{
     display: block;
     position: absolute;
     height: 5px;
-    background: var(--primary);
+    background: #f57a52;
     top: -2px;
 }
 .noLine{

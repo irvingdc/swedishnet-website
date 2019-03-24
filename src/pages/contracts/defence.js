@@ -13,44 +13,43 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 export default () => (
   <Fragment>
     <Nav
-      lan="en"
-      en="/contracts/defence-related-activities"
-      sv="/sv/contracts/defence-related-activities"
+      lan="sv"
+      en="/en/contracts/defence"
+      sv="/contracts/defence"
     />
     <FullScreenImage img={defence_color} noLine>
       <IntroText
         title={
           <span>
-            Complex assignments <b>for defence related projects</b>
+            KOMPLEXA UPPDRAG <b> ÅT FÖRSVARSRELATERADE PROJEKT</b>
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
+      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="02" title="DEFENCE" />
+    <SectionHeader number="02" title="FÖRSVAR" />
     <CardListSection img={device}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net is an experienced supplier of material to the Swedish
-        Defence and Material Administration and the Armed Forces. We have
-        expertise and certifications for the delivery of technical
-        documentation, system security documents and database registration, all
-        according to the standards and routines of the Swedish Armed Forces.
+        Swedish Net är en erfaren leverantör inom materielförsörjning till det
+        svenska försvaret. Vi har kompetens och certifieringar för att leverera
+        dokumentation, systemsäkerhetsarbete och registrering i databaser. Allt
+        enligt försvarets standarder och rutiner.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Swedish Net won a public procurement regarding the delivery of search
-        equipment to the Swedish Defence Materiel Administration. The search
-        equipment was delivered with full technical documentation including
-        system security, manuals and registration. The equipment is intended to
-        be used when searching for hidden weapon arsenals, surveillance
-        equipment, mines and hidden persons.
+        Swedish Net vann upphandling för att leverera sökutrustning till FMV.
+        Sökutrustningen levererades tillsammans med komplett dokumentation
+        innefattande bland annat systemsäkerhet, förnödenhetsregistrering,
+        materialvård och instruktionsbok för samtliga produkter. Sökutrustning
+        används av Försvarsmakten vid sök efter exempelvis vapengömmor,
+        avlyssningsutrustning, minering eller gömda personer.
       </CardListItem>
     </CardListSection>
-    <Footer lan="en" />
+    <Footer lan="sv" />
   </Fragment>
 );

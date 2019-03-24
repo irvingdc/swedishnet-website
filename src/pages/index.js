@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import HomeFullScreenImage from "../components/HomeFullScreenImage/HomeFullScreenImage";
 import { globe } from "../images";
 import Nav from "../components/Nav/Nav";
@@ -8,34 +9,40 @@ import "../main.module.css";
 export default () => {
   let links = [
     {
-      title: "Consultancy Services",
+      title: "Teknik- och säkerhetstjänster",
       url: "/services"
     },
     {
-      title: "Nuclear Power Plants",
+      title: "Kärnkraftverk",
       url: "/contracts/nuclear-power-plants"
     },
     {
-      title: "Defence",
+      title: "Försvar",
       url: "/contracts/defence"
     },
     {
-      title: "Airports",
+      title: "Flygplatser",
       url: "/contracts/airports"
     },
     {
-      title: "Electrical Power Supply",
+      title: "Elkraftförsörjning",
       url: "/contracts/electrical-power-supply"
     }
   ];
   return (
     <Fragment>
-      <Nav lan="en" sv="/sv" en="/" />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Swedish Net: Hem</title>
+        <link rel="canonical" href="https://www.swedishnet.se/" />
+        <html lang="sv" />
+      </Helmet>
+      <Nav lan="sv" sv="/" en="/en" />
       <HomeFullScreenImage
         img={globe}
         lineLeft="0%"
         lineWidth="10%"
-        title="Security and Technology for Vital Societal Facilities and Functions."
+        title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
         links={links}
       />
       <WhiteFooter />

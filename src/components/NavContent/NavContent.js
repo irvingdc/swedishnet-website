@@ -14,7 +14,7 @@ class NavContent extends Component {
     en: [
       {
         title: "Technical and Security Services",
-        url: "/services",
+        url: "/en/services",
         options: [
           {
             title: "Protective Security and Planning",
@@ -22,109 +22,109 @@ class NavContent extends Component {
           },
           {
             title: "Electrical and Security Enginering",
-            url: "/services/#electrical-and-security-engineering"
+            url: "/en/services/#electrical-and-security-engineering"
           },
           {
             title: "The Project Function",
-            url: "/services/#the-project-function"
+            url: "/en/services/#the-project-function"
           },
           {
             title: "Service and Maintenance",
-            url: "/services/#service-and-maintenance"
+            url: "/en/services/#service-and-maintenance"
           }
         ]
       },
       {
         title: "Contracts",
-        url: "/contracts",
+        url: "/en/contracts",
         options: [
           {
             title: "Nuclear Power Plants",
-            url: "/contracts/nuclear-power-plants"
+            url: "/en/contracts/nuclear-power-plants"
           },
           {
             title: "Defence",
-            url: "/contracts/defence"
+            url: "/en/contracts/defence"
           },
           {
             title: "Airports",
-            url: "/contracts/airports"
+            url: "/en/contracts/airports"
           },
           {
             title: "Electrical Power supply",
-            url: "/contracts/electrical-power-supply"
+            url: "/en/contracts/electrical-power-supply"
           }
         ]
       },
       {
         title: "About us",
-        url: "about"
+        url: "/en/about"
       },
       {
         title: "Contact",
-        url: "contact"
+        url: "/en/contact"
       },
       {
         title: "News",
-        url: "news"
+        url: "/en/news"
       }
     ],
     sv: [
       {
         title: "Teknik- och säkerhetstjänster",
-        url: "/sv/services",
+        url: "/services",
         options: [
           {
             title: "Säkerhetsskydd och projektering",
-            url: "/sv/services/#protective-security-and-planning"
+            url: "/services/#protective-security-and-planning"
           },
           {
             title: "El och säkerhetskonstruktion",
-            url: "/sv/services/#electrical-and-security-engineering"
+            url: "/services/#electrical-and-security-engineering"
           },
           {
             title: "Projektfunktionen",
-            url: "/sv/services/#the-project-function"
+            url: "/services/#the-project-function"
           },
           {
             title: "Service och underhåll",
-            url: "/sv/services/#service-and-maintenance"
+            url: "/services/#service-and-maintenance"
           }
         ]
       },
       {
         title: "Entreprenader",
-        url: "/sv/contracts",
+        url: "/contracts",
         options: [
           {
             title: "Kärnkraftverk",
-            url: "/sv/contracts/nuclear-power-plants"
+            url: "/contracts/nuclear-power-plants"
           },
           {
             title: "Försvar",
-            url: "/sv/contracts/defence"
+            url: "/contracts/defence"
           },
           {
             title: "Flygplatser",
-            url: "/sv/contracts/airports"
+            url: "/contracts/airports"
           },
           {
             title: "Elkraftförsörjning",
-            url: "/sv/contracts/electrical-power-supply"
+            url: "/contracts/electrical-power-supply"
           }
         ]
       },
       {
         title: "Om oss",
-        url: "/sv/about"
+        url: "/about"
       },
       {
         title: "Kontakt",
-        url: "/sv/contact"
+        url: "/contact"
       },
       {
         title: "Nyheter",
-        url: "/sv/news"
+        url: "/news"
       }
     ]
   };
@@ -140,9 +140,9 @@ class NavContent extends Component {
   home = () => {
     switch(this.props.lan){
       case "en":
-        return "/"
+        return "/en/"
       case "sv":
-        return "/sv"
+        return "/"
       default:
         return "/"
     }

@@ -11,7 +11,7 @@
     max-width: 440px;
 }
 .container span{
-    color: var(--primary);
+    color: #f57a52;
     font-size: 56px;
     position: absolute;
     left: -90px;

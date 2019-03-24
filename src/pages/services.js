@@ -1,6 +1,12 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../components/FullScreenImage/FullScreenImage";
-import { services_color, documents, camera, helmet, techguy } from "../images";
+import {
+  services_color,
+  camera,
+  documents,
+  helmet,
+  techguy
+} from "../images";
 import IntroText from "../components/IntroText/IntroText";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import CardListItem from "../components/CardListItem/CardListItem";
@@ -12,226 +18,235 @@ import ScrollDown from "../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav
-      lan="en"
-      en="/services/"
-      sv="/sv/services/"
-    />
+    <Nav lan="sv" en="/en/services/" sv="/services/" />
     <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
           <span>
-            Consultancy regarding physical and technical protection{" "}
-            <b>for high security facilities</b>
+            Konsultationer avseende fysiskt och tekniskt skydd
+            <b> för högsäkerhetsanläggningar</b>
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
+      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-
-    <SectionHeader number="01" title="PROTECTIVE SECURITY AND PLANNING" id="protective-security-and-planning"/>
+    <SectionHeader
+      number="01"
+      title="SÄKERHETSSKYDD OCH PROJEKTERING"
+      id="protective-security-and-planning"
+    />
     <CardListSection img={camera}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net conducts preliminary studies with threat and vulnerability
-        analyses, inventories of technical and physical protection with
-        suggestions on measures and associated budgets. We are experienced
-        security advisors regarding physical and technical protection, the
-        designing and building of, for example, alarm, access control and CCTV
-        systems with associated surveillance centres, choice of locks, doors,
-        glass and building constructions based on different security
-        classifications and protective security issues.
+        Swedish Net genomför förstudier med hot- och sårbarhetsanalyser,
+        inventering och utredning av tekniskt och fysiskt skydd samt förslag på
+        åtgärder med tillhörande budget. Vi är vana säkerhetsrådgivare rörande
+        teknisk och fysisk säkerhet, uppbyggnad och utformning av exempelvis
+        larm-, passer- och CCTV-system med tillhörande bevakningscentraler, val
+        av lås, dörrar, glas- och byggnadskonstruktion utifrån olika
+        skyddsklasser samt säkerhetskyddsfrågor.
         <br />
         <br />
-        We are specialised in technical documentation and procurement support
-        and develop technical specifications and planning guides for physical
-        and technical protection as well as regulations and procedures regarding
-        protective security. We have security classified premises and extensive
-        experience from handling classified procurements.
+        Vi är specialiserade på teknisk dokumentation och upphandlingsstöd och
+        tar fram upphandlingsunderlag (rambeskrivning/teknisk beskrivning) och
+        projekteringsanvisningar för tekniskt och fysiskt skydd samt
+        föreskrifter och rutiner gällande säkerhetsskydd. Vi har SUA-klassade
+        lokaler och stor erfarenhet av arbete med säkerhetsklassade
+        upphandlingar.
       </CardListItem>
       <CardListItem
         title={
           <span>
-            TO <b>WHOM</b>
+            TILL <b>VILKA</b>
           </span>
         }
       >
-        Government agencies, protected objects and other critical infrastructure
-        such as:
+        Myndigheter, skyddsobjekt och annan kritisk infrastruktur för
+        exempelvis:
         <br />
         <br />
-        - Judicial systems
+        - Rättsväsendet
         <br />
-        - Airports
+        - Flygplatser
         <br />
-        - Defence
+        - Försvarsrelaterad verksamhet
         <br />
-        - Public administration
-        <br />- Private companies
+        - Offentlig förvaltning
+        <br />- Privata företag
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Our security advisors and planners have delivered procurement documents,
-        inventories and analyses to more than 200 technical projects in
-        conjunction with security enhancement measures.
+        Våra säkerhetsrådgivare och projektörer har levererat
+        upphandlingsunderlag, utredningar och analyser till över 200 tekniska
+        projekt i samband med säkerhetshöjande åtgärder.
       </CardListItem>
     </CardListSection>
-
-    <SectionHeader number="02" title="ELECTRICAL AND SECURITY ENGINEERING" id="electrical-and-security-engineering"/>
+    <SectionHeader
+      number="02"
+      title="EL OCH SÄKERHETSKONSTRUKTION"
+      id="electrical-and-security-engineering"
+    />
     <CardListSection img={documents}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net focuses particularly on security systems, building security
-        and systems for uninterruptible power supply.
+        Swedish Net är inriktade på konstruktion av säkerhetssystem,
+        byggnadsteknisk säkerhet och system för avbrottsfri kraft.
         <br />
         <br />
-        Our engineers design facility documentation for alarm, access control
-        and CCTV systems, networks, telephone and radio systems, satellite
-        communication systems and electrical systems with high reliability and
-        redundancy. Building and ground construction documents for security
-        enhancement measures are also delivered. One part of our engineering
-        group develops construction documents for airside on airports.
+        Våra konstruktörer tar fram anläggningsdokumentation för larm-, passer-
+        och CCTV-system, nätverk, telefonisystem, radiosystem
+        satellitkommunikationssystem samt elsystem med hög tillförlitlighet och
+        redundans. Även bygg- och markritningar för säkerhetshöjande åtgärder
+        levereras. En del av konstruktionsgruppen tar fram bygghandlingar för
+        airside på flygplatser.
         <br />
         <br />
-        We handle classified information in our classified premises.
+        Vi hanterar sekretessbelagd dokumentation i SUA-klassade lokaler.
       </CardListItem>
       <CardListItem
         title={
           <span>
-            TO <b>WHOM</b>
+            TILL <b>VILKA</b>
           </span>
         }
       >
-        Government agencies, protected objects and other critical infrastructure
-        such as:
+        Myndigheter, skyddsobjekt och annan kritisk infrastruktur för
+        exempelvis:
         <br />
         <br />
-        - Security companies
+        - Säkerhetsföretag
         <br />
-        - Defence
+        - Försvarsrelaterad verksamhet
         <br />
-        - Judicial system
+        - Rättsväsendet
         <br />
-        - Airports
+        - Flygplatser
         <br />
-        - Data centres
-        <br />- Power supply companies
+        - Datacenter
+        <br />- Energileverantörer
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Our engineers have delivered documentation to over 300 projects related
-        to high-security facilities and protected objects for governmental
-        actors.
+        Våra konstruktörer har levererat dokumentation till över 300 projekt för
+        högsäkerhetsanläggningar och skyddsobjekt åt olika statliga aktörer.
       </CardListItem>
     </CardListSection>
 
-    <SectionHeader number="03" title="PROJECT FUNCTIONS" id="the-project-function"/>
+    <SectionHeader
+      number="03"
+      title="PROJEKTFUNKTIONEN"
+      id="the-project-function"
+    />
     <CardListSection img={helmet}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net takes total functional responsibility to facilitate for the
-        client in technical projects. With our organisation, we fulfil the high
-        requirements on quality, environment and working environment in the
-        project, as well as the requirements on facility and operational
-        security.
+        Swedish Net tar sig an helhetsåtaganden med funktionsansvar för att
+        avlasta beställaren i tekniska projekt. Med vår organisation
+        säkerställer vi projekts höga krav på kvalitet, miljö och arbetsmiljö
+        samt anläggningssäkerhet och driftsäkerhet.
         <br />
         <br />
-        Among our consultants, there are project managers, engineers and
-        installers. We have experts on electrical power, mechatronics,
-        electrotechnology, automation, IT and energy systems.
+        Hos våra konsulter hittar du projektledare, konstruktörer och
+        driftsättare. Vi har ingenjörer inom elkraft, mekatronik, elektroteknik,
+        automation, IT och energisystem.
         <br />
         <br />
-        All of our consultants are security checked and have long experience
-        from working in highly sensitive environments.
+        Alla våra konsulter är säkerhetskontrollerade och har lång erfarenhet av
+        att arbeta i särskilt känsliga miljöer.
       </CardListItem>
       <CardListItem
         title={
           <span>
-            TO <b>WHOM</b>
+            TILL <b>VILKA</b>
           </span>
         }
       >
-        Government agencies, protected objects and other critical infrastructure
-        such as:
+        Myndigheter, skyddsobjekt och annan kritisk infrastruktur för
+        exempelvis:
         <br />
         <br />
-        - Security companies
+        - Säkerhetsföretag
         <br />
-        - Defence
+        - Rättsväsendet
         <br />
-        - Judicial system
+        - Flygplatser
         <br />
-        - Airports
+        - Försvarsrelaterad verksamhet
         <br />
-        - Data centres
-        <br />- Nuclear power plants
+        - Datacenter
+        <br />- Kärnkraftverk
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Swedish Net has managed several turnkey projects for clients in both the
-        private and public sector. Together with our engineers and installers,
-        our project managers have delivered security enhancement measures for
-        nuclear power plants and security companies among others.
+        Swedish Net har drivit flertalet projekt som helhetsåtaganden för kunder
+        i privat och offentlig sektor. Våra projektledare har tillsammans med
+        våra ingenjörer, konstruktörer, montörer och driftsättare utfört
+        säkerhetshöjande åtgärder åt bland andra kärnkraftverk och
+        säkerhetsföretag.
       </CardListItem>
     </CardListSection>
 
-    <SectionHeader number="04" title="SERVICE AND MAINTENANCE" id="service-and-maintenance"/>
+    <SectionHeader
+      number="04"
+      title="SERVICE OCH UNDERHÅLL"
+      id="service-and-maintenance"
+    />
     <CardListSection img={techguy}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net has a department for service and maintenance. We have
-        several agreements for the maintenance of technical systems in the
-        government sector. We also have service agreements related to our own
-        contracts in Sweden and abroad.
+        Swedish Net har en avdelning för service och underhåll. Vi har flertalet
+        avtal för service och vidmakthållande av tekniska system. Vi har även
+        serviceåtaganden i anknytning till våra egna utförda entreprenader i
+        Sverige och utomlands.
         <br />
         <br />
-        Our own organisation together with our partners ensures a high level of
-        service.
+        Vår serviceorganisation tillsammans med övriga konsulter och partners
+        säkerställer en hög servicenivå.
       </CardListItem>
       <CardListItem
         title={
           <span>
-            TO <b>WHOM</b>
+            TILL <b>VILKA</b>
           </span>
         }
       >
-        Government agencies, protected objects and other critical infrastructure
-        such as:
+        Myndigheter, skyddsobjekt och annan kritisk infrastruktur för
+        exempelvis:
         <br />
         <br />
-        - Defence
+        - Försvar
         <br />
-        - Airports
+        - Flyg
         <br />
-        - Nuclear power plants
-        <br />- Embassies
+        - Kärnkraft
+        <br />- Ambassader
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Swedish Net has service agreements for, among others, embassies and
-        vehicle checkpoints on Swedish nuclear power plants. Furthermore, we
-        have a number of agreements including maintenance and development to
-        ensure that the technical systems used by government agencies function
-        for their full intended lifespan.
+        Swedish Net har serviceåtaganden mot bland annat ambassader och
+        fordonskontroller vid svenska kärnkraftverk. Vidare har vi ett antal
+        löpande avtal som innefattar underhåll och vidareutveckling för att
+        säkerställa myndigheters tekniska systemfunktioner under deras
+        tilltänkta livslängd.
       </CardListItem>
     </CardListSection>
 
-    <Footer lan="en" />
+    <Footer lan="sv" />
   </Fragment>
 );

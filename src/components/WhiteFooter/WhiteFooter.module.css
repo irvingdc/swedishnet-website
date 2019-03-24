@@ -5,10 +5,10 @@
 }
 .container a,
 .container h3 {
-  color: var(--dark);
+  color: #3b3f45;
 }
 .finalSection {
-  color: var(--dark);
+  color: #3b3f45;
   text-align: center;
   padding: 30px 0px 30px;
 }

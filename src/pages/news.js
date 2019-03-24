@@ -3,8 +3,15 @@ import VerticalText from "../components/VerticalText/VerticalText";
 import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import Article from "../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7 } from "../images";
-import "../main.module.css";
+import {
+  new_black,
+  news1,
+  news2,
+  news3,
+  news4,
+  news5,
+  news7
+} from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
@@ -12,77 +19,78 @@ export default () => {
     {
       title: (
         <span>
-          190318 CONTRACT <b>ÖREBRO AIRPORT</b>
+          190318 ENTREPRENAD <b>ÖREBRO FLYGPLATS</b>
         </span>
       ),
       img: news7,
       content:
-        "Swedish Net has won a procurement for changing of Constant Current Regulators (CCR) at Örebro Airport."
+        "Swedish Net har vunnit upphandling för byte av kontantströmsregulatorer (CCR:er) på Örebro flygplats."
     },
     {
       title: (
         <span>
-          190315 CONTRACT <b>LYCKSELE AIRPORT</b>
+          190315 ENTREPRENAD <b>LYCKSELE FLYGPLATS</b>
         </span>
       ),
       img: news2,
       content:
-        "Swedish Net has won a procurement for change of Localizer at the ariport in Lycksele."
+        "Swedish Net har vunnit upphandling för byte av kurssändare (Localizer) på flygplatsen i Lycksele."
     },
     {
       title: (
         <span>
-          190301 CONTRACT <b>SCANDINAVIAN MOUNTAINS AIRPORT</b>
+          190301 ENTREPRENAD <b>SCANDINAVIAN MOUNTAINS AIRPORT</b>
         </span>
       ),
       img: news5,
       content:
-        "Our work at the airport in Sälen continues, 70 percent of the contract is finished. We have full responsibility for engineering of systems and installation of the airport’s AGL, electrical power supply system and infrastructure for power and communication. Our contract is to be ready for inspection in August. "
+        "Vårt arbete på flygplatsen i Sälen fortsätter, 70 procent av entreprenaden är färdigställd. Swedish Net har funktionsansvar för flygplatsens ban- och inflygningsljus samt kraft- och reservkraftsystem. Vår entreprenad ska vara redo för besiktning i slutet av augusti. "
     },
     {
       title: (
         <span>
-          190228 CONTRACT <b>AIRPORT SVEG</b>
+          190228 ENTREPRENAD <b>FLYGPLATSEN I SVEG </b>
         </span>
       ),
       img: news4,
       content:
-        "Swedish Net has installed a new GP and DME for the airport in Sveg."
+        "Swedish Net har installerat ny glidbanesändare (GP) och utrustning för avståndsmätning (DME) på flygplatsen i Sveg."
     },
     {
       title: (
         <span>
-          190114 CONSULTANCY SERVICES <b>SECURITY PLANNING AND ENGINEERING</b>
+          190114 KONSULTTJÄNSTER{" "}
+          <b>SÄKERHETSPROJEKTERING OCH DETALJKONSTRUKTION</b>
         </span>
       ),
       img: news3,
       content:
-        "At the beginning of 2019, we continue to have a large number of assignments including planning and detailed design for governmental and private actors."
+        "I början av 2019 har vi ett  fortsatt stort inflöde på uppdrag inom säkerhetsprojektering och detaljkonstruktion åt statliga och privata aktörer."
     },
     {
       title: (
         <span>
-          181205 CONTRACT <b>RONNEBY CIVILIAN/MILITARY AIRPORT </b>
+          181205 ENTREPRENAD <b>RONNEBYS CIVILA/MILITÄRA FLYGPLATS</b>
         </span>
       ),
       img: news2,
       content:
-        "Ronneby civilian/military has recevied new approach lighting masts and equipment for ILS. Swedish Net won the Swedish Defence Materiel Administration’s procurement earlier this year and now we have finished the contract."
+        "Ronnebys flygplats har fått nya inflygningsmaster och utrustning för ILS. Swedish Net vann upphandlingen från FMV tidigare i år och entreprenaden är nu genomförd."
     },
     {
       title: (
         <span>
-          181022 CONSULTANCY SERVICES <b>PROJECT MANAGEMENT </b>
+          181022 KONSULTTJÄNSTER <b>PROJEKTLEDNINGSUPPDRAG</b>
         </span>
       ),
       img: news1,
       content:
-        "Swedish Net has several project management assignments that run during the whole fall. All assignments includes work on facilities with high security requirements."
+        "Swedish Net innehar flera projektledningsuppdrag som pågår under hela hösten. Samtliga uppdrag innebär arbete på anläggningar med högt ställda krav på säkerhet."
     }
   ];
   return (
     <Fragment>
-      <Nav lan="en" sv="/sv/news" en="/news" />
+      <Nav lan="sv" sv="/news" en="/en/news" />
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>
         <VerticalText
           style={{
@@ -91,13 +99,13 @@ export default () => {
             paddingTop: "40px"
           }}
         >
-          <span>NEWS</span>
+          <span>NYHETER</span>
         </VerticalText>
         {articles.map((it, index) => (
           <Article key={index} {...it} />
         ))}
       </CardListSection>
-      <Footer lan="en" />
+      <Footer lan="sv" />
     </Fragment>
   );
 };

@@ -13,57 +13,55 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 export default () => (
   <Fragment>
     <Nav
-      lan="en"
-      en="/contracts/nuclear-power-plants"
-      sv="/sv/contracts/nuclear-power-plants"
+      lan="sv"
+      en="/en/contracts/nuclear-power-plants"
+      sv="/contracts/nuclear-power-plants"
     />
     <FullScreenImage img={nuclear_color} noLine>
       <IntroText
         title={
           <span>
-            Security enhancing measures on nuclear <b>power plants</b>
+            Säkerhetshöjande åtgärder på <b> kärnkraftverk</b>
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
+      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="01" title="NUCLEAR POWER PLANTS" />
+    <SectionHeader number="01" title="KÄRNKRAFTVERK" />
     <CardListSection img={street}>
       <CardListItem
         title={
           <span>
-            WHAT <b>WE DO</b>
+            VAD <b>VI GÖR</b>
           </span>
         }
       >
-        Swedish Net delivers contracts within security enhancement measures with
-        a focus on physical and technical protection for nuclear power related
-        activities. We can deliver system design, engineering, ground works,
-        construction and installation as a functional contract in cooperation
-        with a nuclear power plant’s own organisation.
+        Swedish Net levererar entreprenader inom säkerhetshöjande åtgärder med
+        fokus på fysiskt och tekniskt skydd för kärnkraftsrelaterad verksamhet.
+        Vi kan leverera systemdesign, konstruktion, markarbeten, byggnation och
+        installation som en styrd funktionsentreprenad i samverkan med
+        kärnkraftverkets egen organisation.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        As the general contractor together with Forsmarks Kraftgrupp AB and
-        subcontractors, Swedish Net built a checkpoint for vehicular traffic at
-        Forsmark nuclear power plant. The checkpoint consists of six lanes for
-        traffic, each 350 m in length. Control stations and traffic islands
-        separate the lanes and boom gates control the traffic flow. The contract
-        also included housing for security personnel.
+        Swedish Net byggde som totalentreprenör, tillsammans med Forsmarks
+        Kraftgrupp och ett flertal underentreprenörer, en fordonskontroll vid
+        Forsmarks kärnkraftverk. Fordonskontrollen består av en sexfilig, 350 m
+        lång, kontrollstation med refuger som delar av filerna, samt bommar för
+        respektive körfält. Det byggdes även hus för väktare, personalbod och
+        teknikbod.
         <br />
         <br />
-        The project started with a in-depth analysis of needs, system design,
-        budget and thereafter development of construction documents. The
-        following implementation phase included everything from ground works to
-        buildings. The checkpoint also consists of multiple security systems
-        such as emergency power, security management systems and radio
-        communication. Both wireless and wired control systems were installed
-        for the gates and barriers.
+        Projektet började med en behovsanalys, systemdesign, budget och därefter
+        framtagande av bygghandlingar. När utförandefasen började ingick allt
+        från markarbeten till byggnader. Fordonskontrollen utgörs också av
+        flertalet tekniska system som avbrottsfri kraft, larmsystem och
+        radiokommunikation. Det finns även fasta och trådlösa styrsystem för
+        bommar och grindar.
         <br />
         <br />
-        We have also delivered a similar contract to Oskarshamn nuclear power
-        plant.
+        Liknande entreprenad har utförts på Oskarshamns Kärnkraftverk.
       </CardListItem>
     </CardListSection>
-    <Footer lan="en" />
+    <Footer lan="sv" />
   </Fragment>
 );

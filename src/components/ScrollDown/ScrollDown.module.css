@@ -3,7 +3,7 @@
     border-radius: 100px;
     width: 112px;
     padding: 7px 10px;
-    border: 2px solid var(--primary);
+    border: 2px solid #f57a52;
     align-items: center;
     justify-content: space-between;
     animation: jump 2.5s infinite;
@@ -14,7 +14,7 @@
     height: 28px;
 }
 .container span{
-    color: var(--primary);
+    color: #f57a52;
 }
 @keyframes jump{
     0% { top: 15px }

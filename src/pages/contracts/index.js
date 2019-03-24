@@ -8,10 +8,10 @@ import "../../main.module.css";
 
 export default () => (
   <Fragment>
-    <Nav lan="en" sv="/sv/contracts" en="/contracts" />
+    <Nav lan="sv" sv="/contracts" en="/en/contracts" />
     <FullScreenImage img={contracts_color} lineLeft="0px" lineWidth="80px">
-      <IntroText title="CONTRACTS FOR NUCLEAR POWER PLANTS, DEFENCE, AIRPORTS AND OTHER CRITICAL INFRASTRUCTURE"/>
+      <IntroText title="ENTREPRENADER FÖR KÄRNKRAFTVERK, FÖRSVAR, FLYGPLATSER OCH ANNAN KRITISK INFRASTRUKTUR"/>
     </FullScreenImage>
-    <Footer lan="en" />
+    <Footer lan="sv" />
   </Fragment>
 );

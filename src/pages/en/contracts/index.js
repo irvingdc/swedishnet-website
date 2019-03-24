@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import FullScreenImage from "../../../components/FullScreenImage/FullScreenImage";
 import { contracts_color } from "../../../images";
 import IntroText from "../../../components/IntroText/IntroText";
@@ -8,10 +9,16 @@ import "../../../main.module.css";
 
 export default () => (
   <Fragment>
-    <Nav lan="sv" sv="/sv/contracts" en="/contracts" />
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Swedish Net: Contracts</title>
+      <link rel="canonical" href="https://www.swedishnet.se/en/contracts" />
+      <html lang="en" />
+    </Helmet>
+    <Nav lan="en" sv="/contracts" en="/en/contracts" />
     <FullScreenImage img={contracts_color} lineLeft="0px" lineWidth="80px">
-      <IntroText title="ENTREPRENADER FÖR KÄRNKRAFTVERK, FÖRSVAR, FLYGPLATSER OCH ANNAN KRITISK INFRASTRUKTUR"/>
+      <IntroText title="CONTRACTS FOR NUCLEAR POWER PLANTS, DEFENCE, AIRPORTS AND OTHER CRITICAL INFRASTRUCTURE"/>
     </FullScreenImage>
-    <Footer lan="sv" />
+    <Footer lan="en" />
   </Fragment>
 );
