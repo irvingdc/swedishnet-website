@@ -113,18 +113,17 @@ export default class ContactForm extends Component {
     this.setState({
       sending: true
     });
-    let formData = new FormData()
-    formData.set("email",email.text)
-    formData.set("name",name.text)
-    formData.set("phone",phone.text)
-    formData.set("message",message.text)
-    Axios.post("http://www.swedishnet.se/contact.php", formData)
+    let formData = new FormData();
+    formData.set("email", email.text);
+    formData.set("name", name.text);
+    formData.set("phone", phone.text);
+    formData.set("message", message.text);
+    Axios.post("https://www.swedishnet.se/contact.php", formData)
       .then(response => {
-        if(response.data === "success"){
+        if (response.data === "success") {
           console.log("response", response);
-          this.setState(this.defaultState());
-        }
-        else throw new Error(response.data)
+          setTimeout(() => this.setState(this.defaultState()), 2000);
+        } else throw new Error(response.data);
       })
       .catch(error => {
         console.log("error", error);

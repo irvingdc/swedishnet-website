@@ -32,6 +32,7 @@
     font-weight: 100;
     position: relative;
     transition: all 0.2s;
+    color: white;
 }
 .container a:hover, .active{
     color: #f57a52 !important;
