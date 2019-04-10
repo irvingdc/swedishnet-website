@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
 import { globe } from "../images";
 import CardListItem from "../components/CardListItem/CardListItem";
 import Nav from "../components/Nav/Nav";
@@ -9,13 +8,14 @@ import CardListSection from "../components/CardListSection/CardListSection";
 
 export default () => (
   <Fragment>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Swedish Net: Om oss</title>
-      <link rel="canonical" href="https://www.swedishnet.se/about" />
-      <html lang="sv" />
-    </Helmet>
-    <Nav lan="sv" sv="/about" en="/en/about" />
+    <Nav
+      lan="sv"
+      sv="/about/"
+      en="/en/about/"
+      canonical="https://www.swedishnet.se/about/"
+      title="Swedish Net: Om oss"
+      description="Swedish Net erbjuder tjänster och entreprenader för samhällsviktiga anläggningar och funktioner vilka till följd av sin hotbild har högt ställda krav på säkerhet och teknik."
+    />
     <CardListSection img={globe} style={{ paddingTop: "220px" }}>
       <CardListItem
         inverted
@@ -30,13 +30,27 @@ export default () => (
             försvar. I koncernen finns även:
             <br />
             <br />
-            Swedish Net MX som säljer säkerhetsprodukter- och system på den
-            mexikanska marknaden.
+            <a
+              rel="noopener noreferrer"
+              href="http://www.swedishnet.mx/"
+              target="_blank"
+            >
+              Swedish Net MX
+            </a>{" "}
+            som säljer säkerhetsprodukter- och system på den mexikanska
+            marknaden.
             <br />
             <br />
-            Disarmament Solutions som utvecklar helhetskoncept för säker och
-            miljöriktig avveckling av konventionella vapen och ammunition ihop
-            med andra svenska företag med inriktning mot en global marknad.
+            <a
+              rel="noopener noreferrer"
+              href="https://www.disarmamentsolutions.com/"
+              target="_blank"
+            >
+              Disarmament Solutions
+            </a>{" "}
+            som utvecklar helhetskoncept för säker och miljöriktig avveckling av
+            konventionella vapen och ammunition ihop med andra svenska företag
+            med inriktning mot en global marknad.
             <br />
             <br />
             Koncernen fortsätter expandera på den svenska marknaden och är i

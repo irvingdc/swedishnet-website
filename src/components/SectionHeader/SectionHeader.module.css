@@ -10,6 +10,9 @@
     width: 100%;
     max-width: 440px;
 }
+.content.large{
+    max-width: 600px;
+}
 .container span{
     color: #f57a52;
     font-size: 56px;
@@ -21,6 +24,11 @@
 .container h2{
     letter-spacing: 1px;
     line-height: 40px;
+}
+.container h2.large{
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
 }
 @media (max-width: 600px){
     .content{

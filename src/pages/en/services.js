@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
 import FullScreenImage from "../../components/FullScreenImage/FullScreenImage";
 import {
   services_color,
@@ -19,13 +18,14 @@ import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Swedish Net: Services</title>
-      <link rel="canonical" href="https://www.swedishnet.se/en/services" />
-      <html lang="en" />
-    </Helmet>
-    <Nav lan="en" en="/en/services/" sv="/services/" />
+    <Nav
+      lan="en"
+      en="/en/services/"
+      sv="/services/"
+      canonical="https://www.swedishnet.se/en/services/"
+      title="Swedish Net: Services"
+      description="Consultancy regarding physical and technical protection for high security facilities"
+    />
     <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
@@ -152,7 +152,7 @@ export default () => (
 
     <SectionHeader
       number="03"
-      title="PROJECT FUNCTIONS"
+      title="THE PROJECT FUNCTION"
       id="the-project-function"
     />
     <CardListSection img={helmet}>

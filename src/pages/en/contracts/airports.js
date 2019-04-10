@@ -8,23 +8,28 @@ import Nav from "../../../components/Nav/Nav";
 import Footer from "../../../components/Footer/Footer";
 import "../../../main.module.css";
 import CardListSection from "../../../components/CardListSection/CardListSection";
-import ScrollDown from "../../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav lan="en" en="/en/contracts/airports" sv="/contracts/airports" />
+    <Nav
+      lan="en"
+      en="/en/contracts/airports/"
+      sv="/contracts/airports/"
+      canonical="https://www.swedishnet.se/en/contracts/airports/"
+      title="Swedish Net: Contracts - Airports"
+      description="AGL, ILS and poswer supply systems for public airports and military air bases."
+    />
     <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>
-            AGL, ILS and redundant power supply{" "}
-            <b>for public and military airports</b>
+            AGL, ILS and poswer supply systems{" "}
+            <b>for public airports and military air bases</b>
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="03" title="AIRPORTS" />
+    <SectionHeader title="AIRPORTS" />
     <CardListSection img={airport}>
       <CardListItem
         title={
@@ -33,10 +38,10 @@ export default () => (
           </span>
         }
       >
-        Swedish Net is one of few companies in Sweden delivering comprehensive
-        solutions including design and installation for airport lighting and ILS
-        (Instrument Landing Systems) on airside. We deliver to military and
-        public airports in Sweden and internationally.
+        Swedish Net deliver turnkey contracts for airside including Airfield
+        Ground Lighting (AGL), Instrument Landing System (ILS), power supply
+        systems. We deliver to public airports and military air bases in Sweden
+        and internationally.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Scandinavian Mountains Airport is the first airport for regular traffic

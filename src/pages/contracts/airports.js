@@ -8,23 +8,28 @@ import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import "../../main.module.css";
 import CardListSection from "../../components/CardListSection/CardListSection";
-import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav lan="sv" en="/en/contracts/airports" sv="/contracts/airports" />
+    <Nav
+      lan="sv"
+      en="/en/contracts/airports/"
+      sv="/contracts/airports/"
+      canonical="https://www.swedishnet.se/contracts/airports/"
+      title="Swedish Net: Entreprenader - Flygplatser"
+      description="AGL, ILS och avbrottsfri kraft för civila och militära flygplatser"
+    />
     <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>
-            AGL, ILS OCH AVBROTTSFRI KRAFT 
+            AGL, ILS OCH AVBROTTSFRI KRAFT
             <b> FÖR CIVILA OCH MILITÄRA FLYGPLATSER</b>
           </span>
         }
       />
-      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="03" title="FLYGPLATSER" />
+    <SectionHeader title="FLYGPLATSER" />
     <CardListSection img={airport}>
       <CardListItem
         title={
@@ -33,11 +38,11 @@ export default () => (
           </span>
         }
       >
-        Swedish Net är ett av få företag i Sverige som levererar helhetslösningar
-        med design och installation för flygplatsljus (AGL),
-        instrumentlandningssystem (ILS) och kraftförsörjningsystem på airside.
-        Vi levererar till militära och civila flygplatser enligt internationella
-        standarder i Sverige och internationellt.
+        Swedish Net utför totalentreprenader för airside som inkluderar
+        flygplatsljus (AGL), instrumentlandningssystem (ILS), väderstation
+        (AWOS) och kraftförsörjningsystem på airside. Vi levererar till militära
+        och civila flygplatser enligt internationella standarder i Sverige och
+        internationellt.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Scandinavian Mountains Airport i Sälen är den första flygplatsen för

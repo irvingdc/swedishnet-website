@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
 import VerticalText from "../../components/VerticalText/VerticalText";
 import CardListSection from "../../components/CardListSection/CardListSection";
 import Nav from "../../components/Nav/Nav";
@@ -91,13 +90,13 @@ export default () => {
   ];
   return (
     <Fragment>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Swedish Net: News</title>
-        <link rel="canonical" href="https://www.swedishnet.se/en/news" />
-        <html lang="en" />
-      </Helmet>
-      <Nav lan="en" sv="/news" en="/en/news" />
+      <Nav
+        lan="en"
+        sv="/news/"
+        en="/en/news/"
+        canonical="https://www.swedishnet.se/en/news/"
+        title="Swedish Net: News"
+      />
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>
         <VerticalText
           style={{

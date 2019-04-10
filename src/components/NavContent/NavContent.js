@@ -79,7 +79,7 @@ class NavContent extends Component {
             url: "/services/#protective-security-and-planning"
           },
           {
-            title: "El och säkerhetskonstruktion",
+            title: "El-och säkerhetskonstruktion",
             url: "/services/#electrical-and-security-engineering"
           },
           {

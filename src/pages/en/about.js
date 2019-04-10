@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
 import { globe } from "../../images";
 import CardListItem from "../../components/CardListItem/CardListItem";
 import Nav from "../../components/Nav/Nav";
@@ -9,13 +8,14 @@ import CardListSection from "../../components/CardListSection/CardListSection";
 
 export default () => (
   <Fragment>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Swedish Net: About</title>
-      <link rel="canonical" href="https://www.swedishnet.se/en/about" />
-      <html lang="en" />
-    </Helmet>
-    <Nav lan="en" sv="/about" en="/en/about"/>
+    <Nav
+      lan="en"
+      sv="/about/"
+      en="/en/about/"
+      canonical="https://www.swedishnet.se/en/about/"
+      title="Swedish Net: About"
+      description="Swedish Net offers services and contracts for vital societal facilities and functions which have high requirements on security and technology due to potential threats."
+    />
     <CardListSection img={globe} style={{ paddingTop: "220px" }}>
       <CardListItem
         inverted
@@ -31,13 +31,26 @@ export default () => (
             includes:
             <br />
             <br />
-            Swedish Net MX which sells security products and systems on the
-            Mexican market.
+            <a
+              rel="noopener noreferrer"
+              href="http://www.swedishnet.mx/"
+              target="_blank"
+            >
+              Swedish Net MX
+            </a>{" "}
+            which sells security products and systems on the Mexican market.
             <br />
             <br />
-            Disarmament Solutions which develops comprehensive concepts for the
-            secure and environmentally-friendly disarmament of conventional arms
-            and ammunition.
+            <a
+              rel="noopener noreferrer"
+              href="https://www.disarmamentsolutions.com/"
+              target="_blank"
+            >
+              Disarmament Solutions
+            </a>{" "}
+            which develops comprehensive concepts for the secure and
+            environmentally-friendly disarmament of conventional arms and
+            ammunition.
             <br />
             <br />
             The Swedish Net Group continues to grow on the Swedish market and

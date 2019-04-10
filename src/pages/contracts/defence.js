@@ -8,14 +8,16 @@ import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import "../../main.module.css";
 import CardListSection from "../../components/CardListSection/CardListSection";
-import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
     <Nav
       lan="sv"
-      en="/en/contracts/defence"
-      sv="/contracts/defence"
+      en="/en/contracts/defence/"
+      sv="/contracts/defence/"
+      canonical="https://www.swedishnet.se/contracts/defence/"
+      title="Swedish Net: Entreprenader - Försvar"
+      description="Komplexa uppdrag åt försvarsrelaterade projekt."
     />
     <FullScreenImage img={defence_color} noLine>
       <IntroText
@@ -25,9 +27,8 @@ export default () => (
           </span>
         }
       />
-      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="02" title="FÖRSVAR" />
+    <SectionHeader title="FÖRSVAR" />
     <CardListSection img={device}>
       <CardListItem
         title={

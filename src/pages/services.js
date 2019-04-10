@@ -1,12 +1,6 @@
 import React, { Fragment } from "react";
 import FullScreenImage from "../components/FullScreenImage/FullScreenImage";
-import {
-  services_color,
-  camera,
-  documents,
-  helmet,
-  techguy
-} from "../images";
+import { services_color, camera, documents, helmet, techguy } from "../images";
 import IntroText from "../components/IntroText/IntroText";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import CardListItem from "../components/CardListItem/CardListItem";
@@ -18,7 +12,14 @@ import ScrollDown from "../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
-    <Nav lan="sv" en="/en/services/" sv="/services/" />
+    <Nav
+      lan="sv"
+      en="/en/services/"
+      sv="/services/"
+      canonical="https://www.swedishnet.se/services/"
+      title="Swedish Net: Kärnkraftverk"
+      description="Konsultationer avseende fysiskt och tekniskt skydd för högsäkerhetsanläggningar."
+    />
     <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
@@ -31,7 +32,6 @@ export default () => (
       <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
     <SectionHeader
-      number="01"
       title="SÄKERHETSSKYDD OCH PROJEKTERING"
       id="protective-security-and-planning"
     />
@@ -86,8 +86,7 @@ export default () => (
       </CardListItem>
     </CardListSection>
     <SectionHeader
-      number="02"
-      title="EL OCH SÄKERHETSKONSTRUKTION"
+      title="EL-OCH SÄKERHETSKONSTRUKTION"
       id="electrical-and-security-engineering"
     />
     <CardListSection img={documents}>
@@ -141,7 +140,6 @@ export default () => (
     </CardListSection>
 
     <SectionHeader
-      number="03"
       title="PROJEKTFUNKTIONEN"
       id="the-project-function"
     />
@@ -199,7 +197,6 @@ export default () => (
     </CardListSection>
 
     <SectionHeader
-      number="04"
       title="SERVICE OCH UNDERHÅLL"
       id="service-and-maintenance"
     />

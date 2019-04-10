@@ -8,14 +8,16 @@ import Nav from "../../../components/Nav/Nav";
 import Footer from "../../../components/Footer/Footer";
 import "../../../main.module.css";
 import CardListSection from "../../../components/CardListSection/CardListSection";
-import ScrollDown from "../../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
     <Nav
       lan="en"
-      en="/en/contracts/electrical-power-supply"
-      sv="/contracts/electrical-power-supply"
+      en="/en/contracts/electrical-power-supply/"
+      sv="/contracts/electrical-power-supply/"
+      canonical="https://www.swedishnet.se/en/contracts/electrical-power-supply/"
+      title="Swedish Net: Contracts - Electrical Power Supply"
+      description="Reliable electrical power supply systems for critical infrastructure."
     />
     <FullScreenImage img={snow} noLine>
       <IntroText
@@ -26,9 +28,8 @@ export default () => (
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="04" title="ELECTRICAL POWER SUPPLY" />
+    <SectionHeader title="ELECTRICAL POWER SUPPLY" />
     <CardListSection img={lockers}>
       <CardListItem
         title={

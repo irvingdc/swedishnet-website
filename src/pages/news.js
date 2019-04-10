@@ -2,16 +2,9 @@ import React, { Fragment } from "react";
 import VerticalText from "../components/VerticalText/VerticalText";
 import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
+import "../main.module.css";
 import Article from "../components/Article/Article";
-import {
-  new_black,
-  news1,
-  news2,
-  news3,
-  news4,
-  news5,
-  news7
-} from "../images";
+import { new_black, news1, news2, news3, news4, news5, news7 } from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
@@ -24,7 +17,7 @@ export default () => {
       ),
       img: news7,
       content:
-        "Swedish Net har vunnit upphandling för byte av kontantströmsregulatorer (CCR:er) på Örebro flygplats."
+        "Swedish Net har vunnit upphandling för byte av konstantströmsregulatorer (CCR:er) på Örebro flygplats."
     },
     {
       title: (
@@ -90,7 +83,13 @@ export default () => {
   ];
   return (
     <Fragment>
-      <Nav lan="sv" sv="/news" en="/en/news" />
+      <Nav
+        lan="sv"
+        sv="/news/"
+        en="/en/news/"
+        canonical="https://www.swedishnet.se/news/"
+        title="Swedish Net: Nyheter"
+      />
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>
         <VerticalText
           style={{

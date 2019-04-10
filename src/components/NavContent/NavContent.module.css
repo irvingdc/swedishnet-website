@@ -34,9 +34,6 @@
     transition: all 0.2s;
     color: white;
 }
-.container a:hover, .active{
-    color: #f57a52 !important;
-}
 .container a::after{
     content: '';
     display: block;
@@ -62,8 +59,11 @@
     left: 15px;
     top: 15px;
 }
-.dark{
+.dark, .dark *{
     color: #404349 !important;
+}
+.container a:hover, .active{
+    color: #f57a52 !important;
 }
 .menu{
     align-items: center;

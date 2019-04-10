@@ -8,9 +8,16 @@ import "../../main.module.css";
 
 export default () => (
   <Fragment>
-    <Nav lan="sv" sv="/contracts" en="/en/contracts" />
-    <FullScreenImage img={contracts_color} lineLeft="0px" lineWidth="80px">
-      <IntroText title="ENTREPRENADER FÖR KÄRNKRAFTVERK, FÖRSVAR, FLYGPLATSER OCH ANNAN KRITISK INFRASTRUKTUR"/>
+    <Nav
+      lan="sv"
+      sv="/contracts/"
+      en="/en/contracts/"
+      canonical="https://www.swedishnet.se/contracts/"
+      title="Swedish Net: Entreprenader"
+      description="Entreprenader för kärnkraftverk, försvar, flygplatser och annan kritisk infrastruktur."
+    />
+    <FullScreenImage img={contracts_color} noLine>
+      <IntroText title="ENTREPRENADER FÖR KÄRNKRAFTVERK, FÖRSVAR, FLYGPLATSER OCH ANNAN KRITISK INFRASTRUKTUR" />
     </FullScreenImage>
     <Footer lan="sv" />
   </Fragment>

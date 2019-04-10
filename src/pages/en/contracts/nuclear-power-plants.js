@@ -8,14 +8,16 @@ import Nav from "../../../components/Nav/Nav";
 import Footer from "../../../components/Footer/Footer";
 import "../../../main.module.css";
 import CardListSection from "../../../components/CardListSection/CardListSection";
-import ScrollDown from "../../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
     <Nav
       lan="en"
-      en="/en/contracts/nuclear-power-plants"
-      sv="/contracts/nuclear-power-plants"
+      en="/en/contracts/nuclear-power-plants/"
+      sv="/contracts/nuclear-power-plants/"
+      canonical="https://www.swedishnet.se/en/contracts/nuclear-power-plants/"
+      title="Swedish Net: Contracts - Nuclear Power Plants"
+      description="Security enhancing measures on nuclear power plants."
     />
     <FullScreenImage img={nuclear_color} noLine>
       <IntroText
@@ -25,9 +27,8 @@ export default () => (
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
     </FullScreenImage>
-    <SectionHeader number="01" title="NUCLEAR POWER PLANTS" />
+    <SectionHeader title="NUCLEAR POWER PLANTS" />
     <CardListSection img={street}>
       <CardListItem
         title={

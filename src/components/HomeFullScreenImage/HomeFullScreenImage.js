@@ -17,8 +17,5 @@ export default ({ img, title, lineLeft, lineWidth, links }) => (
         </Link>
       ))}
     </div>
-    <div className={classes.bottomLine}>
-      <span style={{ width: lineWidth, left: lineLeft }} />
-    </div>
   </div>
 );
