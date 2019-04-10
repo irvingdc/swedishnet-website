@@ -32,6 +32,7 @@ export default () => (
       <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
     <SectionHeader
+      number="01"
       title="SÄKERHETSSKYDD OCH PROJEKTERING"
       id="protective-security-and-planning"
     />
@@ -86,6 +87,7 @@ export default () => (
       </CardListItem>
     </CardListSection>
     <SectionHeader
+      number="02"
       title="EL-OCH SÄKERHETSKONSTRUKTION"
       id="electrical-and-security-engineering"
     />
@@ -140,6 +142,7 @@ export default () => (
     </CardListSection>
 
     <SectionHeader
+      number="03"
       title="PROJEKTFUNKTIONEN"
       id="the-project-function"
     />
@@ -197,6 +200,7 @@ export default () => (
     </CardListSection>
 
     <SectionHeader
+      number="04"
       title="SERVICE OCH UNDERHÅLL"
       id="service-and-maintenance"
     />
