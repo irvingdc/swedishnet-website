@@ -9,7 +9,7 @@ export default () => (
     <Nav
       lan="en"
       dark
-      sv="/contact/"
+      sv="/kontakt/"
       en="/en/contact/"
       canonical="https://www.swedishnet.se/en/contact/"
       title="Swedish Net: Contact"

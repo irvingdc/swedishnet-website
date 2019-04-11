@@ -10,7 +10,7 @@ export default () => (
   <Fragment>
     <Nav
       lan="en"
-      sv="/about/"
+      sv="/om-oss/"
       en="/en/about/"
       canonical="https://www.swedishnet.se/en/about/"
       title="Swedish Net: About"

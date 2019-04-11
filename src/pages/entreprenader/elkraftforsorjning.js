@@ -14,16 +14,16 @@ export default () => (
     <Nav
       lan="sv"
       en="/en/contracts/electrical-power-supply/"
-      sv="/contracts/electrical-power-supply/"
-      canonical="https://www.swedishnet.se/contracts/electrical-power-supply/"
+      sv="/entreprenader/elkraftforsorjning/"
+      canonical="https://www.swedishnet.se/entreprenader/elkraftforsorjning/"
       title="Swedish Net: Entreprenader - Elkraftförsörjning"
       description="Tillförlitliga elkraftförsörjningssystem för kritisk infrastruktur."
     />
-    <FullScreenImage img={snow} noLine>
+    <FullScreenImage img={snow} noLine large>
       <IntroText
         title={
           <span>
-            TILLFÖRLITLIGA ELKRAFTFÖRSÖRJNINGSSYSTEM
+            TILLFÖRLITLIGA ELKRAFTFÖRSÖRJNINGSSYSTEM<br/>
             <b> FÖR KRITISK INFRASTRUKTUR</b>
           </span>
         }
@@ -38,8 +38,9 @@ export default () => (
           </span>
         }
       >
-        Swedish Net levererar kompletta lösningar för kraft, reservkraft och
-        avbrottsfri kraft med tillhörande säkra byggnader och områdesskydd.
+        Swedish Net designar kompletta lösningar för elkraftförsörjning. Vi
+        levererar system med kraft, reservkraft och avbrottsfri kraft
+        tillsammans med tillhörande säkra byggnader och områdesskydd.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Swedish Net är ansvarig för leveransen av ett komplett

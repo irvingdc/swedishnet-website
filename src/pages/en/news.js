@@ -92,7 +92,7 @@ export default () => {
     <Fragment>
       <Nav
         lan="en"
-        sv="/news/"
+        sv="/nyheter/"
         en="/en/news/"
         canonical="https://www.swedishnet.se/en/news/"
         title="Swedish Net: News"

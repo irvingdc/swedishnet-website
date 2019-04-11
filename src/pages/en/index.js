@@ -36,7 +36,7 @@ export default () => {
         en="/en/"
         canonical="https://www.swedishnet.se/en/"
         title="Swedish Net: Home"
-        description="Security and Technology for Vital Societal Facilities and Functions."
+        description="Security and Technology for Vital Societal Facilities and Functions"
       />
       <HomeFullScreenImage
         img={globe}

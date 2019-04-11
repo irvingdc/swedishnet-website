@@ -11,7 +11,7 @@ export default ({ lan }) => {
         </Fragment>
       ),
       phone: "Phone",
-      email: "Email",
+      email: "E-mail",
       fax: "Fax",
       errorReport: "Error report",
       invoice: "Invoice",
@@ -68,14 +68,13 @@ export default ({ lan }) => {
       <p>{phone}: 0582-141 00</p>
       <p>{fax}: 0582-141 50</p>
       <p>
-        {email}: <a href="mail:info@swedishnet.se">info@swedishnet.se</a>
+        {email}:{" "}<a href="mail:info@swedishnet.se">info@swedishnet.se</a>
       </p>
       <p>
-        {errorReport}:
-        <a href="mail:felanmalan@swedishnet.se">felanmalan@swedishnet.se</a>
+        {errorReport}:{" "}<a href="mail:felanmalan@swedishnet.se">felanmalan@swedishnet.se</a>
       </p>
       <p>
-        {invoice}:<a href="mail:faktura@swedishnet.se">faktura@swedishnet.se</a>
+        {invoice}:{" "}<a href="mail:faktura@swedishnet.se">faktura@swedishnet.se</a>
       </p>
 
       <h4>{postalAddress}:</h4>
@@ -90,7 +89,7 @@ export default ({ lan }) => {
       <p>694 31 Hallsberg</p>
       <p>Sweden</p>
 
-      <h4>{office}</h4>
+      <h4>{office}:</h4>
       <p>iOFFICE</p>
       <p>Kungsgatan 60</p>
       <p>111 22 Stockholm</p>

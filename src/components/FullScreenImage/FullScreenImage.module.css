@@ -10,6 +10,9 @@
     max-width: 520px;
     display: block;
 }
+.content.large{
+    max-width: 660px;
+}
 .bottomLine{
     margin: 50px auto 50px;
     width: calc(100% + 40px);

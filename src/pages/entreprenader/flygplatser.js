@@ -14,8 +14,8 @@ export default () => (
     <Nav
       lan="sv"
       en="/en/contracts/airports/"
-      sv="/contracts/airports/"
-      canonical="https://www.swedishnet.se/contracts/airports/"
+      sv="/entreprenader/flygplatser/"
+      canonical="https://www.swedishnet.se/entreprenader/flygplatser/"
       title="Swedish Net: Entreprenader - Flygplatser"
       description="AGL, ILS och avbrottsfri kraft för civila och militära flygplatser"
     />
@@ -24,6 +24,7 @@ export default () => (
         title={
           <span>
             AGL, ILS OCH AVBROTTSFRI KRAFT
+            <br />
             <b> FÖR CIVILA OCH MILITÄRA FLYGPLATSER</b>
           </span>
         }
@@ -40,9 +41,9 @@ export default () => (
       >
         Swedish Net utför totalentreprenader för airside som inkluderar
         flygplatsljus (AGL), instrumentlandningssystem (ILS), väderstation
-        (AWOS) och kraftförsörjningsystem på airside. Vi levererar till militära
-        och civila flygplatser enligt internationella standarder i Sverige och
-        internationellt.
+        (AWOS) och kraftförsörjningssystem med reservkraft och avbrottsfri
+        kraft. Vi levererar till militära och civila flygplatser enligt
+        internationella standarder i Sverige och internationellt.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Scandinavian Mountains Airport i Sälen är den första flygplatsen för

@@ -14,8 +14,8 @@ export default () => (
     <Nav
       lan="sv"
       en="/en/contracts/nuclear-power-plants/"
-      sv="/contracts/nuclear-power-plants/"
-      canonical="https://www.swedishnet.se/contracts/nuclear-power-plants/"
+      sv="/entreprenader/karnkraftverk/"
+      canonical="https://www.swedishnet.se/entreprenader/karnkraftverk/"
       title="Swedish Net: Entreprenader - Kärnkraftverk"
       description="Swedish Net levererar entreprenader inom säkerhetshöjande åtgärder med fokus på fysiskt och tekniskt skydd för kärnkraftsrelaterad verksamhet."
     />

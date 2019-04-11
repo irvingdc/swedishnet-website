@@ -18,7 +18,7 @@ class NavContent extends Component {
         options: [
           {
             title: "Protective Security and Planning",
-            url: "/services/#protective-security-and-planning"
+            url: "/en/services/#protective-security-and-planning"
           },
           {
             title: "Electrical and Security Enginering",
@@ -36,95 +36,95 @@ class NavContent extends Component {
       },
       {
         title: "Contracts",
-        url: "/en/contracts",
+        url: "/en/contracts/",
         options: [
           {
             title: "Nuclear Power Plants",
-            url: "/en/contracts/nuclear-power-plants"
+            url: "/en/contracts/nuclear-power-plants/"
           },
           {
             title: "Defence",
-            url: "/en/contracts/defence"
+            url: "/en/contracts/defence/"
           },
           {
             title: "Airports",
-            url: "/en/contracts/airports"
+            url: "/en/contracts/airports/"
           },
           {
-            title: "Electrical Power supply",
-            url: "/en/contracts/electrical-power-supply"
+            title: "Electrical Power Supply",
+            url: "/en/contracts/electrical-power-supply/"
           }
         ]
       },
       {
         title: "About us",
-        url: "/en/about"
+        url: "/en/about/"
       },
       {
         title: "Contact",
-        url: "/en/contact"
+        url: "/en/contact/"
       },
       {
         title: "News",
-        url: "/en/news"
+        url: "/en/news/"
       }
     ],
     sv: [
       {
         title: "Teknik- och säkerhetstjänster",
-        url: "/services",
+        url: "/teknik-och-sakerhetstjanster",
         options: [
           {
             title: "Säkerhetsskydd och projektering",
-            url: "/services/#protective-security-and-planning"
+            url: "/teknik-och-sakerhetstjanster/#sakerhetsskydd-och-projektering"
           },
           {
-            title: "El-och säkerhetskonstruktion",
-            url: "/services/#electrical-and-security-engineering"
+            title: "El- och säkerhetskonstruktion",
+            url: "/teknik-och-sakerhetstjanster/#el-och-sakerhetskonstruktion"
           },
           {
             title: "Projektfunktionen",
-            url: "/services/#the-project-function"
+            url: "/teknik-och-sakerhetstjanster/#projektfunktionen"
           },
           {
             title: "Service och underhåll",
-            url: "/services/#service-and-maintenance"
+            url: "/teknik-och-sakerhetstjanster/#service-och-underhall"
           }
         ]
       },
       {
         title: "Entreprenader",
-        url: "/contracts",
+        url: "/entreprenader/",
         options: [
           {
             title: "Kärnkraftverk",
-            url: "/contracts/nuclear-power-plants"
+            url: "/entreprenader/karnkraftverk/"
           },
           {
             title: "Försvar",
-            url: "/contracts/defence"
+            url: "/entreprenader/forsvar/"
           },
           {
             title: "Flygplatser",
-            url: "/contracts/airports"
+            url: "/entreprenader/flygplatser/"
           },
           {
             title: "Elkraftförsörjning",
-            url: "/contracts/electrical-power-supply"
+            url: "/entreprenader/elkraftforsorjning/"
           }
         ]
       },
       {
         title: "Om oss",
-        url: "/about"
+        url: "/om-oss/"
       },
       {
         title: "Kontakt",
-        url: "/contact"
+        url: "/kontakt/"
       },
       {
         title: "Nyheter",
-        url: "/news"
+        url: "/nyheter/"
       }
     ]
   };

@@ -8,33 +8,31 @@ import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import "../main.module.css";
 import CardListSection from "../components/CardListSection/CardListSection";
-import ScrollDown from "../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
     <Nav
       lan="sv"
       en="/en/services/"
-      sv="/services/"
-      canonical="https://www.swedishnet.se/services/"
-      title="Swedish Net: Kärnkraftverk"
+      sv="/teknik-och-sakerhetstjanster/"
+      canonical="https://www.swedishnet.se/teknik-och-sakerhetstjanster/"
+      title="Swedish Net: Teknik- och säkerhetstjänster"
       description="Konsultationer avseende fysiskt och tekniskt skydd för högsäkerhetsanläggningar."
     />
     <FullScreenImage img={services_color} noLine>
       <IntroText
         title={
           <span>
-            Konsultationer avseende fysiskt och tekniskt skydd
-            <b> för högsäkerhetsanläggningar</b>
+            Konsultationer avseende fysiskt och tekniskt skydd för
+            högsäkerhetsanläggningar
           </span>
         }
       />
-      <ScrollDown>Scrolla Ner</ScrollDown>
     </FullScreenImage>
     <SectionHeader
       number="01"
       title="SÄKERHETSSKYDD OCH PROJEKTERING"
-      id="protective-security-and-planning"
+      id="sakerhetsskydd-och-projektering"
     />
     <CardListSection img={camera}>
       <CardListItem
@@ -88,8 +86,8 @@ export default () => (
     </CardListSection>
     <SectionHeader
       number="02"
-      title="EL-OCH SÄKERHETSKONSTRUKTION"
-      id="electrical-and-security-engineering"
+      title="EL- OCH SÄKERHETSKONSTRUKTION"
+      id="el-och-sakerhetskonstruktion"
     />
     <CardListSection img={documents}>
       <CardListItem
@@ -144,7 +142,7 @@ export default () => (
     <SectionHeader
       number="03"
       title="PROJEKTFUNKTIONEN"
-      id="the-project-function"
+      id="projektfunktionen"
     />
     <CardListSection img={helmet}>
       <CardListItem
@@ -202,7 +200,7 @@ export default () => (
     <SectionHeader
       number="04"
       title="SERVICE OCH UNDERHÅLL"
-      id="service-and-maintenance"
+      id="service-och-underhall"
     />
     <CardListSection img={techguy}>
       <CardListItem

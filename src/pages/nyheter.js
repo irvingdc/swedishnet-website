@@ -85,9 +85,9 @@ export default () => {
     <Fragment>
       <Nav
         lan="sv"
-        sv="/news/"
+        sv="/nyheter/"
         en="/en/news/"
-        canonical="https://www.swedishnet.se/news/"
+        canonical="https://www.swedishnet.se/nyheter/"
         title="Swedish Net: Nyheter"
       />
       <CardListSection img={new_black} style={{ paddingTop: "120px" }}>

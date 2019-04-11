@@ -9,23 +9,23 @@ export default () => {
   let links = [
     {
       title: "Teknik- och säkerhetstjänster",
-      url: "/services/"
+      url: "/teknik-och-sakerhetstjanster/"
     },
     {
       title: "Kärnkraftverk",
-      url: "/contracts/nuclear-power-plants/"
+      url: "/entreprenader/karnkraftverk/"
     },
     {
       title: "Försvar",
-      url: "/contracts/defence/"
+      url: "/entreprenader/forsvar/"
     },
     {
       title: "Flygplatser",
-      url: "/contracts/airports/"
+      url: "/entreprenader/flygplatser/"
     },
     {
       title: "Elkraftförsörjning",
-      url: "/contracts/electrical-power-supply/"
+      url: "/entreprenader/elkraftforsorjning/"
     }
   ];
   return (

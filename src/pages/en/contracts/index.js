@@ -10,7 +10,7 @@ export default () => (
   <Fragment>
     <Nav
       lan="en"
-      sv="/contracts/"
+      sv="/entreprenader/"
       en="/en/contracts/"
       canonical="https://www.swedishnet.se/en/contracts/"
       title="Swedish Net: Contracts"

@@ -14,16 +14,16 @@ export default () => (
     <Nav
       lan="en"
       en="/en/contracts/electrical-power-supply/"
-      sv="/contracts/electrical-power-supply/"
+      sv="/entreprenader/elkraftforsorjning/"
       canonical="https://www.swedishnet.se/en/contracts/electrical-power-supply/"
       title="Swedish Net: Contracts - Electrical Power Supply"
       description="Reliable electrical power supply systems for critical infrastructure."
     />
-    <FullScreenImage img={snow} noLine>
+    <FullScreenImage img={snow} noLine large>
       <IntroText
         title={
           <span>
-            Reliable electrical power supply systems{" "}
+            Reliable electrical power supply systems<br/>
             <b>for critical infrastructure</b>
           </span>
         }
@@ -38,9 +38,9 @@ export default () => (
           </span>
         }
       >
-        Swedish Net delivers comprehensive solutions with power, back-up power
-        and uninterruptable power together with associated buildings and
-        perimeter protection.
+        Swedish Net designs comprehensive solutions for electrical power supply.
+        We deliver systems with power, backup power and uninterruptable power
+        together with associated buildings and perimeter protection.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Swedish Net is responsible for the delivery of a comprehensive

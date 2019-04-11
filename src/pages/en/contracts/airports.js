@@ -14,16 +14,17 @@ export default () => (
     <Nav
       lan="en"
       en="/en/contracts/airports/"
-      sv="/contracts/airports/"
+      sv="/entreprenader/flygplatser/"
       canonical="https://www.swedishnet.se/en/contracts/airports/"
       title="Swedish Net: Contracts - Airports"
-      description="AGL, ILS and poswer supply systems for public airports and military air bases."
+      description="AGL, ILS and power supply systems for public airports and military air bases."
     />
     <FullScreenImage img={airport_color} noLine>
       <IntroText
         title={
           <span>
-            AGL, ILS and poswer supply systems{" "}
+            AGL, ILS and power supply systems
+            <br />
             <b>for public airports and military air bases</b>
           </span>
         }
@@ -39,9 +40,10 @@ export default () => (
         }
       >
         Swedish Net deliver turnkey contracts for airside including Airfield
-        Ground Lighting (AGL), Instrument Landing System (ILS), power supply
-        systems. We deliver to public airports and military air bases in Sweden
-        and internationally.
+        Ground Lighting (AGL), Instrument Landing System (ILS), Automated
+        Weather Observation System (AWOS) and power supply systems with backup
+        power and uninterruptible power. We deliver to public airports and
+        military air bases in Sweden and internationally.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Scandinavian Mountains Airport is the first airport for regular traffic

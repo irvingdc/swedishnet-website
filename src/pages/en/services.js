@@ -14,14 +14,13 @@ import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import "../../main.module.css";
 import CardListSection from "../../components/CardListSection/CardListSection";
-import ScrollDown from "../../components/ScrollDown/ScrollDown";
 
 export default () => (
   <Fragment>
     <Nav
       lan="en"
       en="/en/services/"
-      sv="/services/"
+      sv="/teknik-och-sakerhetstjanster/"
       canonical="https://www.swedishnet.se/en/services/"
       title="Swedish Net: Services"
       description="Consultancy regarding physical and technical protection for high security facilities"
@@ -30,12 +29,11 @@ export default () => (
       <IntroText
         title={
           <span>
-            Consultancy regarding physical and technical protection{" "}
-            <b>for high security facilities</b>
+            Consultancy regarding physical and technical protection for high
+            security facilities
           </span>
         }
       />
-      <ScrollDown>Scroll Down</ScrollDown>
     </FullScreenImage>
 
     <SectionHeader
