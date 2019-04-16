@@ -42,7 +42,7 @@ export default () => {
         img={globe}
         lineLeft="0%"
         lineWidth="10%"
-        title="Security and Technology for Vital Societal Facilities and Functions."
+        title="Security and Technology for Vital Societal Facilities and Functions"
         links={links}
       />
       <WhiteFooter />
