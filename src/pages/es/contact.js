@@ -7,16 +7,16 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 export default () => (
   <Fragment>
     <Nav
-      lan="en"
+      lan="es"
       dark
       sv="/kontakt/"
       en="/en/contact/"
       es="/es/contact/"
-      canonical="https://www.swedishnet.se/en/contact/"
-      title="Swedish Net: Contact"
-      description="Contact Us."
+      canonical="https://www.swedishnet.se/es/contact/"
+      title="Swedish Net: Contacto"
+      description="Contáctanos."
     />
-    <ContactForm style={{ paddingTop: "120px" }} lan="en" />
-    <Footer lan="en" />
+    <ContactForm style={{ paddingTop: "120px" }} lan="es" />
+    <Footer lan="es" />
   </Fragment>
 );

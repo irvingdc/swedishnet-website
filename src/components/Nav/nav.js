@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import classes from "./Nav.module.css";
 import NavContent from "../NavContent/NavContent";
 
-export default ({ lan, dark, sv, en, title, canonical, description }) => (
+export default ({ lan, dark, sv, en, es, title, canonical, description }) => (
   <Fragment>
     {canonical ? (
       <Helmet>
@@ -15,7 +15,7 @@ export default ({ lan, dark, sv, en, title, canonical, description }) => (
       </Helmet>
     ) : null}
     <div className={classes.container}>
-      <NavContent lan={lan} dark={dark} sv={sv} en={en} />
+      <NavContent lan={lan} dark={dark} sv={sv} en={en} es={es}/>
     </div>
   </Fragment>
 );

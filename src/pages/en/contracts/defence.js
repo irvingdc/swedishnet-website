@@ -14,6 +14,7 @@ export default () => (
     <Nav
       lan="en"
       en="/en/contracts/defence/"
+      es="/es/contracts/defence/"
       sv="/entreprenader/forsvar/"
       canonical="https://www.swedishnet.se/en/contracts/defence/"
       title="Swedish Net: Contracts - Defence"

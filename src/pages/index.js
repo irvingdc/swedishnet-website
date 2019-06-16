@@ -34,6 +34,7 @@ export default () => {
         lan="sv"
         sv="/"
         en="/en"
+        es="/es"
         canonical="https://www.swedishnet.se/"
         title="Swedish Net: Hem"
         description="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"

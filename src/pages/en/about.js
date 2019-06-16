@@ -12,6 +12,7 @@ export default () => (
       lan="en"
       sv="/om-oss/"
       en="/en/about/"
+      es="/es/about/"
       canonical="https://www.swedishnet.se/en/about/"
       title="Swedish Net: About"
       description="Swedish Net offers services and contracts for vital societal facilities and functions which have high requirements on security and technology due to potential threats."

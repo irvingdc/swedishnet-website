@@ -12,6 +12,7 @@ export default () => (
       lan="sv"
       sv="/entreprenader/"
       en="/en/contracts/"
+      es="/es/contracts/"
       canonical="https://www.swedishnet.se/contracts/"
       title="Swedish Net: Entreprenader"
       description="Entreprenader för kärnkraftverk, försvar, flygplatser och annan kritisk infrastruktur."

@@ -69,6 +69,64 @@ class NavContent extends Component {
         url: "/en/news/"
       }
     ],
+    es: [
+      {
+        title: "Servicios técnicos y de seguridad",
+        url: "/es/services",
+        options: [
+          {
+            title: "Seguridad y planeación",
+            url: "/es/services/#protective-security-and-planning"
+          },
+          {
+            title: "Ingeniería eléctrica y de seguridad",
+            url: "/es/services/#electrical-and-security-engineering"
+          },
+          {
+            title: "Funciones de proyecto",
+            url: "/es/services/#the-project-function"
+          },
+          {
+            title: "Servicio y Mantenimiento",
+            url: "/es/services/#service-and-maintenance"
+          }
+        ]
+      },
+      {
+        title: "Contratos",
+        url: "/es/contracts/",
+        options: [
+          {
+            title: "Plantas Nucleares",
+            url: "/es/contracts/nuclear-power-plants/"
+          },
+          {
+            title: "Defensa",
+            url: "/es/contracts/defence/"
+          },
+          {
+            title: "Aeropuertos",
+            url: "/es/contracts/airports/"
+          },
+          {
+            title: "Suministro de Energía Eléctrica",
+            url: "/es/contracts/electrical-power-supply/"
+          }
+        ]
+      },
+      {
+        title: "Acerca De",
+        url: "/es/about/"
+      },
+      {
+        title: "Contacto",
+        url: "/es/contact/"
+      },
+      {
+        title: "Noticias",
+        url: "/es/news/"
+      }
+    ],
     sv: [
       {
         title: "Teknik- och säkerhetstjänster",
@@ -76,7 +134,8 @@ class NavContent extends Component {
         options: [
           {
             title: "Säkerhetsskydd och projektering",
-            url: "/teknik-och-sakerhetstjanster/#sakerhetsskydd-och-projektering"
+            url:
+              "/teknik-och-sakerhetstjanster/#sakerhetsskydd-och-projektering"
           },
           {
             title: "El- och säkerhetskonstruktion",
@@ -138,19 +197,21 @@ class NavContent extends Component {
   };
 
   home = () => {
-    switch(this.props.lan){
+    switch (this.props.lan) {
       case "en":
-        return "/en/"
+        return "/en/";
       case "sv":
-        return "/"
+        return "/";
+      case "es":
+        return "/es/";
       default:
-        return "/"
+        return "/";
     }
-  }
+  };
 
   render() {
     let lan = this.urls[this.props.lan];
-    let { dark, en, sv } = this.props;
+    let { dark, en, sv, es } = this.props;
     return (
       <div
         className={[
@@ -175,14 +236,14 @@ class NavContent extends Component {
           <div className={classes.menu}>
             {lan.map((it, index) =>
               it.options ? (
-                <NavDropdown {...it} key={index} onClick={this.closeMenu}/>
+                <NavDropdown {...it} key={index} onClick={this.closeMenu} />
               ) : (
                 <Link activeClassName={classes.active} to={it.url} key={index}>
                   {it.title}
                 </Link>
               )
             )}
-            <LanguageSwitcher sv={sv} en={en} dark={dark}/>
+            <LanguageSwitcher sv={sv} en={en} es={es} dark={dark} />
           </div>
         </div>
         <img

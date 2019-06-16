@@ -3,7 +3,7 @@ import classes from "./LanguageSwitcher.module.css";
 import { Link } from "gatsby";
 import { language, dark_language } from "../../images";
 
-export default ({ sv, en, dark }) => {
+export default ({ sv, en, es, dark }) => {
     let options = [
         {
             title: "English",
@@ -12,6 +12,10 @@ export default ({ sv, en, dark }) => {
         {
             title: "Svenska",
             url: sv
+        },
+        {
+            title: "Español",
+            url: es
         }
     ]
   return (

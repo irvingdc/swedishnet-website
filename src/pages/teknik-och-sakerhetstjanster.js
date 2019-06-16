@@ -14,6 +14,7 @@ export default () => (
     <Nav
       lan="sv"
       en="/en/services/"
+      es="/es/services/"
       sv="/teknik-och-sakerhetstjanster/"
       canonical="https://www.swedishnet.se/teknik-och-sakerhetstjanster/"
       title="Swedish Net: Teknik- och säkerhetstjänster"

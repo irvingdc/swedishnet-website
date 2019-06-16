@@ -20,6 +20,7 @@ export default () => (
     <Nav
       lan="en"
       en="/en/services/"
+      es="/es/services/"
       sv="/teknik-och-sakerhetstjanster/"
       canonical="https://www.swedishnet.se/en/services/"
       title="Swedish Net: Services"

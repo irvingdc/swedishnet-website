@@ -43,6 +43,14 @@ export default class ContactForm extends Component {
       message: "MEDDELANDE:",
       submit: "SKICKA MEDDELANDE",
       sending: "VÄNTA..."
+    },
+    es: {
+      name: "NOMBRE:",
+      phone: "NÚMERO TELEFÓNICO:",
+      email: "CORREO ELECTRÓNICO:",
+      message: "MENSAJE:",
+      submit: "ENVIAR MENSAJE",
+      sending: "ENVIANDO..."
     }
   };
 

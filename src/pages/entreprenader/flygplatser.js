@@ -14,6 +14,7 @@ export default () => (
     <Nav
       lan="sv"
       en="/en/contracts/airports/"
+      es="/es/contracts/airports/"
       sv="/entreprenader/flygplatser/"
       canonical="https://www.swedishnet.se/entreprenader/flygplatser/"
       title="Swedish Net: Entreprenader - Flygplatser"

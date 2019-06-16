@@ -19,6 +19,17 @@ export default ({ lan }) => {
       streetAddress: "Street Address",
       office: "Street Address Stockholm office"
     },
+    es: {
+      title: <Fragment>CONTÁCTANOS</Fragment>,
+      phone: "Teléfono",
+      email: "Correo",
+      fax: "Fax",
+      errorReport: "Reporte de Errores",
+      invoice: "Facturación",
+      postalAddress: "Dirección Postal",
+      streetAddress: "Dirección Oficial",
+      office: "Oficina de Estocolmo"
+    },
     sv: {
       title: (
         <Fragment>
@@ -68,13 +79,15 @@ export default ({ lan }) => {
       <p>{phone}: 0582-141 00</p>
       <p>{fax}: 0582-141 50</p>
       <p>
-        {email}:{" "}<a href="mail:info@swedishnet.se">info@swedishnet.se</a>
+        {email}: <a href="mail:info@swedishnet.se">info@swedishnet.se</a>
       </p>
       <p>
-        {errorReport}:{" "}<a href="mail:felanmalan@swedishnet.se">felanmalan@swedishnet.se</a>
+        {errorReport}:{" "}
+        <a href="mail:felanmalan@swedishnet.se">felanmalan@swedishnet.se</a>
       </p>
       <p>
-        {invoice}:{" "}<a href="mail:faktura@swedishnet.se">faktura@swedishnet.se</a>
+        {invoice}:{" "}
+        <a href="mail:faktura@swedishnet.se">faktura@swedishnet.se</a>
       </p>
 
       <h4>{postalAddress}:</h4>

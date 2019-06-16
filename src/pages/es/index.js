@@ -8,42 +8,42 @@ import "../../main.module.css";
 export default () => {
   let links = [
     {
-      title: "Consultancy Services",
-      url: "/en/services/"
+      title: "Servicios de consultoría",
+      url: "/es/services/"
     },
     {
-      title: "Nuclear Power Plants",
-      url: "/en/contracts/nuclear-power-plants/"
+      title: "Plantas Nucleares",
+      url: "/es/contracts/nuclear-power-plants/"
     },
     {
-      title: "Defence",
-      url: "/en/contracts/defence/"
+      title: "Defensa",
+      url: "/es/contracts/defence/"
     },
     {
-      title: "Airports",
-      url: "/en/contracts/airports/"
+      title: "Aeropuertos",
+      url: "/es/contracts/airports/"
     },
     {
-      title: "Electrical Power Supply",
-      url: "/en/contracts/electrical-power-supply/"
+      title: "Suministro de energía eléctrica",
+      url: "/es/contracts/electrical-power-supply/"
     }
   ];
   return (
     <Fragment>
       <Nav
-        lan="en"
+        lan="es"
         sv="/"
         en="/en/"
         es="/es/"
-        canonical="https://www.swedishnet.se/en/"
-        title="Swedish Net: Home"
-        description="Security and Technology for Vital Societal Facilities and Functions"
+        canonical="https://www.swedishnet.se/es/"
+        title="Swedish Net: Inicio"
+        description="Seguridad y tecnología para comodidades y funciones vitales de la sociedad"
       />
       <HomeFullScreenImage
         img={globe}
         lineLeft="0%"
         lineWidth="10%"
-        title="Security and Technology for Vital Societal Facilities and Functions"
+        title="Seguridad y tecnología para comodidades y funciones vitales de la sociedad"
         links={links}
       />
       <WhiteFooter />

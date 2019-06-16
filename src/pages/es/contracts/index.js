@@ -9,17 +9,17 @@ import "../../../main.module.css";
 export default () => (
   <Fragment>
     <Nav
-      lan="en"
+      lan="es"
       sv="/entreprenader/"
       en="/en/contracts/"
       es="/es/contracts/"
-      canonical="https://www.swedishnet.se/en/contracts/"
-      title="Swedish Net: Contracts"
-      description="Contracts for nuclear power plants, defence, airports and other critical infrastructure."
+      canonical="https://www.swedishnet.se/es/contracts/"
+      title="Swedish Net: Contratos"
+      description="Contratos para plantas nucleares, defensa, aeropuertos y otras infraestructuras críticas."
     />
     <FullScreenImage img={contracts_color} noLine>
-      <IntroText title="CONTRACTS FOR NUCLEAR POWER PLANTS, DEFENCE, AIRPORTS AND OTHER CRITICAL INFRASTRUCTURE" />
+      <IntroText title="CONTRATOS PARA PLANTAS NUCLEARES, DEFENSA, AEROPUERTOS Y OTRAS INFRAESTRUCTURAS CRÍTICAS" />
     </FullScreenImage>
-    <Footer lan="en" />
+    <Footer lan="es" />
   </Fragment>
 );

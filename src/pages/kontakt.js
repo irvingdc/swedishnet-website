@@ -11,6 +11,7 @@ export default () => (
       dark
       sv="/kontakt/"
       en="/en/contact/"
+      es="/es/contact/"
       canonical="https://www.swedishnet.se/kontakt/"
       title="Swedish Net: Kontakt"
       description="Kontakta Oss"

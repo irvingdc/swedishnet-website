@@ -94,6 +94,7 @@ export default () => {
         lan="en"
         sv="/nyheter/"
         en="/en/news/"
+        es="/es/news/"
         canonical="https://www.swedishnet.se/en/news/"
         title="Swedish Net: News"
       />

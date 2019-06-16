@@ -14,6 +14,7 @@ export default () => (
     <Nav
       lan="en"
       en="/en/contracts/electrical-power-supply/"
+      es="/es/contracts/electrical-power-supply/"
       sv="/entreprenader/elkraftforsorjning/"
       canonical="https://www.swedishnet.se/en/contracts/electrical-power-supply/"
       title="Swedish Net: Contracts - Electrical Power Supply"
