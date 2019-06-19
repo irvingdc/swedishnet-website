@@ -1,0 +1,9 @@
+.container{
+    background: transparent;
+    display: flex;
+    height: 70px;
+    z-index: 500;
+    position: absolute;
+    color: white;
+    width: 100%;
+}
