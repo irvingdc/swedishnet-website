@@ -10,13 +10,24 @@ import {
   news3,
   news4,
   news5,
-  news7
+  news7,
+  news8
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190618 ACUERDO MARCO <b>KAMMARKOLLEGIET</b>
+        </span>
+      ),
+      img: news8,
+      content:
+        'Swedish Net ha ganado un acuerdo marco con la agencia gubernamental sueca "Kammarkollegiet". El acuerdo se refiere a la consultoría de sistemas de seguridad e incluye la entrega de análisis de riesgos, planificación e inspección para una serie de actores públicos.'
+    },
     {
       title: (
         <span>

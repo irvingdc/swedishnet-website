@@ -4,11 +4,21 @@ import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import "../main.module.css";
 import Article from "../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7 } from "../images";
+import { new_black, news1, news2, news3, news4, news5, news7, news8 } from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190618 KONSULTRAMAVTAL <b>KAMMARKOLLEGIET</b>
+        </span>
+      ),
+      img: news8,
+      content:
+        "Swedish Net har blivit rangordnad nummer 1 i ett konsultramavtal med Kammarkollegiet på området för säkerhetssystem. Avtalet omfattar utförande av riskanalys, projektering och besiktning hos organisationer anknutna till statens inköpscentral."
+    },
     {
       title: (
         <span>

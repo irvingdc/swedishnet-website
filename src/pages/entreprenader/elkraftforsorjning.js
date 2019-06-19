@@ -24,7 +24,8 @@ export default () => (
       <IntroText
         title={
           <span>
-            TILLFÖRLITLIGA ELKRAFTFÖRSÖRJNINGSSYSTEM<br/>
+            TILLFÖRLITLIGA ELKRAFTFÖRSÖRJNINGSSYSTEM
+            <br />
             <b> FÖR KRITISK INFRASTRUKTUR</b>
           </span>
         }
@@ -45,7 +46,7 @@ export default () => (
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Swedish Net är ansvarig för leveransen av ett komplett
-        kraftförsörjningssystem,till Scandinavian Mountains Airport. En
+        kraftförsörjningssystem till Scandinavian Mountains Airport. En
         ställverksbyggnad på 200 kvadratmeter försörjer hela airside med kraft,
         reservkraft och avbrottsfri kraft inklusive teknikrum. En annan byggnad
         på 100 kvadratmeter försörjer flygplatsens terminalbyggnad och övriga

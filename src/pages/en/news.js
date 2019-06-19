@@ -10,13 +10,24 @@ import {
   news3,
   news4,
   news5,
-  news7
+  news7,
+  news8
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190618 FRAMEWORK AGREEMENT <b>KAMMARKOLLEGIET</b>
+        </span>
+      ),
+      img: news8,
+      content:
+        "Swedish Net has won a framework agreement with the Swedish governmental agency ’Kammarkollegiet’. The agreement concerns security systems consulting and includes delivery of risk analysis, planning and inspection for a number of public actors. "
+    },
     {
       title: (
         <span>

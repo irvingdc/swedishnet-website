@@ -38,11 +38,14 @@ import news3 from "./images/news3.jpeg";
 import news4 from "./images/news4.jpeg";
 import news5 from "./images/news5.jpeg";
 import news7 from "./images/news7.jpeg";
+import news8 from "./images/news8.jpg";
 import f1 from "./images/f1.png";
 import f2 from "./images/f2.png";
 import f3 from "./images/f3.jpg";
 import f4 from "./images/f4.jpg";
 import f5 from "./images/f5.png";
+import f6 from "./images/f6.png";
+import f7 from "./images/f7.png";
 
 export {
   logo,
@@ -85,9 +88,12 @@ export {
   news4,
   news5,
   news7,
+  news8,
   f1,
   f2,
   f3,
   f4,
-  f5
+  f5,
+  f6,
+  f7
 };

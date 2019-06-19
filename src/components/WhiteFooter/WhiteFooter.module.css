@@ -18,14 +18,14 @@
   justify-content: space-between;
   width: calc(100% - 20px);
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 .logos img {
   height: 60px;
   width: auto;
   margin: 10px;
 }
-@media (max-width: 750px) {
+@media (max-width: 860px) {
   .logos {
     flex-direction: column;
   }
@@ -35,9 +35,18 @@
   .logos img {
     height: 40px;
     width: auto;
-    margin: 0px 10px;
+    margin: 10px 10px 0px;
   }
   .finalSection {
     padding: 20px 0px 20px;
+  }
+  .logos div{
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  .logos{
+    max-width: 340px;
+    margin: auto;
   }
 }
