@@ -11,13 +11,24 @@ import {
   news4,
   news5,
   news7,
-  news8
+  news8,
+  news9
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190624 AEROPUERTOS <b>OPERACIONES NORUEGA</b>
+        </span>
+      ),
+      img: news9,
+      content:
+        "Swedish Net está expandiendo su línea de negocios para aeropuertos e iniciará operaciones en Noruega para ofrecer proyectos integrales en pistas y zonas de aterrizaje y despegue."
+    },
     {
       title: (
         <span>

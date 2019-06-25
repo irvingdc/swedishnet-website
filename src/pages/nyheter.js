@@ -4,11 +4,21 @@ import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import "../main.module.css";
 import Article from "../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7, news8 } from "../images";
+import { new_black, news1, news2, news3, news4, news5, news7, news8, news9 } from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190624 FLYGPLATSER <b>FILIAL NORGE</b>
+        </span>
+      ),
+      img: news9,
+      content:
+        "Swedish Net expanderar inom flygplatssegmentet och startar filial i Norge för att leverera totalentreprenader för airside. "
+    },
     {
       title: (
         <span>

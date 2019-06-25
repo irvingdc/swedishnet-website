@@ -4,6 +4,7 @@ import { globe } from "../../images";
 import Nav from "../../components/Nav/Nav";
 import WhiteFooter from "../../components/WhiteFooter/WhiteFooter";
 import "../../main.module.css";
+import { f6 } from "../../images";
 
 export default () => {
   let links = [
@@ -46,7 +47,7 @@ export default () => {
         title="Security and Technology for Vital Societal Facilities and Functions"
         links={links}
       />
-      <WhiteFooter />
+      <WhiteFooter aaaLogo={f6} />
     </Fragment>
   );
 };

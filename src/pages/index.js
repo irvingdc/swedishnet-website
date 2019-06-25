@@ -3,6 +3,7 @@ import HomeFullScreenImage from "../components/HomeFullScreenImage/HomeFullScree
 import { globe } from "../images";
 import Nav from "../components/Nav/Nav";
 import WhiteFooter from "../components/WhiteFooter/WhiteFooter";
+import { f7 } from "../images";
 import "../main.module.css";
 
 export default () => {
@@ -46,7 +47,7 @@ export default () => {
         title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
         links={links}
       />
-      <WhiteFooter />
+      <WhiteFooter aaaLogo={f7}/>
     </Fragment>
   );
 };

@@ -11,13 +11,24 @@ import {
   news4,
   news5,
   news7,
-  news8
+  news8,
+  news9
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190624 AIRPORTS <b>BRANCH NORWAY </b>
+        </span>
+      ),
+      img: news9,
+      content:
+        "Swedish Net is expanding its airport business and starts a branch in Norway to deliver turnkey contracts for airside."
+    },
     {
       title: (
         <span>

@@ -3,6 +3,7 @@ import HomeFullScreenImage from "../../components/HomeFullScreenImage/HomeFullSc
 import { globe } from "../../images";
 import Nav from "../../components/Nav/Nav";
 import WhiteFooter from "../../components/WhiteFooter/WhiteFooter";
+import { f6 } from "../../images";
 import "../../main.module.css";
 
 export default () => {
@@ -46,7 +47,7 @@ export default () => {
         title="Seguridad y tecnología para comodidades y funciones vitales de la sociedad"
         links={links}
       />
-      <WhiteFooter />
+      <WhiteFooter aaaLogo={f6}/>
     </Fragment>
   );
 };
