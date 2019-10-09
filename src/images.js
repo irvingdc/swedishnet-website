@@ -47,6 +47,10 @@ import f4 from "./images/f4.jpg";
 import f5 from "./images/f5.png";
 import f6 from "./images/f6.png";
 import f7 from "./images/f7.png";
+import f8 from "./images/f8.png";
+import iso9001 from "./images/iso9001.png";
+import iso14001 from "./images/iso14001.png";
+import iso45001 from "./images/iso45001.png";
 
 export {
   logo,
@@ -97,5 +101,9 @@ export {
   f4,
   f5,
   f6,
-  f7
+  f7,
+  f8,
+  iso9001,
+  iso14001,
+  iso45001
 };

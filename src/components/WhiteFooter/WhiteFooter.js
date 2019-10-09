@@ -1,9 +1,17 @@
 import React from "react";
 import classes from "./WhiteFooter.module.css";
-import { f1, f2, f3, f4, f5, logo_dark } from "../../images";
+import {
+  f3,
+  f5,
+  logo_dark,
+  iso9001,
+  iso14001,
+  iso45001,
+  f8
+} from "../../images";
 
 export default ({ aaaLogo }) => {
-  let logos = [f1, f2, f4, f3, f5];
+  let logos = [iso9001, iso14001, iso45001, f3, f5];
   return (
     <div className={classes.container}>
       <div className={classes.logos}>
@@ -13,6 +21,8 @@ export default ({ aaaLogo }) => {
             <img src={it} key={index} alt="logo" />
           ))}
           <img src={aaaLogo} alt="logo" />
+
+          <img src={f8} alt="logo" />
         </div>
       </div>
       <p className={classes.finalSection}>
