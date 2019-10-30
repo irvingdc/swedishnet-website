@@ -91,22 +91,22 @@ export default ({ lan }) => {
       </p>
 
       <h4>{postalAddress}:</h4>
-      <p>Swedish Net Communication AB</p>
+      <p>Swedish Net Communication AB / Swedish Net Engineering AB</p>
       <p>Kyrkofallet 234</p>
       <p>694 91 Hallsberg</p>
-      <p>Sweden</p>
+      {lan !== "sv" ? <p>Sweden</p> : null}
 
       <h4>{streetAddress}:</h4>
       <p>Gamla Tingshuset</p>
       <p>Östra Storgatan 40</p>
       <p>694 31 Hallsberg</p>
-      <p>Sweden</p>
+      {lan !== "sv" ? <p>Sweden</p> : null}
 
       <h4>{office}:</h4>
       <p>iOFFICE</p>
       <p>Kungsgatan 60</p>
       <p>111 22 Stockholm</p>
-      <p>Sweden</p>
+      {lan !== "sv" ? <p>Sweden</p> : null}
     </div>
   );
 };

@@ -12,13 +12,24 @@ import {
   news5,
   news7,
   news8,
-  news9
+  news9,
+  news10
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190920 CONTRACT <b>SCANDINAVIAN MOUNTAINS AIRPORT</b>
+        </span>
+      ),
+      img: news10,
+      content:
+        "Swedish Net has completed and received an approved inspection of all its contracts in the new airport between Sälen and Trysil. There are still a few additional orders to be finished."
+    },
     {
       title: (
         <span>

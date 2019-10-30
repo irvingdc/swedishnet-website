@@ -4,11 +4,21 @@ import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import "../main.module.css";
 import Article from "../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7, news8, news9 } from "../images";
+import { new_black, news1, news2, news3, news4, news5, news7, news8, news9, news10 } from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190920 ENTREPRENAD <b>SCANDINAVIAN MOUNTAINS AIRPORT</b>
+        </span>
+      ),
+      img: news10,
+      content:
+        "Swedish Net har färdigställt och fått godkänd entreprenadbesiktning på alla sina entreprenader på den nya flygplatsen mellan Sälen och Trysil. Det återstår fortfarande ett begränsat antal tilläggsbeställningar."
+    },
     {
       title: (
         <span>

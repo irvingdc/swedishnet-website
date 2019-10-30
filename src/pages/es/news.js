@@ -12,13 +12,24 @@ import {
   news5,
   news7,
   news8,
-  news9
+  news9,
+  news10
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          190920 CONTRATO <b>AEROPUERTO DE LAS MONTAÑAS ESCANDINAVAS</b>
+        </span>
+      ),
+      img: news10,
+      content:
+      "Swedish Net ha completado y recibido una inspección satisfactoria de todos sus contratos en el nuevo aeropuerto entre Sälen y Trysil. Aún hay algunas ordenes adicionales por terminar.",
+    },
     {
       title: (
         <span>
