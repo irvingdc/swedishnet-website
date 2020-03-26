@@ -22,11 +22,7 @@ export default () => (
     />
     <FullScreenImage img={defence_color} noLine>
       <IntroText
-        title={
-          <span>
-            Complex assignments <b>for defence related projects</b>
-          </span>
-        }
+        title={<span>Complex assignments for defence related projects</span>}
       />
     </FullScreenImage>
     <SectionHeader title="DEFENCE" />

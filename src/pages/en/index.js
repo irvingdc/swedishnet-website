@@ -13,10 +13,6 @@ export default () => {
       url: "/en/services/"
     },
     {
-      title: "Nuclear Power Plants",
-      url: "/en/contracts/nuclear-power-plants/"
-    },
-    {
       title: "Defence",
       url: "/en/contracts/defence/"
     },
@@ -24,10 +20,6 @@ export default () => {
       title: "Airports",
       url: "/en/contracts/airports/"
     },
-    {
-      title: "Electrical Power Supply",
-      url: "/en/contracts/electrical-power-supply/"
-    }
   ];
   return (
     <Fragment>

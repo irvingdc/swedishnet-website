@@ -35,26 +35,12 @@ class NavContent extends Component {
         ]
       },
       {
-        title: "Contracts",
-        url: "/en/contracts/",
-        options: [
-          {
-            title: "Nuclear Power Plants",
-            url: "/en/contracts/nuclear-power-plants/"
-          },
-          {
-            title: "Defence",
-            url: "/en/contracts/defence/"
-          },
-          {
-            title: "Airports",
-            url: "/en/contracts/airports/"
-          },
-          {
-            title: "Electrical Power Supply",
-            url: "/en/contracts/electrical-power-supply/"
-          }
-        ]
+        title: "Airports",
+        url: "/en/contracts/airports/"
+      },
+      {
+        title: "Defence",
+        url: "/en/contracts/defence/"
       },
       {
         title: "About us",
@@ -93,26 +79,12 @@ class NavContent extends Component {
         ]
       },
       {
-        title: "Contratos",
-        url: "/es/contracts/",
-        options: [
-          {
-            title: "Plantas Nucleares",
-            url: "/es/contracts/nuclear-power-plants/"
-          },
-          {
-            title: "Defensa",
-            url: "/es/contracts/defence/"
-          },
-          {
-            title: "Aeropuertos",
-            url: "/es/contracts/airports/"
-          },
-          {
-            title: "Suministro de Energía Eléctrica",
-            url: "/es/contracts/electrical-power-supply/"
-          }
-        ]
+        title: "Aeropuertos",
+        url: "/es/contracts/airports/"
+      },
+      {
+        title: "Defensa",
+        url: "/es/contracts/defence/"
       },
       {
         title: "Acerca De",
@@ -152,26 +124,12 @@ class NavContent extends Component {
         ]
       },
       {
-        title: "Entreprenader",
-        url: "/entreprenader/",
-        options: [
-          {
-            title: "Kärnkraftverk",
-            url: "/entreprenader/karnkraftverk/"
-          },
-          {
-            title: "Försvar",
-            url: "/entreprenader/forsvar/"
-          },
-          {
-            title: "Flygplatser",
-            url: "/entreprenader/flygplatser/"
-          },
-          {
-            title: "Elkraftförsörjning",
-            url: "/entreprenader/elkraftforsorjning/"
-          }
-        ]
+        title: "Flygplatser",
+        url: "/entreprenader/flygplatser/"
+      },
+      {
+        title: "Försvar",
+        url: "/entreprenader/forsvar/"
       },
       {
         title: "Om oss",

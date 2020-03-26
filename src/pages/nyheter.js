@@ -4,11 +4,44 @@ import CardListSection from "../components/CardListSection/CardListSection";
 import Nav from "../components/Nav/Nav";
 import "../main.module.css";
 import Article from "../components/Article/Article";
-import { new_black, news1, news2, news3, news4, news5, news7, news8, news9, news10 } from "../images";
+import {
+  new_black,
+  news1,
+  news2,
+  news3,
+  news4,
+  news5,
+  news7,
+  news8,
+  news9,
+  news10,
+  news11,
+  news12
+} from "../images";
 import Footer from "../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          200318 KONSULTRAMVTAL <b>FÖRSVARETS MATERIELVERK</b>
+        </span>
+      ),
+      img: news12,
+      content:
+        "Swedish Net har vunnit sitt största konsultramavtal till FMV och Försvarsmakten. Ramavtalet heter Garnisonsanläggningar 2.0 och innehåller enligt FMV:s uppskattningar 86 000 konsulttimmar per år, vilket motsvarar cirka 50 heltidstjänster. Avtalet avser projekteringsledning, teknisk kravställning, entreprenadsamordning och dokumentation gällande tekniska installationer på garnisonsanläggningar i hela Sverige. Swedish Net stärker därmed sin position som kvalificerad leverantör till det svenska försvaret."
+    },
+    {
+      title: (
+        <span>
+          190117 ENTREPRENAD <b>ÅRE ÖSTERSUND AIRPORT</b>
+        </span>
+      ),
+      img: news11,
+      content:
+        "Swedish Net har vunnit en entreprenad för en större ombyggnation på Åre Östersund Airport. Ombyggnationen har till syfte att möjliggöra instrumentlandningssystem kategori 3. Entreprenaden ska utföras på Sveriges åttonde mest trafikerade civila flygplats, medan flygplatsen fortfarande är i drift. "
+    },
     {
       title: (
         <span>

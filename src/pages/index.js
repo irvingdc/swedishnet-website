@@ -13,10 +13,6 @@ export default () => {
       url: "/teknik-och-sakerhetstjanster/"
     },
     {
-      title: "Kärnkraftverk",
-      url: "/entreprenader/karnkraftverk/"
-    },
-    {
       title: "Försvar",
       url: "/entreprenader/forsvar/"
     },
@@ -24,10 +20,6 @@ export default () => {
       title: "Flygplatser",
       url: "/entreprenader/flygplatser/"
     },
-    {
-      title: "Elkraftförsörjning",
-      url: "/entreprenader/elkraftforsorjning/"
-    }
   ];
   return (
     <Fragment>

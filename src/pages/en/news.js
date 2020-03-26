@@ -13,13 +13,36 @@ import {
   news7,
   news8,
   news9,
-  news10
+  news10,
+  news11,
+  news12
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default () => {
   let articles = [
+    {
+      title: (
+        <span>
+          200318 FRAMEWORK AGREEMENT{" "}
+          <b>THE SWEDISH DEFENCE MATERIEL ADMINISTRATION</b>
+        </span>
+      ),
+      img: news12,
+      content:
+        "Swedish Net has won its largest framework agreement for the Swedish Defence Materiel Administration and the Swedish Armed Forces. The agreement includes consultancy services such as planning, technical documentation and project management regarding technical installations at military facilities all over Sweden. Swedish Net is strengthening its position as a qualified supplier to the Swedish defence.  "
+    },
+    {
+      title: (
+        <span>
+          190117 CONTRACT <b>ÅRE ÖSTERSUND AIRPORT</b>
+        </span>
+      ),
+      img: news11,
+      content:
+        "Swedish Net has won a contract for a larger reconstruction at Åre Östersund Airport. The purpose of the reconstruction is to enable Instrument Landing System (ILS) category III. The contract will be delivered at Sweden’s eighth most trafficked public airport, while the airport is still operating.  "
+    },
     {
       title: (
         <span>

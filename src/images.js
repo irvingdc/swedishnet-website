@@ -41,6 +41,8 @@ import news7 from "./images/news7.jpeg";
 import news8 from "./images/news8.jpg";
 import news9 from "./images/news9.jpeg";
 import news10 from "./images/news10.jpg";
+import news11 from "./images/news11.jpg";
+import news12 from "./images/news12.jpeg";
 import f1 from "./images/f1.png";
 import f2 from "./images/f2.png";
 import f3 from "./images/f3.jpg";
@@ -97,6 +99,8 @@ export {
   news8,
   news9,
   news10,
+  news11,
+  news12,
   f1,
   f2,
   f3,

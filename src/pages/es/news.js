@@ -13,7 +13,9 @@ import {
   news7,
   news8,
   news9,
-  news10
+  news10,
+  news11,
+  news12
 } from "../../images";
 import "../../main.module.css";
 import Footer from "../../components/Footer/Footer";
@@ -23,12 +25,33 @@ export default () => {
     {
       title: (
         <span>
+          200318 ACUERDO MARCO <b>ADMINISTRACIÓN MATERIAL DE DEFENSA SUECA</b>
+        </span>
+      ),
+      img: news12,
+      content:
+        "Swedish Net ha ganado su mayor acuerdo marco para la Administración de Material de Defensa de Suecia y las Fuerzas Armadas de Suecia. El acuerdo incluye servicios de consultoría como planificación, documentación técnica y gestión de proyectos con respecto a instalaciones técnicas en instalaciones militares en toda Suecia. Swedish Net está fortaleciendo su posición como proveedor calificado para la defensa sueca."
+    },
+    {
+      title: (
+        <span>
+          190117 CONTRACT <b>ÅRE ÖSTERSUND AIRPORT</b>
+        </span>
+      ),
+      img: news11,
+      content:
+        "Swedish Net ha ganado un contrato para una reconstrucción mayor en el aeropuerto de Åre Östersund. El propósito de la reconstrucción es habilitar el Sistema de Aterrizaje por Instrumentos (ILS) categoría III. El contrato se realizará en el octavo aeropuerto público más transitado de Suecia, mientras el aeropuerto sigue operando."
+    },
+
+    {
+      title: (
+        <span>
           190920 CONTRATO <b>AEROPUERTO DE LAS MONTAÑAS ESCANDINAVAS</b>
         </span>
       ),
       img: news10,
       content:
-      "Swedish Net ha completado y recibido una inspección satisfactoria de todos sus contratos en el nuevo aeropuerto entre Sälen y Trysil. Aún hay algunas ordenes adicionales por terminar.",
+        "Swedish Net ha completado y recibido una inspección satisfactoria de todos sus contratos en el nuevo aeropuerto entre Sälen y Trysil. Aún hay algunas ordenes adicionales por terminar."
     },
     {
       title: (

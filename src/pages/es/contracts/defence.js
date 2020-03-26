@@ -24,8 +24,7 @@ export default () => (
       <IntroText
         title={
           <span>
-            Asignaciones complejas para proyectos{" "}
-            <b>relacionados con la defensa</b>
+            Asignaciones complejas para proyectos relacionados con la defensa
           </span>
         }
       />

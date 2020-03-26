@@ -18,17 +18,11 @@ export default () => (
       sv="/entreprenader/flygplatser/"
       canonical="https://www.swedishnet.se/es/contracts/airports/"
       title="Swedish Net: Contratos - Aeropuertos"
-      description="AGL, ILS y fuente de suministro de energía redundante para aeropuertos públicos y militares"
+      description="SOLUCIONES INTEGRALES PARA ZONAS DE ATERRIZAJE"
     />
     <FullScreenImage img={airport_color} noLine>
       <IntroText
-        title={
-          <span>
-            AGL, ILS y fuente de suministro de energía redundante
-            <br />
-            <b>para aeropuertos públicos y militares</b>
-          </span>
-        }
+        title={<span>SOLUCIONES INTEGRALES PARA ZONAS DE ATERRIZAJE</span>}
       />
     </FullScreenImage>
     <SectionHeader title="AEROPUERTOS" />
@@ -40,26 +34,32 @@ export default () => (
           </span>
         }
       >
-        Swedish Net es una de las pocas empresas en Suecia que ofrece soluciones
-        integrales, incluyendo el diseño e instalación de iluminación de
-        aeropuertos e ILS (sistema de aterrizaje instrumental, por sus siglas en
-        inglés) en la zona de operaciones. Entregamos en aeropuertos militares y
-        públicos en Suecia y a nivel internacional.
+        Swedish Net ha reunido y entregado soluciones integrales para la zona de
+        operaciones basadas en diferentes sistemas técnicos:
+        <ul>
+          <li>Iluminación del aeródromo (AGL)</li>
+          <li>Sistema de Aterrizaje por Instrumentos (ILS)</li>
+          <li>Control de Tráfico Aéreo (ATC)</li>
+          <li>Sistema Automatizado de Observación Meteorológica (AWOS)</li>
+          <li>Sistemas para hangares</li>
+          <li>Suministro de energía</li>
+          <li>Alarma operacional</li>
+        </ul>
+        Asumimos la responsabilidad de la ingeniería de acuerdo con las normas y
+        reglamentos actuales.
       </CardListItem>
       <CardListItem title={<span>EXPERIENCIA</span>}>
-        El aeropuerto de las montañas escandinavas es el primer aeropuerto de
-        tráfico regular que se construye en Suecia en más de 19 años. El
-        aeropuerto se está construyendo en Sälen, cerca de la frontera noruega.
-        Cumplirá con la CAT III, la categoría más alta para pistas (la misma que
-        Arlanda). Se estima que en diciembre de 2019, los primeros vuelos
-        nacionales e internacionales aterrizarán en el aeropuerto de las
-        montañas escandinavas, uno de los más modernos de Europa.
+        El aeropuerto de las Montañas Escandinavas es el primer aeropuerto de
+        tráfico regular que se construye en Suecia en más de 20 años. Está
+        diseñado y construido de acuerdo a las regulaciones actuales de la
+        Agencia de Seguridad Aérea de la Unión Europea (EASA). El aeropuerto
+        tiene pistas de categoría III, lo que significa que los aviones pueden
+        aterrizar en condiciones de mal tiempo y baja visibilidad.
         <br />
         <br />
-        Swedish Net tiene la responsabilidad total de la ingeniería de los
-        sistemas y la instalación de AGL, el sistema de suministro de energía
-        eléctrica y la infraestructura para la energía y las comunicaciones en
-        el nuevo aeropuerto. Se necesitarán 120 km de cable y 1250 luces.
+        Swedish Net tuvo la responsabilidad total de la ingeniería e instalación
+        de todas las luces del aeropuerto, el sistema de suministro de energía
+        eléctrica y la infraestructura para la electricidad y la comunicación.
       </CardListItem>
     </CardListSection>
     <Footer lan="es" />

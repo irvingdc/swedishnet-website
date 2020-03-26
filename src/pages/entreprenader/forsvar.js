@@ -22,11 +22,7 @@ export default () => (
     />
     <FullScreenImage img={defence_color} noLine>
       <IntroText
-        title={
-          <span>
-            KOMPLEXA UPPDRAG <b> ÅT FÖRSVARSRELATERADE PROJEKT</b>
-          </span>
-        }
+        title={<span>KOMPLEXA UPPDRAG ÅT FÖRSVARSRELATERADE PROJEKT</span>}
       />
     </FullScreenImage>
     <SectionHeader title="FÖRSVAR" />

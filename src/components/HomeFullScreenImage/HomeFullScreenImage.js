@@ -6,7 +6,8 @@ export default ({ img, title, lineLeft, lineWidth, links }) => (
   <div
     className={classes.container}
     style={{
-      background: `url(${img}) center center / cover no-repeat`
+      background: `url(${img}) center center / contain no-repeat`,
+      backgroundColor: "black"
     }}
   >
     <h1>{title}</h1>

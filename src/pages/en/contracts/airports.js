@@ -18,18 +18,10 @@ export default () => (
       sv="/entreprenader/flygplatser/"
       canonical="https://www.swedishnet.se/en/contracts/airports/"
       title="Swedish Net: Contracts - Airports"
-      description="AGL, ILS and power supply systems for public airports and military air bases."
+      description="TURNKEY SOLUTIONS FOR AIRSIDE"
     />
     <FullScreenImage img={airport_color} noLine>
-      <IntroText
-        title={
-          <span>
-            AGL, ILS and power supply systems
-            <br />
-            <b>for public airports and military air bases</b>
-          </span>
-        }
-      />
+      <IntroText title={<span>TURNKEY SOLUTIONS FOR AIRSIDE</span>} />
     </FullScreenImage>
     <SectionHeader title="AIRPORTS" />
     <CardListSection img={airport}>
@@ -40,26 +32,31 @@ export default () => (
           </span>
         }
       >
-        Swedish Net deliver turnkey contracts for airside including Airfield
-        Ground Lighting (AGL), Instrument Landing System (ILS), Automated
-        Weather Observation System (AWOS) and power supply systems with backup
-        power and uninterruptible power. We deliver to public airports and
-        military air bases in Sweden and internationally.
+        Swedish Net put together and deliver turnkey solutions for airside based
+        on different technical systems:
+        <ul>
+          <li>Airfield Ground Lighting (AGL)</li>
+          <li>Instrument Landing System (ILS)</li>
+          <li>Air Traffic Control (ATC)</li>
+          <li>Automated Weather Observing System (AWOS)</li>
+          <li>Systems for apron </li>
+          <li>Power Supply</li>
+          <li>Operational alarm </li>
+        </ul>
+        We take responsibility for the engineering according to actual standards
+        and regulations.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
         Scandinavian Mountains Airport is the first airport for regular traffic
-        being built in Sweden in over 19 years. The airport is being built in
-        Sälen, close to the Norwegian border. It will fulfill CAT III, the
-        highest category for runways (the same as Arlanda). It is estimated that
-        in December 2019, the first national and international flights will land
-        on Scandinavian Mountains Airport, one of the most modern airports in
-        Europe.
+        being built in Sweden in over 20 years. It is designed and built
+        according to actual regulations from the European Union Aviation Safety
+        Agency (EASA). The airport has category III runways, meaning that the
+        airplanes can land in bad weather conditions with very poor visibility.
         <br />
         <br />
-        Swedish Net has full responsibility for the engineering of systems and
-        installation of AGL, electrical power supply system and infrastructure
-        for power and communication at the new airport. 120 km cable and 1250
-        lights will be required.
+        Swedish Net had full responsibility for the engineering and installation
+        of all airport lights, the electrical power supply system and the
+        infrastructure for electricity and communication.
       </CardListItem>
     </CardListSection>
     <Footer lan="en" />

@@ -18,18 +18,10 @@ export default () => (
       sv="/entreprenader/flygplatser/"
       canonical="https://www.swedishnet.se/entreprenader/flygplatser/"
       title="Swedish Net: Entreprenader - Flygplatser"
-      description="AGL, ILS och avbrottsfri kraft för civila och militära flygplatser"
+      description="HELHETSLÖSNINGAR FÖR AIRSIDE"
     />
     <FullScreenImage img={airport_color} noLine>
-      <IntroText
-        title={
-          <span>
-            AGL, ILS OCH AVBROTTSFRI KRAFT
-            <br />
-            <b> FÖR CIVILA OCH MILITÄRA FLYGPLATSER</b>
-          </span>
-        }
-      />
+      <IntroText title={<span>HELHETSLÖSNINGAR FÖR AIRSIDE</span>} />
     </FullScreenImage>
     <SectionHeader title="FLYGPLATSER" />
     <CardListSection img={airport}>
@@ -40,29 +32,32 @@ export default () => (
           </span>
         }
       >
-        Swedish Net utför totalentreprenader för airside som inkluderar
-        flygplatsljus (AGL), instrumentlandningssystem (ILS), väderstation
-        (AWOS) och kraftförsörjningssystem med reservkraft och avbrottsfri
-        kraft. Vi levererar till militära och civila flygplatser enligt
-        internationella standarder i Sverige och internationellt.
+        Swedish Net sätter ihop och levererar helhetslösningar för airside som
+        inkluderar flertalet tekniska system:
+        <ul>
+          <li>Flygplatsljus (AGL)</li>
+          <li>Instrumentlandningssystem (ILS)</li>
+          <li>Flygledningssystem (ATC)</li>
+          <li>Väderobservationssystem (AWOS)</li>
+          <li>System för apron (kraft, GPU, belysning- och dockningssystem)</li>
+          <li>Kraftförsörjning (kraft, reservkraft och avbrottsfri kraft)</li>
+          <li>Driftlarmsystem (insamling av kritiska larm) </li>
+        </ul>
+        Vi tar fullt ansvar för att projektering och konstruktion sker enligt
+        aktuella standarder och regelverk.
       </CardListItem>
       <CardListItem title={<span>CASE</span>}>
-        Scandinavian Mountains Airport i Sälen är den första flygplatsen för
-        reguljär trafik som byggs i Sverige på över 19 år. Flygplatsen byggs där
-        den tidigare Sälens flygplats låg, på Mobergskölen i Sälenfjällen på
-        gränsen till Norge. Flygplatsen ska uppfylla inflygningskategori III,
-        samma kategori som bland annat landingsbanor på Arlanda har. I december
-        2019 beräknas de första nationella och internationella flygplanen kunna
-        landa på Scandinavian Mountains Airport, en av Europas modernaste
-        flygplatser.
+        Scandinavian Mountains Airport är den första flygplatsen för reguljär
+        trafik som byggs i Sverige på över 20 år. Den är designad och byggd
+        enligt aktuellt regelverk från Europeiska unionens byrå för
+        luftfartssäkerhet (EASA). Flygplatsens landningsbanor uppnår kategori
+        III, vilket innebär att flygplanen kan landa i väderförhållanden med
+        mycket låg sikt.
         <br />
         <br />
-        Swedish Net har en stor del i uppförandet av Scandinavian Mountains
-        Airport genom sitt funktionsansvar för ban- och inflygningsljus, kraft-
-        och reservkraftsystem samt infrastruktur för kraft och kommunikation.
-        Projektet är igång och bland annat ska cirka 12 mil kabel förläggas och
-        1250 ljusarmaturer placeras ut. I augusti 2019 ska våra delar av
-        projektet vara redo för besiktning.
+        Swedish Net hade helhetsansvar för projekteringen och installationen av
+        flygplatsens samtliga ban- och inflygningsljus, kraftförsörjningssystem
+        samt infrastrukturen för el och kommunikation.
       </CardListItem>
     </CardListSection>
     <Footer lan="sv" />
