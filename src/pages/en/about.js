@@ -17,7 +17,14 @@ export default () => (
       title="Swedish Net: About"
       description="Swedish Net offers services and contracts for vital societal facilities and functions which have high requirements on security and technology due to potential threats."
     />
-    <CardListSection img={globe} style={{ paddingTop: "220px" }}>
+    <CardListSection
+      img={globe}
+      style={{
+        background: `url(${globe}) center center / contain no-repeat`,
+        backgroundColor: "black",
+        paddingTop: "220px"
+      }}
+    >
       <CardListItem
         inverted
         title={

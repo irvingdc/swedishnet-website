@@ -1,3 +1,21 @@
+@import url(//db.onlinewebfonts.com/c/a86588de2996a2249e3d72a839c1b4bf?family=QuboW01-Medium);
+
+@font-face {
+  font-family: "qm";
+  src: url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.eot");
+  src: url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a86588de2996a2249e3d72a839c1b4bf.svg#QuboW01-Medium")
+      format("svg");
+  font-display: swap;
+}
+
 .container {
   display: flex;
   width: 100vw;
@@ -24,19 +42,20 @@
 }
 .list {
   width: calc(100% - 40px);
-  max-width: 500px;
+  max-width: 570px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.list a{
-    color: #f57a52;
-    text-decoration: none;
-    transition: all 0.1s;
-    font-size: 23px;
+.list a {
+  color: #f57a52;
+  text-decoration: none;
+  transition: all 0.1s;
+  font-size: 23px;
+  font-family: qm Arial, Helvetica, sans-serif;
 }
-.list a:hover{
-    color: white;
+.list a:hover {
+  color: white;
 }
 .bottomLine {
   margin: 50px auto 50px;
@@ -60,10 +79,10 @@
     bottom: 0px;
     margin: 20px auto;
   }
-  .list{
-      flex-direction: column;
+  .list {
+    flex-direction: column;
   }
-  .list a{
-      margin-bottom: 10px;
+  .list a {
+    margin-bottom: 10px;
   }
 }
