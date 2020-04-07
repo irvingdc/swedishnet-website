@@ -24,7 +24,7 @@ export default ({ sv, en, es, dark }) => {
       <div>
         {options.map((it, index) => (
           <Link to={it.url || "/"} key={index}>
-            {it.title}
+            - {it.title}
           </Link>
         ))}
       </div>

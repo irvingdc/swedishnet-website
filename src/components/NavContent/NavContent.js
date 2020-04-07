@@ -7,7 +7,7 @@ import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 
 class NavContent extends Component {
   state = {
-    open: false
+    open: false,
   };
 
   urls = {
@@ -18,42 +18,43 @@ class NavContent extends Component {
         options: [
           {
             title: "Protective Security and Planning",
-            url: "/en/services/#protective-security-and-planning"
+            url: "/en/services/#protective-security-and-planning",
           },
           {
             title: "Electrical and Security Enginering",
-            url: "/en/services/#electrical-and-security-engineering"
+            url: "/en/services/#electrical-and-security-engineering",
           },
           {
             title: "The Project Function",
-            url: "/en/services/#the-project-function"
+            url: "/en/services/#the-project-function",
           },
           {
             title: "Service and Maintenance",
-            url: "/en/services/#service-and-maintenance"
-          }
-        ]
+            url: "/en/services/#service-and-maintenance",
+          },
+        ],
       },
       {
         title: "Airports",
-        url: "/en/contracts/airports/"
+        url: "/en/contracts/airports/",
       },
       {
         title: "Defence",
-        url: "/en/contracts/defence/"
+        url: "/en/contracts/defence/",
       },
       {
         title: "About us",
-        url: "/en/about/"
+        url: "/en/about/",
+        className: classes.marginTop,
       },
       {
         title: "Contact",
-        url: "/en/contact/"
+        url: "/en/contact/",
       },
       {
         title: "News",
-        url: "/en/news/"
-      }
+        url: "/en/news/",
+      },
     ],
     es: [
       {
@@ -62,42 +63,43 @@ class NavContent extends Component {
         options: [
           {
             title: "Seguridad y planeación",
-            url: "/es/services/#protective-security-and-planning"
+            url: "/es/services/#protective-security-and-planning",
           },
           {
             title: "Ingeniería eléctrica y de seguridad",
-            url: "/es/services/#electrical-and-security-engineering"
+            url: "/es/services/#electrical-and-security-engineering",
           },
           {
             title: "Funciones de proyecto",
-            url: "/es/services/#the-project-function"
+            url: "/es/services/#the-project-function",
           },
           {
             title: "Servicio y Mantenimiento",
-            url: "/es/services/#service-and-maintenance"
-          }
-        ]
+            url: "/es/services/#service-and-maintenance",
+          },
+        ],
       },
       {
         title: "Aeropuertos",
-        url: "/es/contracts/airports/"
+        url: "/es/contracts/airports/",
       },
       {
         title: "Defensa",
-        url: "/es/contracts/defence/"
+        url: "/es/contracts/defence/",
       },
       {
         title: "Acerca De",
-        url: "/es/about/"
+        url: "/es/about/",
+        className: classes.marginTop,
       },
       {
         title: "Contacto",
-        url: "/es/contact/"
+        url: "/es/contact/",
       },
       {
         title: "Noticias",
-        url: "/es/news/"
-      }
+        url: "/es/news/",
+      },
     ],
     sv: [
       {
@@ -107,43 +109,44 @@ class NavContent extends Component {
           {
             title: "Säkerhetsskydd och projektering",
             url:
-              "/teknik-och-sakerhetstjanster/#sakerhetsskydd-och-projektering"
+              "/teknik-och-sakerhetstjanster/#sakerhetsskydd-och-projektering",
           },
           {
             title: "El- och säkerhetskonstruktion",
-            url: "/teknik-och-sakerhetstjanster/#el-och-sakerhetskonstruktion"
+            url: "/teknik-och-sakerhetstjanster/#el-och-sakerhetskonstruktion",
           },
           {
             title: "Projektfunktionen",
-            url: "/teknik-och-sakerhetstjanster/#projektfunktionen"
+            url: "/teknik-och-sakerhetstjanster/#projektfunktionen",
           },
           {
             title: "Service och underhåll",
-            url: "/teknik-och-sakerhetstjanster/#service-och-underhall"
-          }
-        ]
+            url: "/teknik-och-sakerhetstjanster/#service-och-underhall",
+          },
+        ],
       },
       {
         title: "Flygplatser",
-        url: "/entreprenader/flygplatser/"
+        url: "/entreprenader/flygplatser/",
       },
       {
         title: "Försvar",
-        url: "/entreprenader/forsvar/"
+        url: "/entreprenader/forsvar/",
       },
       {
         title: "Om oss",
-        url: "/om-oss/"
+        url: "/om-oss/",
+        className: classes.marginTop,
       },
       {
         title: "Kontakt",
-        url: "/kontakt/"
+        url: "/kontakt/",
       },
       {
         title: "Nyheter",
-        url: "/nyheter/"
-      }
-    ]
+        url: "/nyheter/",
+      },
+    ],
   };
 
   openMenu = () => {
@@ -175,7 +178,7 @@ class NavContent extends Component {
         className={[
           classes.container,
           this.state.open ? classes.open : "",
-          dark ? classes.dark : ""
+          dark ? classes.dark : "",
         ].join(" ")}
       >
         <Link to={this.home()} className={classes.img}>
@@ -196,7 +199,12 @@ class NavContent extends Component {
               it.options ? (
                 <NavDropdown {...it} key={index} onClick={this.closeMenu} />
               ) : (
-                <Link activeClassName={classes.active} to={it.url} key={index}>
+                <Link
+                  activeClassName={classes.active}
+                  to={it.url}
+                  key={index}
+                  className={it.className}
+                >
                   {it.title}
                 </Link>
               )

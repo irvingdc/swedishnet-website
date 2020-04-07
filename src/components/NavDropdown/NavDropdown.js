@@ -10,7 +10,7 @@ export default ({ title, url, options, onClick }) => (
     <div>
       {options.map((it, index) => (
         <Link to={it.url} key={index} onClick={onClick}>
-          {it.title}
+          - {it.title}
         </Link>
       ))}
     </div>

@@ -26,13 +26,14 @@
     visibility: visible;
     opacity: 1;
 }
-@media (max-width: 1000px){
+@media (max-width: 1050px){
     .container{
         padding-bottom: 20px;
     }
     .container img{
         top: 18px;
         left: 7px;
+        filter: brightness(10);
     }
     .container > div{
         position: relative;

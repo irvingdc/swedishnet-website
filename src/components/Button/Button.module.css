@@ -11,7 +11,7 @@
     cursor: pointer;
     display: block;
     letter-spacing: 3px;
-    font-family: GS;
+    font-family: Calibri;
 }
 .button:hover{
     background: whitesmoke;
