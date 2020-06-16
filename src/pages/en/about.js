@@ -22,7 +22,7 @@ export default () => (
       style={{
         background: `url(${globe}) center center / contain no-repeat`,
         backgroundColor: "black",
-        paddingTop: "220px"
+        paddingTop: "220px",
       }}
     >
       <CardListItem
@@ -31,39 +31,6 @@ export default () => (
           <span>
             ABOUT <b>US</b>
           </span>
-        }
-        extraContent={
-          <Fragment>
-            Swedish Net is part of the Swedish Net Group that works with
-            security, airport and defence related activities. The group also
-            includes:
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="http://www.swedishnet.mx/"
-              target="_blank"
-            >
-              Swedish Net MX
-            </a>{" "}
-            which sells security products and systems on the Mexican market.
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="https://www.disarmamentsolutions.com/"
-              target="_blank"
-            >
-              Disarmament Solutions
-            </a>{" "}
-            which develops comprehensive concepts for the secure and
-            environmentally-friendly disarmament of conventional arms and
-            ammunition.
-            <br />
-            <br />
-            The Swedish Net Group continues to grow on the Swedish market and
-            has commenced its establishment on the international market.
-          </Fragment>
         }
       >
         <b>
@@ -91,6 +58,38 @@ export default () => (
         Together we deliver security and technology as consultancy services and
         contracts for facilities and functions that are of significance for
         security in our society.
+      </CardListItem>
+      <CardListItem>
+        <Fragment>
+          Swedish Net is part of the Swedish Net Group that works with security,
+          airport and defence related activities. The group also includes:
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="http://www.swedishnet.mx/"
+            target="_blank"
+          >
+            Swedish Net MX
+          </a>{" "}
+          which sells security products and systems on the Mexican market.
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="https://www.disarmamentsolutions.com/"
+            target="_blank"
+          >
+            Disarmament Solutions
+          </a>{" "}
+          which develops comprehensive concepts for the secure and
+          environmentally-friendly disarmament of conventional arms and
+          ammunition.
+          <br />
+          <br />
+          The Swedish Net Group continues to grow on the Swedish market and has
+          commenced its establishment on the international market.
+        </Fragment>
       </CardListItem>
     </CardListSection>
     <Footer lan="en" />

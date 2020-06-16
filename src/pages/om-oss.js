@@ -22,7 +22,7 @@ export default () => (
       style={{
         background: `url(${globe}) center center / contain no-repeat`,
         backgroundColor: "black",
-        paddingTop: "220px"
+        paddingTop: "220px",
       }}
     >
       <CardListItem
@@ -31,39 +31,6 @@ export default () => (
           <span>
             OM <b>OSS</b>
           </span>
-        }
-        extraContent={
-          <Fragment>
-            Swedish Net ingår i en koncern inriktad på säkerhet, flyg och
-            försvar. I koncernen finns även:
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="http://www.swedishnet.mx/"
-              target="_blank"
-            >
-              Swedish Net MX
-            </a>{" "}
-            som säljer säkerhetsprodukter- och system på den mexikanska
-            marknaden.
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="https://www.disarmamentsolutions.com/"
-              target="_blank"
-            >
-              Disarmament Solutions
-            </a>{" "}
-            som utvecklar helhetskoncept för säker och miljöriktig avveckling av
-            konventionella vapen och ammunition ihop med andra svenska företag
-            med inriktning mot en global marknad.
-            <br />
-            <br />
-            Koncernen fortsätter expandera på den svenska marknaden och är i
-            gång med sin internationella etablering.
-          </Fragment>
         }
       >
         <b>
@@ -91,6 +58,38 @@ export default () => (
         Tillsammans levererar vi teknik och säkerhet som konsultlösningar och
         entreprenader för anläggningar och funktioner med stor betydelse för
         vårt samhälle.
+      </CardListItem>
+      <CardListItem>
+        <Fragment>
+          Swedish Net ingår i en koncern inriktad på säkerhet, flyg och försvar.
+          I koncernen finns även:
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="http://www.swedishnet.mx/"
+            target="_blank"
+          >
+            Swedish Net MX
+          </a>{" "}
+          som säljer säkerhetsprodukter- och system på den mexikanska marknaden.
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="https://www.disarmamentsolutions.com/"
+            target="_blank"
+          >
+            Disarmament Solutions
+          </a>{" "}
+          som utvecklar helhetskoncept för säker och miljöriktig avveckling av
+          konventionella vapen och ammunition ihop med andra svenska företag med
+          inriktning mot en global marknad.
+          <br />
+          <br />
+          Koncernen fortsätter expandera på den svenska marknaden och är i gång
+          med sin internationella etablering.
+        </Fragment>
       </CardListItem>
     </CardListSection>
     <Footer lan="sv" />

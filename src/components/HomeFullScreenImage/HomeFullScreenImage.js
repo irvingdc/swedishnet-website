@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./HomeFullScreenImage.module.css";
-import { Link } from "gatsby";
 
-export default ({ img, title, lineLeft, lineWidth, links }) => (
+export default ({ img, title }) => (
   <div
     className={classes.container}
     style={{
@@ -11,12 +10,5 @@ export default ({ img, title, lineLeft, lineWidth, links }) => (
     }}
   >
     <h1>{title}</h1>
-    <div className={classes.list}>
-      {links.map((it, index) => (
-        <Link to={it.url} key={index}>
-          {it.title}
-        </Link>
-      ))}
-    </div>
   </div>
 );
