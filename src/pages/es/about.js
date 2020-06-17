@@ -22,7 +22,7 @@ export default () => (
       style={{
         background: `url(${globe}) center center / contain no-repeat`,
         backgroundColor: "black",
-        paddingTop: "220px"
+        paddingTop: "220px",
       }}
     >
       <CardListItem
@@ -31,40 +31,6 @@ export default () => (
           <span>
             ACERCA DE <b>NOSOTROS</b>
           </span>
-        }
-        extraContent={
-          <Fragment>
-            Swedish Net forma parte del grupo de Swedish Net, que trabaja con
-            actividades relacionadas con la seguridad, los aeropuertos y la
-            defensa. El grupo también incluye:
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="http://www.swedishnet.mx/"
-              target="_blank"
-            >
-              Swedish Net MX
-            </a>
-            , que vende productos y sistemas de seguridad en el mercado
-            mexicano.
-            <br />
-            <br />
-            <a
-              rel="noopener noreferrer"
-              href="https://www.disarmamentsolutions.com/"
-              target="_blank"
-            >
-              Disarmament Solutions
-            </a>
-            , que desarrollan conceptos integrales para el desarme seguro y
-            respetuoso con el medio ambiente de las armas y municiones
-            convencionales.
-            <br />
-            <br />
-            El grupo de Swedish Net sigue creciendo en el mercado sueco y ha
-            comenzado a establecerse en el mercado internacional.
-          </Fragment>
         }
       >
         <b>
@@ -94,6 +60,39 @@ export default () => (
         Juntos ofrecemos seguridad y tecnología como servicios de consultoría y
         contratos para instalaciones y funciones que son importantes para la
         seguridad de nuestra sociedad.
+      </CardListItem>
+      <CardListItem>
+        <Fragment>
+          Swedish Net forma parte del grupo de Swedish Net, que trabaja con
+          actividades relacionadas con la seguridad, los aeropuertos y la
+          defensa. El grupo también incluye:
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="http://www.swedishnet.mx/"
+            target="_blank"
+          >
+            Swedish Net MX
+          </a>
+          , que vende productos y sistemas de seguridad en el mercado mexicano.
+          <br />
+          <br />
+          <a
+            rel="noopener noreferrer"
+            href="https://www.disarmamentsolutions.com/"
+            target="_blank"
+          >
+            Disarmament Solutions
+          </a>
+          , que desarrollan conceptos integrales para el desarme seguro y
+          respetuoso con el medio ambiente de las armas y municiones
+          convencionales.
+          <br />
+          <br />
+          El grupo de Swedish Net sigue creciendo en el mercado sueco y ha
+          comenzado a establecerse en el mercado internacional.
+        </Fragment>
       </CardListItem>
     </CardListSection>
     <Footer lan="es" />

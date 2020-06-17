@@ -1,67 +1,82 @@
-.container{
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 30px;
-    overflow: auto;
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  overflow: auto;
 }
-.content{
-    display: flex;
+.container h1 {
+  padding-left: 40px;
+  color: #f57a52;
+  padding-top: 20px;
+  font-size: 24px;
 }
-.text{
-    width: 60vw;
-    background: white;
-    padding: 20px 0px 20px 40px;
-    position: relative;
-    min-height: 75px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+.content {
+  display: flex;
 }
-.text p{
-    font-size: 13px;
-    line-height: 20px;
-    color: #3b3f45;
-    width: calc(100% - 80px);
-    max-width: 550px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    padding-left: 40px;
+.container a {
+  color: #f57a52;
+  font-weight: 500;
 }
-.inverted{
-    background: #f9f9f9;
-    padding: 80px 0px 80px 40px;
+.text {
+  width: 60vw;
+  background: white;
+  padding: 20px 0px 20px 40px;
+  position: relative;
+  min-height: 75px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
-.inverted p{
-    color: #404349;
+.text p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #3b3f45;
+  width: calc(100% - 80px);
+  max-width: 650px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-left: 40px;
 }
-.inverted b{
-    color: #f57a52;
+.inverted {
+  background: #f9f9f9;
+  padding: 80px 0px 80px 40px;
 }
-.extra{
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 30px;
-    width: 60vw;
-    float: right;
-    padding: 20px 0px 40px 40px;
+.inverted p {
+  color: #404349;
 }
-.extra p{
-    font-size: 12px;
-    line-height: 24px;
-    color: white;
-    width: calc(100% - 80px);
-    max-width: 550px;
-    font-weight: 100;
-    left: 40px;
-    letter-spacing: 1px;
+.inverted b {
+  color: #f57a52;
 }
-@media (max-width: 600px){
-    .text, .extra{
-        width: calc(100vw - 110px);
-    }
-    .text p, .extra p{
-        width: auto;
-        max-width: unset;
-        padding: 0px 20px 0px 0px;
-        left: unset;
-    }
+.extra {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  width: 60vw;
+  float: right;
+  padding: 20px 0px 40px 40px;
+}
+.extra p {
+  font-size: 12px;
+  line-height: 24px;
+  color: white;
+  width: calc(100% - 80px);
+  max-width: 550px;
+  font-weight: 100;
+  left: 40px;
+  letter-spacing: 1px;
+}
+.content a {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .text,
+  .extra {
+    width: calc(100vw - 110px);
+  }
+  .text p,
+  .extra p {
+    width: auto;
+    max-width: unset;
+    padding: 0px 20px 0px 0px;
+    left: unset;
+  }
 }

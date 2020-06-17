@@ -48,12 +48,17 @@ class NavContent extends Component {
         className: classes.marginTop,
       },
       {
+        title: "Career",
+        url: "/en/career/",
+        className: classes.marginTop,
+      },
+      {
         title: "Contact",
         url: "/en/contact/",
       },
       {
         title: "News",
-        url: "/en/news/",
+        url: "/en/#news",
       },
     ],
     es: [
@@ -93,12 +98,17 @@ class NavContent extends Component {
         className: classes.marginTop,
       },
       {
+        title: "Carrera",
+        url: "/es/carrera/",
+        className: classes.marginTop,
+      },
+      {
         title: "Contacto",
         url: "/es/contact/",
       },
       {
         title: "Noticias",
-        url: "/es/news/",
+        url: "/es/#news",
       },
     ],
     sv: [
@@ -139,12 +149,17 @@ class NavContent extends Component {
         className: classes.marginTop,
       },
       {
+        title: "Karriär",
+        url: "/jobb/",
+        className: classes.marginTop,
+      },
+      {
         title: "Kontakt",
         url: "/kontakt/",
       },
       {
         title: "Nyheter",
-        url: "/nyheter/",
+        url: "/#news",
       },
     ],
   };

@@ -1,26 +1,15 @@
 import React, { Fragment } from "react";
-import HomeFullScreenImage from "../../components/HomeFullScreenImage/HomeFullScreenImage";
-import { globe } from "../../images";
-import Nav from "../../components/Nav/Nav";
-import WhiteFooter from "../../components/WhiteFooter/WhiteFooter";
-import { f6 } from "../../images";
-import "../../main.module.css";
+import HomeFullScreenImage from "components/HomeFullScreenImage/HomeFullScreenImage";
+import { globe } from "src/images";
+import Nav from "components/Nav/Nav";
+import WhiteFooter from "components/WhiteFooter/WhiteFooter";
+import { f6, new_black } from "src/images";
+import { ARTICLES_ES } from "src/constants"
+import CardListSection from "components/CardListSection/CardListSection";
+import Article from "components/Article/Article";
+import "src/main.module.css";
 
 export default () => {
-  let links = [
-    {
-      title: "Servicios de consultoría",
-      url: "/es/services/"
-    },
-    {
-      title: "Defensa",
-      url: "/es/contracts/defence/"
-    },
-    {
-      title: "Aeropuertos",
-      url: "/es/contracts/airports/"
-    },
-  ];
   return (
     <Fragment>
       <Nav
@@ -37,8 +26,12 @@ export default () => {
         lineLeft="0%"
         lineWidth="10%"
         title="Seguridad y tecnología para comodidades y funciones vitales de la sociedad"
-        links={links}
       />
+      <CardListSection img={new_black} title="NOTICIAS">
+        {ARTICLES_ES.map((it, index) => (
+          <Article key={index} {...it} />
+        ))}
+      </CardListSection>
       <WhiteFooter aaaLogo={f6}/>
     </Fragment>
   );

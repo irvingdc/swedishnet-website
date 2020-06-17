@@ -1,26 +1,15 @@
 import React, { Fragment } from "react";
-import HomeFullScreenImage from "../components/HomeFullScreenImage/HomeFullScreenImage";
-import { globe } from "../images";
-import Nav from "../components/Nav/Nav";
-import WhiteFooter from "../components/WhiteFooter/WhiteFooter";
-import { f7 } from "../images";
-import "../main.module.css";
+import HomeFullScreenImage from "components/HomeFullScreenImage/HomeFullScreenImage";
+import { globe } from "src/images";
+import Nav from "components/Nav/Nav";
+import WhiteFooter from "components/WhiteFooter/WhiteFooter";
+import { f7, new_black } from "src/images";
+import { ARTICLES_SV } from "src/constants"
+import CardListSection from "components/CardListSection/CardListSection";
+import Article from "components/Article/Article";
+import "src/main.module.css";
 
 export default () => {
-  let links = [
-    {
-      title: "Teknik- och säkerhetstjänster",
-      url: "/teknik-och-sakerhetstjanster/"
-    },
-    {
-      title: "Försvar",
-      url: "/entreprenader/forsvar/"
-    },
-    {
-      title: "Flygplatser",
-      url: "/entreprenader/flygplatser/"
-    },
-  ];
   return (
     <Fragment>
       <Nav
@@ -37,8 +26,12 @@ export default () => {
         lineLeft="0%"
         lineWidth="10%"
         title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
-        links={links}
       />
+      <CardListSection img={new_black} title="NYHETER">
+        {ARTICLES_SV.map((it, index) => (
+          <Article key={index} {...it} />
+        ))}
+      </CardListSection>
       <WhiteFooter aaaLogo={f7}/>
     </Fragment>
   );
