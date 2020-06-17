@@ -13,6 +13,57 @@ import {
   news12,
 } from "./images";
 
+export const JOBS_SV = [
+  {
+    title: "Teknisk kravställare",
+    url: "/teknisk-kravstallare-gymnasium",
+    degree: "Gymnasium",
+    experience: 5
+  },
+  {
+    title: "Projekteringsledare",
+    url: "/projekteringsledare-gymnasium",
+    degree: "Gymnasium",
+    experience: 10
+  },
+  {
+    title: "Projektledare/entreprenadsamordnare",
+    url: "/entreprenadsamordnare-gymnasium",
+    degree: "Gymnasium",
+    experience: 10
+  },
+  {
+    title: "Dokumentatör",
+    url: "/dokumentator-gymnasium",
+    degree: "Gymnasium",
+    experience: 5
+  },
+  {
+    title: "Teknisk kravställare",
+    url: "/teknisk-kravstallare-ingenjör",
+    degree: "Högskoleingenjörsexamen",
+    experience: 2
+  },
+  {
+    title: "Projekteringsledare",
+    url: "/projekteringsledare-ingenjör",
+    degree: "Högskoleingenjörsexamen",
+    experience: 5
+  },
+  {
+    title: "Projektledare/entreprenadsamordnare",
+    url: "/entreprenadsamordnare-ingenjör",
+    degree: "Högskoleingenjörsexamen",
+    experience: 5
+  },
+  {
+    title: "Dokumentatör",
+    url: "/dokumentator-ingenjör",
+    degree: "Högskoleingenjörsexamen",
+    experience: 2,
+  },
+]
+
 export const ARTICLES_ES = [
   {
     title: (

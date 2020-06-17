@@ -48,6 +48,11 @@ class NavContent extends Component {
         className: classes.marginTop,
       },
       {
+        title: "Career",
+        url: "/en/career/",
+        className: classes.marginTop,
+      },
+      {
         title: "Contact",
         url: "/en/contact/",
       },
@@ -90,6 +95,11 @@ class NavContent extends Component {
       {
         title: "Acerca De",
         url: "/es/about/",
+        className: classes.marginTop,
+      },
+      {
+        title: "Carrera",
+        url: "/es/carrera/",
         className: classes.marginTop,
       },
       {
@@ -136,6 +146,11 @@ class NavContent extends Component {
       {
         title: "Om oss",
         url: "/om-oss/",
+        className: classes.marginTop,
+      },
+      {
+        title: "Karriär",
+        url: "/jobb/",
         className: classes.marginTop,
       },
       {

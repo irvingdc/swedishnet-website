@@ -13,6 +13,7 @@
     visibility: hidden;
     position: absolute;
     transition: all 0.2s;
+    left: -40px;
 }
 .container a{
     padding-top: 15px;
@@ -26,7 +27,7 @@
     visibility: visible;
     opacity: 1;
 }
-@media (max-width: 1050px){
+@media (max-width: 1000px){
     .container{
         padding-bottom: 20px;
     }

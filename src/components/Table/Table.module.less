@@ -1,0 +1,41 @@
+.container{
+    width: calc(100% - 80px);
+    max-width: 650px;
+    padding-left: 40px;
+    overflow: auto;
+    a{
+        color: #f57a52;
+
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        th{
+            text-align: left;
+            cursor: pointer;
+        }
+    }
+    td, th{
+        border-bottom: 1px solid gainsboro;
+        padding: 6px;
+        min-width: 120px;
+    }
+}
+.ArrowUp{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 8px solid #f57a52;
+    margin-left: 4px;
+}
+.ArrowDown{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-top: 8px solid #f57a52;
+    margin-left: 4px;
+}
