@@ -3,7 +3,6 @@ const path = require("path");
 module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cache`,
-    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
