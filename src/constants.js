@@ -40,25 +40,25 @@ export const JOBS_SV = [
   },
   {
     title: "Teknisk kravställare",
-    url: "/teknisk-kravstallare-ingenjör",
+    url: "/teknisk-kravstallare-ingenjor",
     degree: "Högskoleingenjörsexamen",
     experience: 2
   },
   {
     title: "Projekteringsledare",
-    url: "/projekteringsledare-ingenjör",
+    url: "/projekteringsledare-ingenjor",
     degree: "Högskoleingenjörsexamen",
     experience: 5
   },
   {
     title: "Projektledare/entreprenadsamordnare",
-    url: "/entreprenadsamordnare-ingenjör",
+    url: "/entreprenadsamordnare-ingenjor",
     degree: "Högskoleingenjörsexamen",
     experience: 5
   },
   {
     title: "Dokumentatör",
-    url: "/dokumentator-ingenjör",
+    url: "/dokumentator-ingenjor",
     degree: "Högskoleingenjörsexamen",
     experience: 2,
   },
