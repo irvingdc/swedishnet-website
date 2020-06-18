@@ -26,14 +26,13 @@ export default () => (
       }}
     >
       <CardListItem
-        inverted
         title={
           <span>
             ACERCA DE <b>NOSOTROS</b>
           </span>
         }
       >
-        <b>
+        <b style={{ color: "#f57a52" }}>
           Swedish Net ofrece servicios y contratos para instalaciones y
           funciones vitales para la sociedad que tienen altos requerimientos de
           seguridad y tecnología debido a amenazas potenciales. Durante 20 años,
@@ -60,6 +59,8 @@ export default () => (
         Juntos ofrecemos seguridad y tecnología como servicios de consultoría y
         contratos para instalaciones y funciones que son importantes para la
         seguridad de nuestra sociedad.
+        <br />
+        <br />
       </CardListItem>
       <CardListItem>
         <Fragment>
@@ -92,6 +93,8 @@ export default () => (
           <br />
           El grupo de Swedish Net sigue creciendo en el mercado sueco y ha
           comenzado a establecerse en el mercado internacional.
+          <br />
+          <br />
         </Fragment>
       </CardListItem>
     </CardListSection>

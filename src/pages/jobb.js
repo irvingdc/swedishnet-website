@@ -29,35 +29,13 @@ export default () => (
       }}
     >
       <CardListItem
-        inverted
         title={
           <span>
             <b>KARRIÄR</b>
           </span>
         }
-        content={
-          <Table
-            dataSource={JOBS_SV}
-            columns={[
-              {
-                title: "Roll",
-                dataIndex: "title",
-                render: (title, item) => <Link to={item.url}>{title}</Link>,
-              },
-              {
-                title: "Högsta utbildningsnivå",
-                dataIndex: "degree",
-              },
-              {
-                title: "Erfarenhet i branschen",
-                dataIndex: "experience",
-                render: (number) => `minst ${number} år`,
-              },
-            ]}
-          />
-        }
       >
-        <b>
+        <b style={{ color: "#f57a52" }}>
           Swedish Net har vunnit ett stort ramavtal inom försvarssektorn. I
           avtalet ska vi projektera och kravställa tekniska lösningar inom
           fastighetsnät, teknisk bevakning, datasystem, radiosystem med mera.
@@ -68,6 +46,40 @@ export default () => (
         </b>
         <br />
         <br />
+      </CardListItem>
+      <CardListItem
+        title={
+          <span>
+            <b>ROLLER</b>
+          </span>
+        }
+        content={
+          <Fragment>
+            <Table
+              dataSource={JOBS_SV}
+              columns={[
+                {
+                  title: "Roll",
+                  dataIndex: "title",
+                  render: (title, item) => <Link to={item.url}>{title}</Link>,
+                },
+                {
+                  title: "Högsta utbildningsnivå",
+                  dataIndex: "degree",
+                },
+                {
+                  title: "Erfarenhet i branschen",
+                  dataIndex: "experience",
+                  render: (number) => `minst ${number} år`,
+                },
+              ]}
+            />
+            <p>
+              <br />
+            </p>
+          </Fragment>
+        }
+      >
         I avtalet kommer fyra roller vara aktuella: teknisk kravställare,
         projekteringsledare, projektledare/entreprenadsamordnare samt
         dokumentatör. Olika lång arbetslivserfarenhet krävs för de olika

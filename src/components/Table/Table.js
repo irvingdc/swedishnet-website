@@ -1,8 +1,24 @@
 import React, { useState } from "react";
 import classes from "./Table.module.less";
 
-let ArrowUp = () => <span className={classes.ArrowUp}></span>;
-let ArrowDown = () => <span className={classes.ArrowDown}></span>;
+let ArrowUp = () => (
+  <div className={classes.arrowContainer}>
+    <span className={classes.ArrowUp}></span>
+    <span className={classes.GrayArrowDown}></span>
+  </div>
+);
+let ArrowDown = () => (
+  <div className={classes.arrowContainer}>
+    <span className={classes.GrayArrowUp}></span>
+    <span className={classes.ArrowDown}></span>
+  </div>
+);
+let BothArrows = () => (
+  <div className={classes.arrowContainer}>
+    <span className={classes.GrayArrowUp}></span>
+    <span className={classes.GrayArrowDown}></span>
+  </div>
+);
 
 export default ({ dataSource, columns }) => {
   var [sorter, setSorter] = useState(null);
@@ -24,13 +40,15 @@ export default ({ dataSource, columns }) => {
 
   let switchSort = (dataIndex) => {
     setSorter(dataIndex);
-    setOrder(!order);
+    if (dataIndex === sorter) {
+      setOrder(!order);
+    }
   };
 
   let renderArrow = (dataIndex) => {
     if (dataIndex === sorter) {
       return order ? <ArrowUp /> : <ArrowDown />;
-    } else return null;
+    } else return <BothArrows />;
   };
 
   return (
@@ -40,8 +58,10 @@ export default ({ dataSource, columns }) => {
           <tr>
             {columns.map((it, key) => (
               <th key={key} onClick={() => switchSort(it.dataIndex)}>
-                {it.title}
-                {renderArrow(it.dataIndex)}
+                <div>
+                  <span>{it.title}</span>
+                  {renderArrow(it.dataIndex)}
+                </div>
               </th>
             ))}
           </tr>

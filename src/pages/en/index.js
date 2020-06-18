@@ -4,7 +4,7 @@ import { globe } from "src/images";
 import Nav from "components/Nav/Nav";
 import WhiteFooter from "components/WhiteFooter/WhiteFooter";
 import { f6, new_black } from "src/images";
-import { ARTICLES_EN } from "src/constants"
+import { ARTICLES_EN } from "src/constants";
 import CardListSection from "components/CardListSection/CardListSection";
 import Article from "components/Article/Article";
 import "src/main.module.css";
@@ -27,7 +27,7 @@ export default () => {
         lineWidth="10%"
         title="Security and Technology for Vital Societal Facilities and Functions"
       />
-      <CardListSection img={new_black} title="NEWS">
+      <CardListSection img={new_black} title="NEWS" id="news">
         {ARTICLES_EN.map((it, index) => (
           <Article key={index} {...it} />
         ))}

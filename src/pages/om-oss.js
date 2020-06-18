@@ -26,14 +26,13 @@ export default () => (
       }}
     >
       <CardListItem
-        inverted
         title={
           <span>
             OM <b>OSS</b>
           </span>
         }
       >
-        <b>
+        <b style={{ color: "#f57a52" }}>
           Swedish Net erbjuder tjänster och entreprenader för samhällsviktiga
           anläggningar och funktioner vilka till följd av sin hotbild har högt
           ställda krav på säkerhet och teknik. I 20 år har vi levererat
@@ -58,6 +57,8 @@ export default () => (
         Tillsammans levererar vi teknik och säkerhet som konsultlösningar och
         entreprenader för anläggningar och funktioner med stor betydelse för
         vårt samhälle.
+        <br />
+        <br />
       </CardListItem>
       <CardListItem>
         <Fragment>
@@ -89,6 +90,8 @@ export default () => (
           <br />
           Koncernen fortsätter expandera på den svenska marknaden och är i gång
           med sin internationella etablering.
+          <br />
+          <br />
         </Fragment>
       </CardListItem>
     </CardListSection>

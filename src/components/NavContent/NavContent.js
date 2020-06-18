@@ -108,7 +108,7 @@ class NavContent extends Component {
       },
       {
         title: "Noticias",
-        url: "/es/#news",
+        url: "/es/#noticias",
       },
     ],
     sv: [
@@ -159,7 +159,7 @@ class NavContent extends Component {
       },
       {
         title: "Nyheter",
-        url: "/#news",
+        url: "/#nyheter",
       },
     ],
   };

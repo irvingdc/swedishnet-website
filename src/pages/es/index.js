@@ -27,7 +27,7 @@ export default () => {
         lineWidth="10%"
         title="Seguridad y tecnología para comodidades y funciones vitales de la sociedad"
       />
-      <CardListSection img={new_black} title="NOTICIAS">
+      <CardListSection img={new_black} title="NOTICIAS" id="noticias">
         {ARTICLES_ES.map((it, index) => (
           <Article key={index} {...it} />
         ))}

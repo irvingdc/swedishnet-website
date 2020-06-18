@@ -27,7 +27,7 @@ export default () => {
         lineWidth="10%"
         title="Säkerhet och teknik för samhällsviktiga anläggningar och funktioner"
       />
-      <CardListSection img={new_black} title="NYHETER">
+      <CardListSection img={new_black} title="NYHETER" id="nyheter">
         {ARTICLES_SV.map((it, index) => (
           <Article key={index} {...it} />
         ))}

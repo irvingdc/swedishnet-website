@@ -26,14 +26,13 @@ export default () => (
       }}
     >
       <CardListItem
-        inverted
         title={
           <span>
             ABOUT <b>US</b>
           </span>
         }
       >
-        <b>
+        <b style={{ color: "#f57a52" }}>
           Swedish Net offers services and contracts for vital societal
           facilities and functions which have high requirements on security and
           technology due to potential threats. For 20 years, we have delivered
@@ -58,6 +57,8 @@ export default () => (
         Together we deliver security and technology as consultancy services and
         contracts for facilities and functions that are of significance for
         security in our society.
+        <br />
+        <br />
       </CardListItem>
       <CardListItem>
         <Fragment>
@@ -89,6 +90,8 @@ export default () => (
           <br />
           The Swedish Net Group continues to grow on the Swedish market and has
           commenced its establishment on the international market.
+          <br />
+          <br />
         </Fragment>
       </CardListItem>
     </CardListSection>
