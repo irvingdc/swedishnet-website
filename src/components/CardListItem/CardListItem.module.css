@@ -68,6 +68,9 @@
   text-decoration: none;
 }
 @media (max-width: 600px) {
+  .container h1{
+    padding-left: 0px;
+  }
   .text,
   .extra {
     width: calc(100vw - 110px);
