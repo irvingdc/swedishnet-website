@@ -100,8 +100,8 @@ export default () => (
         <b>Ansökan: </b>
         <br />
         Skicka CV och personligt brev till{" "}
-        <a href="mailto:jobb.sjolander@swedishnet.se">
-          jobb.sjolander@swedishnet.se
+        <a href="mailto:jobb@swedishnet.se">
+          jobb@swedishnet.se
         </a>
         . Intervjuer och rekrytering kommer att ske löpande så vänta inte med att skicka in din ansökan.
         <br />
@@ -111,8 +111,8 @@ export default () => (
         <br />
         Sofia Sjölander,
         <br />
-        <a href="mailto:jobb.sjolander@swedishnet.se">
-          jobb.sjolander@swedishnet.se
+        <a href="mailto:jobb@swedishnet.se">
+          jobb@swedishnet.se
         </a>
         <br />
         <br />
