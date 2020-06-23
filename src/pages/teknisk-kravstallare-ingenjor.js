@@ -63,35 +63,47 @@ export default () => (
           <li>ABK</li>
           <li>Entreprenadjuridik (AB, ABT)</li>
         </ul>
-        <b>Om oss:</b> <br />
+        <b>Om oss:</b>
+        <br />
         Hos oss är arbetsmiljön viktig och vi har en trevlig, ödmjuk och
         hjälpsam stämning på våra kontor i Hallsberg och Stockholm. Swedish Nets
         strävan är att bli Sverige största kunskapscentrum för projektering och
         kravställning av tekniska lösningar inom våra specialistområden.
-        <br /> <br />
-        <b>Registerkontroll:</b> <br />
+        <br />
+        <br />
+        <b>Registerkontroll:</b>
+        <br />
         För arbete i avtalet krävs godkänd säkerhetsprövning.
-        <br /> <br />
-        <b>Start: </b> <br />
-        Enligt överenskommelse.
-        <br /> <br />
-        <b>Omfattning: </b> <br />
+        <br />
+        <br />
+        <b>Start: </b>
+        <br />
+        Enligt överenskommelse. Rekrytering kommer ske löpande.
+        <br />
+        <br />
+        <b>Omfattning:</b>
+        <br />
         Tillsvidare (heltid) eller projektanställning.
-        <br /> <br />
-        <b>Lön: </b> <br />
+        <br />
+        <br />
+        <b>Lön: </b>
+        <br />
         Fast marknadsmässig månadslön, individuell lönesättning.
-        <br /> <br />
-        <b>Placering: </b> <br />
+        <br />
+        <br />
+        <b>Placering: </b>
+        <br />
         Hallsberg eller Stockholm.
-        <br /> <br />
-        <b>Ansökan: </b> <br />
+        <br />
+        <br />
+        <b>Ansökan: </b>
         <br />
         Skicka CV och personligt brev till{" "}
-        <a href="mailto:sofia.sjolander@swedishnet.se">
-          sofia.sjolander@swedishnet.se
+        <a href="mailto:jobb.sjolander@swedishnet.se">
+          jobb.sjolander@swedishnet.se
         </a>
-        . Intervjuer kommer ske löpande så vänta inte med att skicka in din
-        ansökan.
+        . Intervjuer och rekrytering kommer att ske löpande så vänta inte med
+        att skicka in din ansökan.
         <br />
         <br />
         För frågor eller mer information om tjänsten, vänligen kontakta:
@@ -99,10 +111,8 @@ export default () => (
         <br />
         Sofia Sjölander,
         <br />
-        010-207 81 55,
-        <br />
-        <a href="mailto:sofia.sjolander@swedishnet.se">
-          sofia.sjolander@swedishnet.se
+        <a href="mailto:jobb.sjolander@swedishnet.se">
+          jobb.sjolander@swedishnet.se
         </a>
         <br />
         <br />

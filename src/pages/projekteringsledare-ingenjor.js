@@ -85,7 +85,7 @@ export default () => (
         <br />
         <b>Start: </b>
         <br />
-        Enligt överenskommelse.
+        Enligt överenskommelse. Rekrytering kommer ske löpande.
         <br />
         <br />
         <b>Omfattning: </b>
@@ -106,11 +106,11 @@ export default () => (
         <b>Ansökan: </b>
         <br />
         Skicka CV och personligt brev till{" "}
-        <a href="mailto:sofia.sjolander@swedishnet.se">
-          sofia.sjolander@swedishnet.se
+        <a href="mailto:jobb.sjolander@swedishnet.se">
+          jobb.sjolander@swedishnet.se
         </a>
-        . Intervjuer kommer ske löpande så vänta inte med att skicka in din
-        ansökan.
+        . Intervjuer och rekrytering kommer att ske löpande så vänta inte med
+        att skicka in din ansökan.
         <br />
         <br />
         För frågor eller mer information om tjänsten, vänligen kontakta:
@@ -118,10 +118,8 @@ export default () => (
         <br />
         Sofia Sjölander,
         <br />
-        010-207 81 55,
-        <br />
-        <a href="mailto:sofia.sjolander@swedishnet.se">
-          sofia.sjolander@swedishnet.se
+        <a href="mailto:jobb.sjolander@swedishnet.se">
+          jobb.sjolander@swedishnet.se
         </a>
         <br />
         <br />
