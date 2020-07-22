@@ -1,13 +1,20 @@
 const path = require("path");
 
 module.exports = {
+  siteMetadata: {
+    title: `Swedish Net`,
+    description: `Säkerhet och teknik för samhällsviktiga anläggningar och funktioner`,
+    author: `@irvingdc`,
+    siteUrl: `https://www.swedishnet.se`
+  },
   plugins: [
     `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.swedishnet.se",
-        sitemap: "https://www.swedishnet.se",
+        sitemap: "https://www.swedishnet.se/sitemap.xml",
         policy:
           process.env.GATSBY_ACTIVE_ENV === "QA"
             ? [{ userAgent: "*", disallow: ["/"] }]
