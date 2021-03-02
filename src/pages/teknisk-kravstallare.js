@@ -10,12 +10,12 @@ export default () => (
   <Fragment>
     <Nav
       lan="sv"
-      sv="/dokumentator-gymnasium/"
+      sv="/teknisk-kravstallare/"
       en="/en/"
       es="/es/"
-      canonical="https://www.swedishnet.se/dokumentator-gymnasium/"
+      canonical="https://www.swedishnet.se/teknisk-kravstallare/"
       title="Swedish Net: Teknisk Kravställare"
-      description="Som dokumentatör kommer du jobba med att inhämta, granska och leverera installationsdokumentation efter genomförda installationer."
+      description="Som teknisk kravställare/projektör jobbar du i projekteringsfasen med att ta fram kompletta förfrågningsunderlag..."
     />
     <CardListSection
       img={globe}
