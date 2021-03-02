@@ -39,9 +39,9 @@ export default () => (
         att ta fram kompletta förfrågningsunderlag. Det handlar om att ta fram
         tekniska beskrivningar och ritningar för till exempel fastighetsnät,
         data- och kommunikationsutrustning, tekniska bevakningssystem och
-        verkstadsinredning. Du jobbar tillsammans med en eller flera kollegor
-        samt en projekteringsledare. Rollen passar dig som har god förmåga att
-        uttrycka dig i skrift och är duktig på AutoCAD.
+        inredning. Du jobbar tillsammans med en eller flera kollegor samt en
+        projekteringsledare. Rollen passar dig som har god förmåga att uttrycka
+        dig i skrift och är duktig på AutoCAD.
         <br />
         <br />
         Det är viktigt att du är kommunikativ och vågar fråga – både dina
