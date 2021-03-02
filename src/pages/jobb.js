@@ -37,8 +37,9 @@ export default () => (
       >
         <b style={{ color: "#f57a52" }}>
           Swedish Net har vunnit ett stort ramavtal inom försvarssektorn. Genom
-          avtalet stödjer vi Försvarets Materiel Verk (FMV) och Försvarsmakten
-          med projektering, utförande och dokumentation.
+          avtalet stödjer vi Försvarets materielverk (FMV) och Försvarsmakten
+          med projektering, projektledning och dokumentation, när försvaret
+          bygger nya eller bygger om sina anläggningar.
         </b>
         <br />
         <br />
@@ -46,7 +47,7 @@ export default () => (
           I projekteringsfasen tar vi fram kompletta förfrågningsunderlag där vi
           kravställer upp till 20 olika tekniska system. Det handlar framför
           allt om fastighetsnät, data- och kommunikationsutrustning, tekniska
-          bevakningssystem och verkstadsinredning. När dessa tekniska system ska
+          bevakningssystem och inredning. När dessa tekniska system ska
           installeras stödjer vi vår kund med entreprenadsamordning av
           upphandlade entreprenörer. Avslutningsvis jobbar vi med att ta fram
           kompletta relationshandlingar, överlämningshandlingar samt lägger in
@@ -75,6 +76,9 @@ export default () => (
         <br />
         Olika lång arbetslivserfarenhet krävs för de olika rollerna. Klicka på
         respektive roll för att läsa mer.
+        <br />
+        <br />
+        <b>Vi rekryterar just nu för nedanstående roller:</b>
         <br />
         <br />
         <Table

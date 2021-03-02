@@ -52,7 +52,7 @@ export default () => (
         <br />{" "}
         <ul>
           <li>
-            Ingenjörsexamen från högskola eller universitet samt minst 2 års
+            Högskoleingenjörsexamen (eller högre) samt minst 2 års
             arbetslivserfarenhet inom branschen.
           </li>
           <br />
@@ -70,15 +70,15 @@ export default () => (
         av följande områden:
         <br />
         <ul>
-          <li>Fastighetsnät</li>
-          <li>Teknisk bevakning</li>
+          <li>fastighetsnät</li>
+          <li>teknisk bevakning</li>
           <li>AutoCAD</li>
-          <li>Projektering</li>
-          <li>Framtagning av förfrågningsunderlag</li>
-          <li>Upprättande av relationshandlingar</li>
-          <li>AMAEL</li>
+          <li>projektering</li>
+          <li>framtagning av förfrågningsunderlag</li>
+          <li>upprättande av relationshandlingar</li>
+          <li>AMA EL</li>
           <li>POINT regelverket</li>
-          <li>Entreprenadjuridik (ABK, AB, ABT).</li>
+          <li>entreprenadjuridik (ABK, AB, ABT).</li>
         </ul>
         <b>Om oss:</b>
         <br />

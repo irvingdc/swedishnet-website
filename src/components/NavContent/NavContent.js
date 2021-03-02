@@ -152,6 +152,12 @@ class NavContent extends Component {
         title: "Karriär",
         url: "/jobb/",
         className: classes.marginTop,
+        options: [
+          {
+            title: "Teknisk kravställare",
+            url: "/teknisk-kravstallare",
+          },
+        ],
       },
       {
         title: "Kontakt",
