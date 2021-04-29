@@ -12,21 +12,26 @@ import {
   news11,
   news12,
 } from "./images";
+import arlanda from "./images/news/200706_Arlanda.jpg";
+import malmen from "./images/news/210301_Malmen.jpg";
+import point from "./images/news/210311_point.jpg";
+import kriminal from "./images/news/210319_kriminalvården.jpg";
+import demine from "./images/news/210420_demine.jpg";
 
 export const JOBS_SV = [
   {
     title: "Teknisk kravställare/projektör",
     url: "/teknisk-kravstallare",
     degree: "Gymnasium",
-    experience: 5
+    experience: 5,
   },
   {
     title: "Teknisk kravställare/projektör",
     url: "/teknisk-kravstallare",
     degree: "Högskoleingenjör (eller högre)",
-    experience: 2
+    experience: 2,
   },
-]
+];
 
 export const ARTICLES_ES = [
   {
@@ -278,6 +283,75 @@ export const ARTICLES_EN = [
 ];
 
 export const ARTICLES_SV = [
+  {
+    title: (
+      <span>
+        210420 RAMVTAL <b>FMV AMMUNITION- OCH MINRÖJNINGSUTRUSTNING</b>
+      </span>
+    ),
+    img: demine,
+    content:
+      "Swedish Net ska stödja Försvarsmakten och FMV med expertstöd inom förmåga att röja minor, oexploderad ammunition och improviserade laddningar samt expertstöd inom sensorområdet kopplat mot militär söktjänst. Swedish Net ska även utbilda, utforma och göra utredningar inom området. Avtalet omfattar tillhandahållande av utrustning, exempelvis materiel avsedd för kriminalteknisk undersökning och skyddsutrustning inom ammunition och minröjningsverksamhet. Ramavtalet löper fram till 2024 med möjlighet till förlängning fram till 2027-12-31.",
+  },
+  {
+    title: (
+      <span>
+        210319 KONSULTRAMVTAL <b>KRIMINALVÅRDEN</b>
+      </span>
+    ),
+    img: kriminal,
+    content: (
+      <>
+        Swedish Net vinner ramavtal med Kriminalvården. Kriminalvården hyr ca
+        700 000 kvm lokaler till ett värde av ca 1,3 miljarder. Detta gör
+        Kriminalvården till en av Sveriges största hyresgäster på den öppna
+        marknaden. Kriminalvården förhyr samtliga lokaler men äger och förvaltar
+        tele- och säkerhetssystemen. Lokalernas storlek, utformning och
+        säkerhetsnivå varierar från kontorslokaler till anstalter och häkten.
+        Generellt råder dock en hög säkerhetsnivå i samtliga lokaler.
+        <br />
+        Uppdraget innefattar projektering i pågående och kommande telesäkprojekt
+        inom Kriminalvårdens samtliga verksamheter.
+        <br />
+        Första gången Swedish Net tecknade ramavtal med Kriminalvården var år
+        2012.
+      </>
+    ),
+  },
+
+  {
+    title: (
+      <span>
+        210311 UPPDRAG <b>FMV POINT</b>
+      </span>
+    ),
+    img: point,
+    content:
+      "På uppdrag av Försvarsmakten tillhandahåller FMV POINT informationsportal, portalen innehåller styrande och vägledande information som ska användas i samband med arbeten med försvarets fasta tele- och informationstekniska anläggningar. Målgruppen för POINT är de som arbetar med projektering, installationer, vidmakthållande, drift, underhåll och avveckling. Swedish Net har fått det hedrande uppdraget att underhålla och utveckla detta omfattande system av projekterings- och installationsanvisningar.",
+  },
+  {
+    title: (
+      <span>
+        210301 PROJEKT{" "}
+        <b>
+          FMV, INSTALLATION AV STYRSYSTEM FÖR FLYGPLATSLJUS MALMEN OCH VIDSEL
+        </b>
+      </span>
+    ),
+    img: malmen,
+    content:
+      "Swedish Net ska installera ADB Safegates styrsystem för flygplatsljus på flygplatserna Malmen och Vidsel. Malmens flygplats är belägen inom Linköpings kommun. Flygplatsområdet omfattar 455 hektar och ingår i Försvarsmakten som en flottiljflygplats. På flygplatsen Vidsel bedrivs prov av utrustning av såväl Flygvapnet som utländska flygförband. Provområdet, som är ett militärt skyddsobjekt, följer ungefär Udtja naturreservat och är 165 000 hektar.",
+  },
+  {
+    title: (
+      <span>
+        200706 KONSULTRAMVTAL<b>{" "}SWEDAVIA, STOCKHOLM ARLANDA</b>
+      </span>
+    ),
+    img: arlanda,
+    content:
+      "Swedish Net tecknar ramavtal med Swedavia avseende projektering av El, Tele, Data, Brandlarm mm. på Stockholm Arlanda. Avtalet avser förnyad konkurrensutsättning. Arlanda har tre banor och fyra terminaler, mer än 26 miljoner passagerare reser till respektive från flygplatsen per år, drygt 230 000 starter och landningar genomförs per år. Arlanda är ett av landets största skyddsobjekt och även riksgräns. Flygplatsen har genom åren varit mycket expansiv och nya projekt pågår där ständigt.",
+  },
   {
     title: (
       <span>
