@@ -17,6 +17,8 @@ import malmen from "./images/news/210301_Malmen.jpg";
 import point from "./images/news/210311_point.jpg";
 import kriminal from "./images/news/210319_kriminalvården.jpg";
 import demine from "./images/news/210420_demine.jpg";
+import adda from "./images/news/adda.jpeg";
+import company from "./images/news/company.jpeg";
 
 export const JOBS_SV = [
   {
@@ -286,12 +288,23 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
-        210420 RAMVTAL <b>FMV AMMUNITION- OCH MINRÖJNINGSUTRUSTNING</b>
+        210820 REKRYTERING <b>NY FILM</b>
       </span>
     ),
-    img: demine,
+    img: company,
+    url: "https://www.youtube.com/watch?v=IkvH-PZt4ds",
     content:
-      "Swedish Net ska stödja Försvarsmakten och FMV med expertstöd inom förmåga att röja minor, oexploderad ammunition och improviserade laddningar samt expertstöd inom sensorområdet kopplat mot militär söktjänst. Swedish Net ska även utbilda, utforma och göra utredningar inom området. Avtalet omfattar tillhandahållande av utrustning, exempelvis materiel avsedd för kriminalteknisk undersökning och skyddsutrustning inom ammunition och minröjningsverksamhet. Ramavtalet löper fram till 2024 med möjlighet till förlängning fram till 2027-12-31.",
+      "Swedish Net Engineering AB rekryterar och har laddat upp ett filmklipp där vi berättar om vilka vi är och vad vi gör.",
+  },
+  {
+    title: (
+      <span>
+        210819 KONSULTRAMVTAL <b>ADDA INKÖPSCENTRAL (TIDIGARE SKL KOMMENTUS INKÖPSCENTRAL)</b>
+      </span>
+    ),
+    img: adda,
+    content:
+      "Swedish Net har tecknat ett avtal avseende projektering av säkerhetssystem och brandlarm mm. med Adda Inköpscentral. Avtalet avser rangordnad tilldelning där Swedish Net ligger först respektive tvåa på två olika teknikområden, avtalet avser även förnyad konkurrensutsättning på samtliga ramavtalsområden. Adda Inköpscentral är en central inköpsorganisation som alla kommuner, kommunala bolag och regioner kan avropa ifrån. I upphandlingen angavs 1163 avropsberättigade organisationer.",
   },
   {
     title: (
@@ -299,7 +312,7 @@ export const ARTICLES_SV = [
         210319 KONSULTRAMVTAL <b>KRIMINALVÅRDEN</b>
       </span>
     ),
-    img: kriminal,
+    img: demine,
     content: (
       <>
         Swedish Net vinner ramavtal med Kriminalvården. Kriminalvården hyr ca
