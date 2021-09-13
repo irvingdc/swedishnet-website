@@ -41,7 +41,7 @@ export default ({ lan }) => {
       fax: "Fax",
       errorReport: "Felanmälan",
       invoice: "Faktura",
-      postalAddress: "Postadress",
+      postalAddress: "Adress",
       streetAddress: "Besöksadress huvudkontor",
       office: "Besöksadress Stockholmskontor"
     }
@@ -91,20 +91,14 @@ export default ({ lan }) => {
       </p>
 
       <h4>{postalAddress}:</h4>
-      <p>Swedish Net Communication AB / Swedish Net Engineering AB</p>
-      <p>Kyrkofallet 234</p>
-      <p>694 91 Hallsberg</p>
-      {lan !== "sv" ? <p>Sweden</p> : null}
-
-      <h4>{streetAddress}:</h4>
+      <p>Swedish Net Air & Defence AB/ Swedish Net Engineering AB</p>
       <p>Gamla Tingshuset</p>
       <p>Östra Storgatan 40</p>
-      <p>694 31 Hallsberg</p>
+      <p>694 31 Hallsberg.</p>
       {lan !== "sv" ? <p>Sweden</p> : null}
 
       <h4>{office}:</h4>
-      <p>iOFFICE</p>
-      <p>Kungsgatan 60</p>
+      <p>Munkbrogatan 2</p>
       <p>111 22 Stockholm</p>
       {lan !== "sv" ? <p>Sweden</p> : null}
     </div>
