@@ -309,10 +309,20 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
-        210319 KONSULTRAMVTAL <b>KRIMINALVÅRDEN</b>
+        210420 RAMVTAL <b>FMV AMMUNITION-OCH MINRÖJNINGSUTRUSTNING</b>
       </span>
     ),
     img: demine,
+    content:
+      "Swedish Net ska stödja Försvarsmakten och FMV med expertstöd inom förmåga att röja minor, oexploderad ammunition och improviserade laddningar samt expertstöd inom sensorområdet kopplat mot militär söktjänst. Swedish Net ska även utbilda, utforma och göra utredningar inom området. Avtalet omfattar tillhandahållande av utrustning, exempelvis materiel avsedd för kriminalteknisk undersökning och skyddsutrustning inom ammunition och minröjningsverksamhet. Ramavtalet löper fram till 2024 med möjlighet till förlängning fram till 2027-12-31.",
+  },
+  {
+    title: (
+      <span>
+        210319 KONSULTRAMVTAL <b>KRIMINALVÅRDEN</b>
+      </span>
+    ),
+    img: kriminal,
     content: (
       <>
         Swedish Net vinner ramavtal med Kriminalvården. Kriminalvården hyr ca
