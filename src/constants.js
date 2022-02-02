@@ -19,6 +19,9 @@ import kriminal from "./images/news/210319_kriminalvården.jpg";
 import demine from "./images/news/210420_demine.jpg";
 import adda from "./images/news/adda.jpeg";
 import company from "./images/news/company.jpeg";
+import ds from "./images/news/ds.jpg";
+import press_sv from "./images/news/press_sv.jpeg";
+import press_en from "./images/news/press_en.jpeg";
 
 export const JOBS_SV = [
   {
@@ -164,6 +167,175 @@ export const ARTICLES_EN = [
   {
     title: (
       <span>
+        211222 SWECO ACQUIRES <b> SWEDISH NET ENGINEERING</b>
+      </span>
+    ),
+    img: press_en,
+    url: "/docs/press-release-2022-02-02.pdf",
+    content: (
+      <>
+        <p>
+          Sweco Sverige AB acquired all shares in Swedish Net Engineering AB,
+          our engineering consultancy company in the Swedish Net Group on
+          February 1.
+          <br />
+          The merger between Swedish Net Engineering and Sweco is a natural and
+          important step for our employees and customers. It is positive that
+          Swedish Net Engineering's customers now gets the opportunity to take
+          advantage of Sweco's broad offering and turnkey operations.
+          <br />
+          The sale of Swedish Net Engineering means that we can focus more on
+          our other companies in the Group, such as Swedish Net Air & Defence,
+          where our contracting operations are expected to develop strongly in
+          the coming years.
+          <br />
+          Sweco plans and designs sustainable cities and communities of the
+          future. With 17,500 employees in northern Europe, the right expertise
+          for each individual project can always be offered. Sweco has a
+          turnover of approximately SEK 21 billion and is listed on NASDAQ OMX
+          Stockholm.
+          <br />
+          We look forward to a continued and long-term collaboration with Sweco
+          in our contracting operations.
+          <br />
+        </p>
+        <p>
+          <a href="/docs/press-release-2022-02-02.pdf" target="_blank">
+            {" "}
+            Here you can read the press release.
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    title: (
+      <span>
+        211222 Mission <b>OSCE</b>
+      </span>
+    ),
+    img: ds,
+    align: "top",
+    url: "https://disarmamentsolutions.com/news",
+    content: (
+      <>
+        <p>
+          The contract awarded includes the supply of mine detectors and other
+          search equipment to the OSCE Project Co-ordinator in Ukraine. The
+          procurement is intended to increase the capacity to clear landmines
+          and other explosive diveces, a necessary condition to be able to
+          guarantee safety and security for the population. The equipment will
+          be delivered during the first quarter of 2022 and we are proud to be
+          able to contribute to the OSCE's important work in Ukraine.
+          <br />
+        </p>
+        <p>Happy New Year to our partners and customers!</p>
+      </>
+    ),
+  },
+
+  {
+    title: (
+      <span>
+        210820 RECRUITMENT <b>NY FILM</b>
+      </span>
+    ),
+    img: company,
+    url: "https://www.youtube.com/watch?v=IkvH-PZt4ds",
+    content:
+      "Swedish Net Engineering AB has uploaded a film clip where we tell about who we are and what we do.",
+  },
+  {
+    title: (
+      <span>
+        CONSULTATION FRAMEWORK
+        <b>
+          ADDA PURCHASING CENTER (PREVIOUSLY SKL COMMENTS PURCHASING CENTER)
+        </b>
+      </span>
+    ),
+    img: adda,
+    content:
+      "Swedish Net has signed an agreement regarding the design of security systems and fire alarms with Adda Inköpscentral. The agreement refers to ranked allocation, where Swedish Net is first and second in two different technology areas, respectively, the agreement also refers to renewed competition in all framework agreement areas. Adda Inköpscentral is a central purchasing organization that all municipalities, municipal companies and regions can call from. In the procurement, 1163 eligible organizations were specified.",
+  },
+  {
+    title: (
+      <span>
+        210420 FRAMEWORK AGREEMENT{" "}
+        <b>FMV AMMUNITION AND MINING CLEARANCE EQUIPMENT</b>
+      </span>
+    ),
+    img: demine,
+    content:
+      "Swedish Net will support the Swedish Armed Forces and FMV with expert support in the ability to clear mines, unexploded ordnance and improvised charges, as well as expert support in the sensor area linked to military search services. Swedish Net will also train, design and conduct investigations in the area. The agreement covers the provision of equipment, such as equipment intended for forensic investigations and protective equipment in ammunition and demining operations. The framework agreement runs until 2024 with the possibility of extension until 2027-12-31.",
+  },
+  {
+    title: (
+      <span>
+        210319 CONSULTATION FRAMEWORK <b>PRISON</b>
+      </span>
+    ),
+    img: kriminal,
+    content: (
+      <>
+        Swedish Net wins framework agreement with the Swedish Prison and
+        Probation Service. The Swedish Prison and Probation Service rents
+        approximately 700,000 sqm of premises worth approximately NOK 1.3
+        billion. This makes the Swedish Prison and Probation Service one of
+        Sweden's largest tenants on the open market. The Swedish Prison and
+        Probation Service leases all premises but owns and manages the
+        telecommunications and security systems. The size, design and level of
+        security of the premises vary from office premises to institutions and
+        prisons. In general, however, there is a high level of security in all
+        premises.
+        <br />
+        The assignment includes planning in ongoing and upcoming
+        telecommunications bag projects within all of the Swedish Prison and
+        Probation Service's activities.
+        <br />
+        The first time Swedish Net signed a framework agreement with the Swedish
+        Prison and Probation Service was in 2012.
+      </>
+    ),
+  },
+
+  {
+    title: (
+      <span>
+        210311 ASSIGNMENT <b>FMV POINT</b>
+      </span>
+    ),
+    img: point,
+    content:
+      "On behalf of the Swedish Armed Forces, FMV POINT provides an information portal, the portal contains guiding and guiding information that is to be used in connection with work on the Armed Forces' fixed telecommunications and information technology facilities. The target group for POINT are those who work with design, installations, maintenance, operation, maintenance and decommissioning. Swedish Net has been given the honorary task of maintaining and developing this comprehensive system of design and installation instructions.",
+  },
+  {
+    title: (
+      <span>
+        210301 PROJECT{" "}
+        <b>
+          FMV, INSTALLATION OF CONTROL SYSTEMS FOR AIRPORT LIGHTS ORE AND VIDSEL
+        </b>
+      </span>
+    ),
+    img: malmen,
+    content:
+      "Swedish Net will install ADB Safegate's control system for airport lighting at Malmen and Vidsel airports. Malmen Airport is located within the municipality of Linköping. The airport area covers 455 hectares and is part of the Armed Forces as a flotilla airport. At Vidsel Airport, tests of equipment are conducted by both the Swedish Air Force and foreign air units. The test area, which is a military protected object, roughly follows the Udtja nature reserve and is 165,000 hectares.",
+  },
+  {
+    title: (
+      <span>
+        200706 FRAMEWORK AGREEMENT<b> SWEDAVIA, STOCKHOLM ARLANDA</b>
+      </span>
+    ),
+    img: arlanda,
+    content:
+      "Swedish Net signs framework agreement with Swedavia regarding design of Electricity, Tele, Data, Fire alarms etc. at Stockholm Arlanda. The agreement refers to renewed competition. Arlanda has three runways and four terminals, more than 26 million passengers travel to and from the airport each year, just over 230,000 take-offs and landings are made per year. Arlanda is one of the country's largest protected objects and also a national border. Over the years, the airport has been very expansive and new projects are constantly underway there.",
+  },
+
+  {
+    title: (
+      <span>
         200318 FRAMEWORK AGREEMENT{" "}
         <b>THE SWEDISH DEFENCE MATERIEL ADMINISTRATION</b>
       </span>
@@ -288,6 +460,76 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
+        211222 SWECO FÖRVÄRVAR <b> SWEDISH NET ENGINEERING</b>
+      </span>
+    ),
+    img: press_sv,
+    url: "/docs/press-release-2022-02-02.pdf",
+    content: (
+      <>
+        <p>
+          Sweco Sverige AB har den 1 februari förvärvat samtliga aktier i
+          Swedish Net Engineering AB, vårt teknikkonsultföretag i Swedish
+          Net-koncernen.
+          <br />
+          Att Swedish Net Engineering går samman med Sweco är ett naturligt och
+          viktigt steg för våra medarbetare och kunder. Det är positivt att
+          Swedish Net Engineerings kunder nu får ta del av Swecos breda
+          erbjudande och helhetsåtagande.
+          <br />
+          Försäljningen av Swedish Net Engineering gör att vi kan fokusera mer
+          på våra övriga företag i koncernen som exempelvis Swedish Net Air &
+          Defence där entreprenadverksamheten förväntas utvecklas kraftigt under
+          de kommande åren.
+          <br />
+          Sweco planerar och utformar framtidens hållbara städer och samhällen.
+          Med 17 500 medarbetare i norra Europa kan man alltid erbjuda rätt
+          expertis för varje enskilt projekt. Sweco har en omsättning på cirka
+          SEK 21 miljarder och är noterade på NASDAQ OMX Stockholm.
+          <br />
+          Vi ser fram emot ett fortsatt och långvarigt samarbete med Sweco inom
+          vår entreprenadverksamhet.
+          <br />
+        </p>
+        <p>
+          <a href="/docs/press-release-2022-02-02.pdf" target="_blank">
+            {" "}
+            Här kan du läsa pressmeddelandet.
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    title: (
+      <span>
+        211222 Uppdrag <b>OSCE</b>
+      </span>
+    ),
+    img: ds,
+    align: "top",
+    url: "https://disarmamentsolutions.com/news",
+    content: (
+      <>
+        <p>
+          Swedish Net Air and Defence har tillsammans med sitt systerbolag
+          Disarmament Solutions vunnit en internationell upphandling. Kontraktet
+          som vunnits innefattar materialförsörjning av mindetektorer och annan
+          sökutrustning till projektkoordinatorn för OSCE i Ukraina.
+          Upphandlingen är tänkt att öka kapaciteten för att röja landminor och
+          andra explosiva enheter, en nödvändig åtgärd för att kunna garantera
+          trygghet och säkerhet för befolkningen. Utrustningen kommer att
+          levereras under det första kvartalet 2022 och vi är stolta över att
+          kunna bidra till OSCE's viktiga arbete i Ukraina.
+          <br />
+        </p>
+        <p>Gott nytt år till alla våra samarbetspartners och kunder!</p>
+      </>
+    ),
+  },
+  {
+    title: (
+      <span>
         210820 REKRYTERING <b>NY FILM</b>
       </span>
     ),
@@ -299,7 +541,8 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
-        210819 KONSULTRAMVTAL <b>ADDA INKÖPSCENTRAL (TIDIGARE SKL KOMMENTUS INKÖPSCENTRAL)</b>
+        210819 KONSULTRAMVTAL{" "}
+        <b>ADDA INKÖPSCENTRAL (TIDIGARE SKL KOMMENTUS INKÖPSCENTRAL)</b>
       </span>
     ),
     img: adda,
@@ -368,7 +611,7 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
-        200706 KONSULTRAMVTAL<b>{" "}SWEDAVIA, STOCKHOLM ARLANDA</b>
+        200706 KONSULTRAMVTAL<b> SWEDAVIA, STOCKHOLM ARLANDA</b>
       </span>
     ),
     img: arlanda,

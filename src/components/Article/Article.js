@@ -2,15 +2,15 @@ import React from "react";
 import classes from "./Article.module.css";
 import { link, logo } from "../../images";
 
-export default ({ img, title, content, url }) => (
+export default ({ img, title, content, url, align }) => (
   <div className={classes.container}>
     <div className={classes.image}>
       <div
         className={classes.imgContainer}
         style={{
-          background: `url(${img || logo}) center center / ${
+          background: `url(${img || logo}) ${align || "center"} center / ${
             img ? "cover" : "contain"
-          } no-repeat`
+          } no-repeat`,
         }}
       >
         {url ? (
