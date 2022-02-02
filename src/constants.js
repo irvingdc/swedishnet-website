@@ -167,11 +167,10 @@ export const ARTICLES_EN = [
   {
     title: (
       <span>
-        211222 SWECO ACQUIRES <b> SWEDISH NET ENGINEERING</b>
+        220201 <b>SWECO ACQUIRES SWEDISH NET ENGINEERING</b>
       </span>
     ),
     img: press_en,
-    url: "/docs/press-release-2022-02-02.pdf",
     content: (
       <>
         <p>
@@ -198,12 +197,6 @@ export const ARTICLES_EN = [
           We look forward to a continued and long-term collaboration with Sweco
           in our contracting operations.
           <br />
-        </p>
-        <p>
-          <a href="/docs/press-release-2022-02-02.pdf" target="_blank">
-            {" "}
-            Here you can read the press release.
-          </a>
         </p>
       </>
     ),
@@ -460,11 +453,10 @@ export const ARTICLES_SV = [
   {
     title: (
       <span>
-        211222 SWECO FÖRVÄRVAR <b> SWEDISH NET ENGINEERING</b>
+        220201 <b>SWECO FÖRVÄRVAR SWEDISH NET ENGINEERING</b>
       </span>
     ),
     img: press_sv,
-    url: "/docs/press-release-2022-02-02.pdf",
     content: (
       <>
         <p>

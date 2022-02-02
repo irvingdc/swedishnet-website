@@ -1,11 +1,11 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 100%;
   max-width: 840px;
   margin: auto;
-  padding: 10px;
+  padding: 10px 10px 30px;
 }
 .imgContainer {
   display: flex;
@@ -18,10 +18,11 @@
   width: 200px;
   display: block;
   margin-right: 30px;
+  margin-top: 15px;
   background-color: #2f2f2f;
 }
 .text {
-  padding: 20px 5px 20px 0px;
+  padding: 10px 5px 20px 0px;
   border-bottom: 1px solid #f57a52;
   max-width: 570px;
   width: 100%;
