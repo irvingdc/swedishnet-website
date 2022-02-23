@@ -60,6 +60,24 @@ export default () => (
         <br />
         <br />
       </CardListItem>
+
+      <CardListItem>
+        <b style={{ color: "#f57a52" }}>
+          Den 1 februari förvärvade Sweco Sverige AB samtliga aktier i Swedish
+          Net Engineering. Sweco planerar och utformar framtidens hållbara
+          städer och samhällen. Med 18 000 medarbetare i norra Europa kan man
+          alltid erbjuda rätt expertis för varje enskilt projekt. Sweco har en
+          omsättning på cirka SEK 22 miljarder och är noterade på NASDAQ OMX
+          Stockholm.
+        </b>
+        <br />
+        <br />
+        Swedish Net Engineering är en del av Swecos 130 experter inom skydd och
+        säkerhet. Verksamheten i Swedish Net Engineering fortsätter utan några
+        förändringar.
+        <br />
+        <br />
+      </CardListItem>
       <CardListItem>
         <Fragment>
           Swedish Net ingår i en koncern inriktad på säkerhet, flyg och försvar.
