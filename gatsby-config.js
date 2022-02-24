@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-sitemap`,
+    "gatsby-plugin-no-sourcemaps",
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
